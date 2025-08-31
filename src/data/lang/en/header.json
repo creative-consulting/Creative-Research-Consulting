@@ -1,0 +1,36 @@
+{
+  "left": [
+    {
+      "title": "Facebook",
+      "icon": "FaFacebook",
+      "link": "https://facebook.com"
+    },
+    {
+      "title": "Google",
+      "icon": "FaGoogle",
+      "link": "https://ccslbd.com/"
+    },
+    {
+      "title": "Linkdin",
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/?viewAsMember=true"
+    },
+    {
+      "title": "Youtube",
+      "icon": "FaYoutube",
+      "link": "https://www.youtube.com/channel/UCjLsusc9UcrALANKNVryBbA"
+    }
+  ],
+  "right": [
+    {
+      "icon": "MdMail",
+      "title": "abu.sayeed@ccslbd.com",
+      "link": "mailto:abu.sayeed@ccslbd.com"
+    },
+    {
+      "icon": "MdPhone",
+      "title": "+8801948373084",
+      "link": "tel:+8801948373084"
+    }
+  ]
+}

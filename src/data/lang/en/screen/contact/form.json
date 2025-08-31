@@ -1,0 +1,11 @@
+{
+  "title": "Send Us a Message",
+  "fields": {
+    "name": "Name",
+    "email": "Email",
+    "subject": "Subject",
+    "message": "Message"
+  },
+  "button": "Send Message",
+  "successMessage": "Thank you for your message! We'll get back to you soon."
+}

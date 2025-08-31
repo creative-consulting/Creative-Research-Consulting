@@ -1,0 +1,60 @@
+{
+  "subHeading": "Trusted Research Partner for",
+  "heading": "Global Businesses",
+  "services": [
+    {
+      "icon": "FaChartLine",
+      "title": "Research Solutions",
+      "text": "Comprehensive market research offerings including advertising, brand, consumer, and segmentation studies to support decision-making across sectors.",
+      "link": "/services/research-solutions"
+    },
+    {
+      "icon": "FaLightbulb",
+      "title": "Concept Development & Strategy",
+      "text": "Helping businesses create, position, and test concepts to align with customer expectations and market demands.",
+      "link": "/services/concept-development-strategy"
+    },
+    {
+      "icon": "FaTv",
+      "title": "Media Research",
+      "text": "Insight into audience behaviors across digital, print, radio, and television for effective media planning and ROI measurement.",
+      "link": "/services/media-research"
+    },
+    {
+      "icon": "FaFlask",
+      "title": "New Product Research",
+      "text": "End-to-end research solutions for product development, including testing, packaging design, and lifecycle analysis.",
+      "link": "/services/new-product-research"
+    },
+    {
+      "icon": "FaPoll",
+      "title": "Public Opinion & Political",
+      "text": "Polling and public opinion studies to guide political strategy and measure civic sentiment.",
+      "link": "/services/public-opinion-political"
+    },
+    {
+      "icon": "FaShoppingCart",
+      "title": "Retail Research",
+      "text": "Tools like mystery shopping, exit interviews, and sales tracking to improve retail performance and shopper experience.",
+      "link": "/services/retail-research"
+    },
+    {
+      "icon": "FaIndustry",
+      "title": "Market Sectors",
+      "text": "Specialized research services tailored for various industries including automotive, healthcare, tech, and hospitality.",
+      "link": "/services/market-sectors"
+    },
+    {
+      "icon": "FaUserFriends",
+      "title": "Demographics",
+      "text": "Targeted research across demographic segments such as youth, seniors, parents, and diverse cultural groups.",
+      "link": "/services/demographics"
+    },
+    {
+      "icon": "FaBrain",
+      "title": "Research Services",
+      "text": "Full-spectrum research support services including data science, biometrics, fieldwork, analytics, and qualitative/quantitative techniques.",
+      "link": "/services/research-services"
+    }
+  ]
+}

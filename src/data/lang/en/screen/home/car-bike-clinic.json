@@ -1,0 +1,32 @@
+{
+  "heading": "Automotive Research Clinics",
+  "subHeading": "Specialized in-depth evaluation services for automotive products",
+  "carClinic": {
+    "id": "car-clinic",
+    "title": "Car Clinic",
+    "description": "In-depth automotive research sessions designed to evaluate consumer perceptions, preferences, and expectations regarding cars and prototypes.",
+    "features": [
+      "Conducted with car owners, intenders, or switchers to explore detailed feedback",
+      "Prototype testing with interior, exterior, and feature evaluations",
+      "Includes test drives and hands-on interactions (if applicable)",
+      "Assesses satisfaction, unmet needs, and emotional connections with vehicles",
+      "Helps refine design, branding, and positioning before launch",
+      "Can be conducted across multiple cities and demographic segments"
+    ],
+    "icon": "FaCar"
+  },
+  "bikeClinic": {
+    "id": "bike-clinic",
+    "title": "Bike Clinic",
+    "description": "Specialized research sessions focused on motorcycle users to understand behavior, brand perception, and product expectations.",
+    "features": [
+      "Interactive evaluations with both current and potential users",
+      "Exploration of engine performance, comfort, mileage, and styling",
+      "Covers key influencers of buying decisions and brand switching",
+      "Useful for testing mockups, early concepts, or competitor benchmarks",
+      "Includes both individual interviews and group discussions",
+      "Ideal for fine-tuning features, pricing, and communication strategies"
+    ],
+    "icon": "FaMotorcycle"
+  }
+}

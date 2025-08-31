@@ -1,0 +1,107 @@
+{
+    "hero": {
+      "heading": "Our <span class='text-blue-200'>Blog</span>",
+      "text": "Insights, trends and research methodologies from our team of experts",
+      "backgroundImage": "/images/blog-hero.jpg",
+      "firstButton": {
+        "name": "Browse Articles",
+        "link": "#latest"
+      },
+      "secondButton": {
+        "name": "Contact Us",
+        "link": "/contact"
+      }
+    },
+    "featuredPosts": [
+      {
+        "id": "1",
+        "title": "The Future of Market Research in 2023",
+        "excerpt": "Discover the emerging trends and technologies shaping the market research industry this year.",
+        "date": "May 15, 2023",
+        "author": "Sarah Johnson",
+        "category": "Trends",
+        "readTime": "5 min read",
+        "image": "/images/blog/trends.jpg"
+      },
+      {
+        "id": "2",
+        "title": "Qualitative vs Quantitative Research",
+        "excerpt": "A comprehensive guide to choosing the right research methodology for your business needs.",
+        "date": "April 28, 2023",
+        "author": "Michael Chen",
+        "category": "Methodology",
+        "readTime": "8 min read",
+        "image": "/images/blog/methodology.jpg"
+      }
+    ],
+    "latestPosts": [
+      {
+        "id": "3",
+        "title": "How to Design Effective Customer Surveys",
+        "excerpt": "Learn the best practices for creating surveys that yield actionable insights and high response rates.",
+        "date": "June 2, 2023",
+        "author": "Emma Wilson",
+        "category": "Tips",
+        "readTime": "6 min read",
+        "image": "/images/blog/surveys.jpg"
+      },
+      {
+        "id": "4",
+        "title": "The Power of Ethnographic Research",
+        "excerpt": "Understanding consumer behavior through immersive observation and in-depth interviews.",
+        "date": "May 22, 2023",
+        "author": "David Rodriguez",
+        "category": "Methodology",
+        "readTime": "7 min read",
+        "image": "/images/blog/ethnographic.jpg"
+      },
+      {
+        "id": "5",
+        "title": "Analyzing Big Data for Market Insights",
+        "excerpt": "Techniques and tools for extracting meaningful patterns from large datasets.",
+        "date": "May 10, 2023",
+        "author": "Lisa Park",
+        "category": "Technology",
+        "readTime": "9 min read",
+        "image": "/images/blog/bigdata.jpg"
+      }
+    ],
+    "categories": [
+      {
+        "name": "Trends",
+        "count": 12
+      },
+      {
+        "name": "Methodology",
+        "count": 18
+      },
+      {
+        "name": "Technology",
+        "count": 9
+      },
+      {
+        "name": "Case Studies",
+        "count": 7
+      },
+      {
+        "name": "Tips",
+        "count": 15
+      }
+    ],
+    "popularTags": [
+      "Research",
+      "Data Analysis",
+      "Consumer Behavior",
+      "Surveys",
+      "Focus Groups",
+      "Market Trends",
+      "Big Data",
+      "AI"
+    ],
+    "newsletter": {
+      "title": "Subscribe to Our Newsletter",
+      "description": "Get the latest market research insights and articles delivered to your inbox.",
+      "placeholder": "Your email address",
+      "buttonText": "Subscribe"
+    }
+  }

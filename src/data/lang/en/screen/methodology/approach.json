@@ -1,0 +1,36 @@
+{
+  "title": "Core Principles",
+  "subtitle": "The foundation of everything we do",
+  "principles": [
+    {
+      "title": "Evidence-Based",
+      "description": "All recommendations are grounded in rigorous data and analysis",
+      "icon": "📈"
+    },
+    {
+      "title": "Client-Centric",
+      "description": "Solutions tailored to your unique business context and goals",
+      "icon": "🎯"
+    },
+    {
+      "title": "Transparent",
+      "description": "Clear methodologies and open communication throughout",
+      "icon": "🔍"
+    },
+    {
+      "title": "Agile",
+      "description": "Flexible approaches that adapt to changing needs",
+      "icon": "🔄"
+    },
+    {
+      "title": "Impact-Focused",
+      "description": "Designed to deliver measurable business results",
+      "icon": "💥"
+    },
+    {
+      "title": "Ethical",
+      "description": "Highest standards of integrity and professionalism",
+      "icon": "⚖️"
+    }
+  ]
+}

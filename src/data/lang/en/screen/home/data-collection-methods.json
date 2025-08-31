@@ -1,0 +1,199 @@
+{
+  "heading": "Our Data Collection Capabilities",
+  "subHeading": "Comprehensive research methodologies adhering to ESOMAR standards",
+  "intro": "Creative Consulting Services Limited (CCSL) has a strong capability in both quantitative and qualitative data collection methods. We operate a fully equipped CATI center, maintain a trained panel for CAWI, and regularly conduct CAPI, FGDs, IDIs, and CIs across Bangladesh and selected APAC/GCC markets. We also provide recruitment-only services for qualitative studies, supported by experienced field teams and strict quality control protocols. All data collection adheres to <span class=\"font-bold\">ESOMAR</span> standards.",
+  "methodsList": {
+    "title": "Our Core Methodologies:",
+    "items": [
+      "CATI (Computer Assisted Telephone Interviewing)",
+      "CAPI (Computer-Assisted Personal Interviewing)",
+      "CAWI (Computer-Assisted Web Interviewing)",
+      "Focus Group Discussions (FGD)",
+      "Cognitive Interviews (CIs)",
+      "In-Depth Interviews (IDIs)",
+      "Recruitment-Only Services"
+    ]
+  },
+  "methods": [
+    {
+      "id": "cati",
+      "title": "CATI – Experience with Random Digit Dialing (RDD) & Probabilistic Sampling",
+      "description": "Creative Consulting Services Limited (CCSL) has significant experience conducting CATI surveys using both Random Digit Dialing (RDD) and probabilistic sampling methods across Bangladesh and other South Asian markets. Our approach ensures demographic representativeness and effective response rate management across diverse population segments.",
+      "icon": "FaPhoneAlt",
+      "image": "/home/capabilities/images/cati.jpg",
+      "features": [
+        "Random Digit Dialing for national coverage",
+        "Probabilistic stratified sampling",
+        "Real-time quota tracking",
+        "Multiple call-backs protocol"
+      ],
+      "detailedContent": {
+        "title": "CATI Methodology",
+        "sections": [
+          {
+            "title": "Experience with RDD and Probabilistic Sampling",
+            "content": [
+              "We utilize RDD for national-level surveys, especially where comprehensive mobile user databases are not available. This method ensures coverage of both listed and unlisted numbers, including mobile-only households.",
+              "For targeted studies, we apply probabilistic stratified sampling, where quotas are set by key demographics (e.g., age, gender, region, income group) based on the most recent census or national-level statistics.",
+              "Our CATI software enables real-time tracking of quota fills, allowing us to dynamically adjust the calling strategy to meet representativeness goals."
+            ]
+          },
+          {
+            "title": "Ensuring Demographic Representativeness",
+            "content": [
+              "We design sampling frames aligned with national population distribution using reliable data sources (e.g., BBS census).",
+              "We apply soft and hard quota controls in our CATI system to ensure balance across demographic groups (e.g., age brackets, urban/rural).",
+              "We routinely apply post-stratification weighting to align survey responses with known population benchmarks if needed."
+            ]
+          },
+          {
+            "title": "Managing Response Rates Across Diverse Populations",
+            "content": [
+              "Interviewers are well-trained in soft skills and localized language nuances to improve cooperation, especially among underrepresented or hesitant groups.",
+              "We schedule call attempts across different time slots and days, including evenings and weekends, to reach working populations and increase response likelihood.",
+              "Our system supports multiple call-backs (minimum 3 attempts per number) and disposition coding to track contact outcomes and optimize efforts.",
+              "Non-response follow-ups and refusal conversion protocols are in place for selected projects."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "capi",
+      "title": "CAPI – Experience with Nationally Representative In-Person Surveys",
+      "description": "Creative Consulting Services Limited (CCSL) has extensive experience conducting large-scale, nationally representative in-person surveys using CAPI methodology across Bangladesh. Our work spans various sectors, including social research, development studies, FMCG, healthcare, education, financial inclusion, and more.",
+      "icon": "FaLaptop",
+      "image": "/research-clinics/images/car.jpg",
+      "features": [
+        "Nationwide coverage across 64 districts",
+        "Multi-stage stratified sampling",
+        "Real-time GPS tracking",
+        "Quality control protocols"
+      ],
+      "detailedContent": {
+        "title": "CAPI Methodology",
+        "sections": [
+          {
+            "title": "Sampling Approach",
+            "content": [
+              "We use probabilistic multi-stage stratified sampling to ensure national representativeness by division, district, urban/rural status, and demographic segments (e.g., age, gender, income level).",
+              "Sampling frames are based on the latest census data and up-to-date administrative boundary information from the Bangladesh Bureau of Statistics (BBS) or client-provided data.",
+              "Enumeration areas (EAs) or wards are randomly selected, followed by household listing and respondent selection using Kish Grid or random walk methods when applicable."
+            ]
+          },
+          {
+            "title": "Interviewer Recruitment & Training",
+            "content": [
+              "Enumerators are recruited from diverse regions of the country and matched linguistically and culturally with the areas in which they will operate.",
+              "We provide extensive centralized and decentralized training programs covering:",
+              "- Study objectives and questionnaire walkthrough",
+              "- CAPI device operation and troubleshooting",
+              "- Sampling protocols and consent procedures",
+              "- Ethics, neutrality, and data quality standards (aligned with ESOMAR guidelines)",
+              "Training includes mock interviews, role-play, and field piloting to ensure enumerators are fully prepared."
+            ]
+          },
+          {
+            "title": "Field Logistics & Supervision",
+            "content": [
+              "We maintain a robust field management structure, including:",
+              "- Zonal Field Supervisors",
+              "- Regional Coordinators",
+              "- Central Quality Control Teams",
+              "Enumerators are equipped with tablets or mobile devices preloaded with validated questionnaires using platforms like SurveyCTO, CSPro, ODK, or KoBoToolbox.",
+              "Real-time GPS tracking, time-stamping, and photo validation (if applicable) are used to verify field execution.",
+              "Daily progress monitoring dashboards are maintained for central oversight, ensuring timely corrective actions."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cawi",
+      "title": "CAWI: Computer-Assisted Web Interviewing",
+      "description": "Creative Consulting Services Limited (CCSL) has been actively conducting CAWI-based research in both the market and social sectors across Bangladesh and select countries in South Asia. Our CAWI methodology is designed to collect high-quality, self-reported data using digital platforms, ensuring respondent anonymity and convenience.",
+      "icon": "FaLaptop",
+      "image": "/research-clinics/images/car.jpg",
+      "features": [
+        "120,000+ verified online panel",
+        "Quota sampling aligned with census",
+        "Automated quality checks",
+        "Mobile/desktop optimized"
+      ],
+      "detailedContent": {
+        "title": "CAWI Methodology",
+        "sections": [
+          {
+            "title": "Sampling & Representativeness",
+            "content": [
+              "We utilize our proprietary online panel that includes over 120,000+ verified respondents segmented by age, gender, region, income, education, and profession.",
+              "To ensure national representativeness, we use quota sampling aligned with the national census or client-specific demographic benchmarks.",
+              "Where internet penetration may create bias, we supplement digital outreach with offline-to-online recruitment and device-specific targeting (mobile vs desktop).",
+              "We routinely monitor completion rates by strata and adjust outreach in real-time to maintain geographic and demographic balance."
+            ]
+          },
+          {
+            "title": "Questionnaire Hosting & Monitoring",
+            "content": [
+              "Surveys are hosted using robust platforms such as Qualtrics, Survey To Go, Survey CTO, SurveyMonkey, and our own custom-built survey tools.",
+              "All responses undergo automated logic checks, time-duration monitoring, IP tracking, and device-type logging.",
+              "Our project management team conducts daily quality checks and flags suspicious responses for review or removal."
+            ]
+          },
+          {
+            "title": "Advantages & Best Use Cases",
+            "content": [
+              "CAWI is ideal for reaching urban, tech-savvy populations, and for studies involving consumer behavior, brand awareness, political opinion polls, UX testing, and sensitive topics where anonymity enhances honesty."
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "qualitative",
+      "title": "Qualitative Research Services",
+      "description": "CCSL offers comprehensive qualitative research services including Focus Group Discussions (FGDs), In-Depth Interviews (IDIs), Cognitive Interviews (CIs), and specialized recruitment services, all conducted by our expert moderation team.",
+      "icon": "FaUsers",
+      "image": "/research-clinics/images/car.jpg",
+      "features": [
+        "Expert moderation team",
+        "In-person & virtual options",
+        "Thematic analysis",
+        "Specialized recruitment"
+      ],
+      "detailedContent": {
+        "title": "Qualitative Research Capabilities",
+        "sections": [
+          {
+            "title": "Focus Group Discussions (FGD)",
+            "content": [
+              "CCSL conducts both in-person and virtual FGDs, depending on geographic spread and target groups.",
+              "We ensure homogeneous or heterogeneous grouping based on study objectives, and discussions are moderated by trained facilitators fluent in local languages & English.",
+              "Sessions are recorded (with consent), transcribed, and analyzed using frameworks such as thematic coding and grounded theory.",
+              "Clients receive detailed summary reports and verbatim transcripts (translated into English if required)."
+            ]
+          },
+          {
+            "title": "In-Depth Interviews (IDIs)",
+            "content": [
+              "Conducted with key stakeholders, hard-to-reach respondents, or specialized populations.",
+              "We deploy topic-guided, semi-structured interviews, typically lasting 30–90 minutes depending on the complexity.",
+              "CCSL's team has conducted IDIs across health, education, FMCG, telecom, development, and public policy sectors.",
+              "Our team is trained to handle sensitive discussions with empathy and neutrality, ensuring depth without bias."
+            ]
+          },
+          {
+            "title": "Expert Moderation Team at CCSL",
+            "content": [
+              "Our moderation team comprises seasoned qualitative researchers with backgrounds in sociology, anthropology, psychology, and communication.",
+              "Moderators are trained in various qualitative techniques, including facilitation, probing, managing group dynamics, and handling sensitive topics.",
+              "They are fluent in local languages and dialects, ensuring cultural relevance and respondent comfort.",
+              "We regularly conduct internal refresher training and workshops to upgrade skills aligned with global research standards such as ESOMAR and Gallup guidelines.",
+              "CCSL assigns specialized moderators based on topic expertise (e.g., health, governance, FMCG, education) to ensure contextual understanding."
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "one": {
+    "top": {
+      "heading": "Head Quarter:",
+      "info": [
+        {
+          "title": "+8801948373084",
+          "icon": "FiPhone",
+          "link": "tel:+8801948373084"
+        },
+        {
+          "title": "abu.sayeed@ccslbd.com",
+          "icon": "FiMail",
+          "link": "mailto:abu.sayeed@ccslbd.com"
+        },
+        {
+          "title": "Level-3, House-1286/3 East Monipur, Begum Rokeya Sarani, Mirpur-10, Dhaka-1216, Bangladesh.",
+          "icon": "FiMapPin"
+        }
+      ]
+    },
+    "bottom": {
+      "heading": "Follow Us:",
+      "contacts": [
+        {
+          "name": "facebook",
+          "icon": "FaFacebook",
+          "link": "https://www.facebook.com/creativeCSbd/",
+          "color": "#1877F2"
+        },
+        {
+          "name": "pinterest",
+          "icon": "FaPinterest",
+          "link": "https://www.pinterest.com/creativecsbd/",
+          "color": "#E60023"
+        },
+        {
+          "name": "twitter",
+          "icon": "FaTwitter",
+          "link": "https://x.com/i/flow/login?redirect_after_login=%2FCreativeCSbd",
+          "color": "#1DA1F2"
+        },
+        {
+          "name": "youtube",
+          "icon": "FaYoutube",
+          "link": "https://www.youtube.com/channel/UCjLsusc9UcrALANKNVryBbA",
+          "color": "#FF0000"
+        },
+        {
+          "name": "linkedin",
+          "icon": "FaLinkedin",
+          "link": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/?viewAsMember=true",
+          "color": "#0A66C2"
+        },
+        {
+          "name": "whatsapp",
+          "icon": "FaWhatsapp",
+          "link": "https://api.whatsapp.com/send?phone=8801948373084",
+          "color": "#25D366"
+        }
+      ]
+    }
+  },
+  "two": {
+    "heading": "Solutions",
+    "links": [
+      {
+        "title": "Market Research",
+        "link": "market-research.html"
+      },
+      {
+        "title": "Social Research",
+        "link": "social-research.html"
+      },
+      {
+        "title": "Political Research & Public Opinion Polls",
+        "link": "political-research.html"
+      },
+      {
+        "title": "Customized Research Solutions",
+        "link": "customise-research.html"
+      },
+      {
+        "title": "Data Analytics & Strategic Consulting",
+        "link": "data-analytics-and-strategic.html"
+      },
+      {
+        "title": "Survey Scripting & Programming",
+        "link": "survey-scripting-and-programming.html"
+      },
+      {
+        "title": "Retail & Distributor Audit",
+        "link": "retail-and-distributor-audit.html"
+      },
+      {
+        "title": "Call Center for Telephonic Survey",
+        "link": "call-center-for-telephonic-survey.html"
+      },
+      {
+        "title": "Fieldwork & Data Collection",
+        "link": "fieldwork-and-data-collection.html"
+      }
+    ]
+  },
+  "three": {
+    "heading": "Industries",
+    "links": [
+      {
+        "title": "Personal Care",
+        "link": "personal-care.html"
+      },
+      {
+        "title": "Tobacco",
+        "link": "tobacco.html"
+      },
+      {
+        "title": "Smartphones",
+        "link": "smartphone.html"
+      },
+      {
+        "title": "Home Care",
+        "link": "home-care.html"
+      },
+      {
+        "title": "Food & Beverages",
+        "link": "food-and-beverages.html"
+      },
+      {
+        "title": "Automotive",
+        "link": "automotive.html"
+      },
+      {
+        "title": "Property",
+        "link": "property.html"
+      },
+      {
+        "title": "Financial Services",
+        "link": "financial-services.html"
+      },
+      {
+        "title": "Electronics",
+        "link": "electronics.html"
+      },
+      {
+        "title": "Healthcare & Contraception",
+        "link": "healthcare-and-contraception.html"
+      },
+      {
+        "title": "Telecommunication",
+        "link": "telecommunication.html"
+      },
+      {
+        "title": "Home Appliances & Furnishing",
+        "link": "home-appliances-and-furnishing.html"
+      },
+      {
+        "title": "Travel Services",
+        "link": "travel-services.html"
+      },
+      {
+        "title": "Material Construction",
+        "link": "material-construction.html"
+      },
+      {
+        "title": "Public Transportation",
+        "link": "public-transportation.html"
+      },
+      {
+        "title": "E-Commerce",
+        "link": "e-commerce.html"
+      }
+    ]
+  },
+  "four": {
+    "heading": "Company",
+    "links": [
+      {
+        "title": "About Us",
+        "link": "#"
+      },
+      {
+        "title": "Locations",
+        "link": "#"
+      },
+      {
+        "title": "Contact Us",
+        "link": "#"
+      },
+      {
+        "title": "Our Team",
+        "link": "#"
+      }
+    ],
+    "logins": [
+      {
+        "title": "Client Login",
+        "link": "clientLogin.html"
+      },
+      {
+        "title": "Employee Login",
+        "link": "#"
+      }
+    ]
+  }
+}

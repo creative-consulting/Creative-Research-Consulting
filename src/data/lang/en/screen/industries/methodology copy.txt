@@ -1,0 +1,11 @@
+{
+  "title": "Our Research Approach",
+  "description": "Custom methodologies for each industry's unique requirements",
+  "items": [
+    {
+      "icon": "🔍",
+      "title": "Industry-Specific Frameworks",
+      "description": "Tailored research models that account for each sector's regulatory environment..."
+    }
+  ]
+}

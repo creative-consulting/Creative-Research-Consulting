@@ -1,0 +1,11 @@
+{
+  "videoPath": "/videos/HomeCare.mp4",
+  "videoAlt": "A background video showing modern business visuals",
+  "fallbackImage": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heading": "Empowering Brands with Research-Driven Insights",
+  "slowgan": "Empowering businesses worldwide with data-driven marketing research solutions.",
+  "navigation": {
+    "title": "Explore Our Services",
+    "link": "/services"
+  }
+}

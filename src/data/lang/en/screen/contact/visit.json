@@ -1,0 +1,22 @@
+{
+  "title": "Visit Our Office",
+  "description": "Come see us in person! Our team would be happy to welcome you and discuss how we can help with your project.",
+  "features": [
+    {
+      "title": "Free Parking",
+      "description": "Ample parking space available for visitors"
+    },
+    {
+      "title": "Accessible",
+      "description": "Wheelchair accessible facilities"
+    },
+    {
+      "title": "Meeting Rooms",
+      "description": "Comfortable spaces for productive discussions"
+    },
+    {
+      "title": "Refreshments",
+      "description": "Complimentary coffee and snacks available"
+    }
+  ]
+}

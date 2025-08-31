@@ -1,0 +1,11 @@
+{
+  "videoPath": "/videos/SocialResearch.mp4",
+  "videoAlt": "A background video showing social research visuals",
+  "fallbackImage": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heading": "Understanding Society Through Deep Research",
+  "slowgan": "Uncovering cultural insights that drive meaningful connections.",
+  "navigation": {
+    "title": "Explore Social Research",
+    "link": "/services/social-research"
+  }
+}

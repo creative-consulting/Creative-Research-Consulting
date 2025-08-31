@@ -1,0 +1,12 @@
+{
+  "description": "<span class=\"deepText\">Social Research:</span> Our Social Research service offers a profound exploration into the intricate tapestry of society's cultural, demographic, and behavioral dimensions. By diving deep into the currents of societal trends and values, we unlock valuable insights into the way communities think, act, and transform, enabling you to craft strategies that resonate authentically on a social level.",
+  "features": {
+    "heading": "Key Features:",
+    "allFeatures": [
+      "<span class=\"deepText\">Cultural Trends:</span> A thorough examination of prevailing social norms and the dynamic shifts that shape our cultural landscape, capturing the essence of contemporary society.",
+      "<span class=\"deepText\">Demographic Analysis:</span> A detailed exploration of diverse population segments, revealing their distinct characteristics and the intricate narratives that define them.",
+      "<span class=\"deepText\">Behavior Mapping:</span> An insightful study of societal behaviors and lifestyle patterns, painting a vivid picture of how people interact with their environment and one another.",
+      "<span class=\"deepText\">Impact Assessment:</span> A comprehensive evaluation of how social changes reverberate through market and political realms, providing a clear understanding of their implications for the future."
+    ]
+  }
+}

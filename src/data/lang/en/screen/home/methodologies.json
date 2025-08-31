@@ -1,0 +1,35 @@
+[
+  {
+    "id": "method-1",
+    "title": "Primary Research",
+    "description": "Direct data collection from industry sources and consumers",
+    "icon": "MicrophoneIcon",
+    "benefits": [
+      "First-hand market intelligence",
+      "Customized to your needs",
+      "Up-to-date findings"
+    ]
+  },
+  {
+    "id": "method-2",
+    "title": "Secondary Research",
+    "description": "Comprehensive analysis of existing data sources",
+    "icon": "DocumentMagnifyingGlassIcon",
+    "benefits": [
+      "Cost-effective insights",
+      "Historical trends analysis",
+      "Broad industry perspective"
+    ]
+  },
+  {
+    "id": "method-3",
+    "title": "Data Analytics",
+    "description": "Advanced statistical modeling and predictive analytics",
+    "icon": "ChartBarSquareIcon",
+    "benefits": [
+      "Pattern recognition",
+      "Forecasting accuracy",
+      "Actionable recommendations"
+    ]
+  }
+]

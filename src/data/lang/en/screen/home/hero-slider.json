@@ -1,0 +1,45 @@
+[
+  {
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+    "heading": "Market Research: Empower Your Business with Data-Driven Insights",
+    "text": "Unlock growth opportunities through our comprehensive market research services, delivering actionable intelligence tailored to your business needs.",
+    "btnText": "Read More",
+
+    "link": "/services/market-research"
+  },
+  {
+    "image": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg",
+    "heading": "Social Research: Driving Social Change Through In-Depth Analysis",
+    "text": "Our social research initiatives offer valuable insights that inform policies and programs, ultimately fostering a meaningful societal impact.",
+    "btnText": "Read More",
+    "link": "/services/social-research"
+  },
+  {
+    "image": "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg",
+    "heading": "Data Collection & Fieldwork: Reliable Data Collection, Trusted Results",
+    "text": "Our experienced field teams ensure the accurate and ethical collection of data, providing a solid foundation for impactful research outcomes.",
+    "btnText": "Read More",
+    "link": "/services/data-collection"
+  },
+  {
+    "image": "/home/hero4.jpg",
+    "heading": "Innovation & Client-Centric Solutions: Pioneering Research with a Client-First Approach",
+    "text": "At CCSL, we blend innovative methodologies with a deep understanding of our clients' needs, delivering customised research solutions that drive success.",
+    "btnText": "Read More",
+    "link": "/about/innovation"
+  },
+  {
+    "image": "/home/hero5.jpg",
+    "heading": "Geographic Coverage: Extensive Reach Across Bangladesh and Beyond",
+    "text": "We have a strong presence across Bangladesh and strategic partnerships in the APAC and GCC regions, providing exceptional geographic coverage for your research needs.",
+    "btnText": "Read More",
+    "link": "/about/coverage"
+  },
+  {
+    "image": "/home/hero6.jpg",
+    "heading": "Why Choose Us: Your Trusted Partner in Research Excellence ",
+    "text": "CCSL combines local expertise with global standards to provide high-quality, ethical, and impactful research solutions that are tailored to your unique needs.",
+    "btnText": "Read More",
+    "link": "/about/why-choose-us"
+  }
+]

@@ -1,0 +1,179 @@
+{
+  "navItems": [
+    { "title": "मुखपृष्ठ", "link": "/" },
+    { "title": "हमारे बारे में", "link": "/about" },
+    {
+      "title": "समाधान",
+      "link": "/solutions",
+      "child": [
+        { "title": "बाजार अनुसंधान", "link": "/solutions/market-research" },
+        { "title": "सामाजिक अनुसंधान", "link": "/solutions/social-research" },
+        {
+          "title": "राजनीतिक अनुसंधान और जनमत सर्वेक्षण",
+          "link": "/solutions/political-research"
+        },
+        {
+          "title": "कस्टमाइज़्ड अनुसंधान समाधान",
+          "link": "/solutions/customized-research"
+        },
+        {
+          "title": "डेटा एनालिटिक्स और रणनीतिक परामर्श",
+          "link": "/solutions/data-analytics"
+        },
+        {
+          "title": "सर्वे स्क्रिप्टिंग और प्रोग्रामिंग",
+          "link": "/solutions/survey-scripting"
+        },
+        { "title": "रिटेल और वितरक ऑडिट", "link": "/solutions/retail-audit" },
+        {
+          "title": "टेलीफोनिक सर्वे के लिए कॉल सेंटर",
+          "link": "/solutions/telephonic-survey"
+        },
+        { "title": "फील्डवर्क और डेटा संग्रहण", "link": "/solutions/fieldwork" }
+      ]
+    },
+    {
+      "title": "उद्योग",
+      "link": "/industries",
+      "child": [
+        { "title": "पर्सनल केयर", "link": "/industries/personal-care" },
+        { "title": "तंबाकू", "link": "/industries/tobacco" },
+        { "title": "स्मार्टफोन", "link": "/industries/smartphones" },
+        { "title": "होम केयर", "link": "/industries/home-care" },
+        {
+          "title": "खाद्य और पेय पदार्थ",
+          "link": "/industries/food-beverages"
+        },
+        { "title": "ऑटोमोटिव", "link": "/industries/automotive" },
+        { "title": "प्रॉपर्टी", "link": "/industries/property" },
+        { "title": "वित्तीय सेवाएं", "link": "/industries/financial-services" },
+        { "title": "इलेक्ट्रॉनिक्स", "link": "/industries/electronics" },
+        {
+          "title": "स्वास्थ्य देखभाल और गर्भनिरोधक",
+          "link": "/industries/healthcare"
+        },
+        { "title": "दूरसंचार", "link": "/industries/telecommunication" },
+        {
+          "title": "घरेलू उपकरण और फर्निशिंग",
+          "link": "/industries/home-appliances"
+        },
+        { "title": "यात्रा सेवाएं", "link": "/industries/travel-services" },
+        {
+          "title": "निर्माण सामग्री",
+          "link": "/industries/material-construction"
+        },
+        {
+          "title": "सार्वजनिक परिवहन",
+          "link": "/industries/public-transportation"
+        },
+        { "title": "ई-कॉमर्स", "link": "/industries/e-commerce" }
+      ]
+    },
+    {
+      "title": "सेवाएं",
+      "link": "/services",
+      "child": [
+        {
+          "title": "मात्रात्मक अनुसंधान सेवाएं",
+          "link": "/services/quantitative"
+        },
+        {
+          "title": "गुणात्मक अनुसंधान सेवाएं",
+          "link": "/services/qualitative"
+        },
+        {
+          "title": "डेस्क अनुसंधान (माध्यमिक अनुसंधान)",
+          "link": "/services/desk-research"
+        },
+        { "title": "फील्डवर्क सेवाएं", "link": "/services/fieldwork" },
+        {
+          "title": "उन्नत एनालिटिक्स और डेटा मॉडलिंग",
+          "link": "/services/advanced-analytics"
+        },
+        { "title": "ब्रांड अनुसंधान", "link": "/services/brand-research" },
+        {
+          "title": "ग्राहक अनुभव (CX) अनुसंधान",
+          "link": "/services/cx-research"
+        },
+        {
+          "title": "उत्पाद और नवाचार अनुसंधान",
+          "link": "/services/product-innovation"
+        },
+        {
+          "title": "बाजार व्यवहार्यता और प्रवेश अध्ययन",
+          "link": "/services/feasibility-entry"
+        },
+        {
+          "title": "मीडिया और विज्ञापन अनुसंधान",
+          "link": "/services/media-research"
+        },
+        {
+          "title": "सामाजिक और नीति अनुसंधान",
+          "link": "/services/social-policy"
+        },
+        {
+          "title": "प्रौद्योगिकी और UX अनुसंधान",
+          "link": "/services/ux-research"
+        },
+        {
+          "title": "बी2बी (व्यवसाय-से-व्यवसाय) अनुसंधान",
+          "link": "/services/b2b"
+        },
+        { "title": "हेल्थकेयर अनुसंधान", "link": "/services/healthcare" },
+        { "title": "मिस्ट्री शॉपिंग", "link": "/services/mystery-shopping" },
+        {
+          "title": "डेटा विज़ुअलाइज़ेशन और रिपोर्टिंग",
+          "link": "/services/data-visualization"
+        },
+        {
+          "title": "अनुवाद और स्थानीयकरण सेवाएं",
+          "link": "/services/translation"
+        },
+        {
+          "title": "प्रतिस्पर्धी इंटेलिजेंस",
+          "link": "/services/competitive-intelligence"
+        }
+      ]
+    },
+    {
+      "title": "पद्धति",
+      "link": "/methodology",
+      "child": [
+        {
+          "title": "डोर-टू-डोर इंटरव्यू (CAPI/PAPI)",
+          "link": "/methodology/door-to-door"
+        },
+        { "title": "सेंट्रल लोकेशन टेस्ट (CLT)", "link": "/methodology/clt" },
+        {
+          "title": "स्व-पूर्ण साक्षात्कार (CASI)",
+          "link": "/methodology/casi"
+        },
+        {
+          "title": "कंप्यूटर-सहायता प्राप्त टेलीफोन साक्षात्कार (CATI)",
+          "link": "/methodology/cati"
+        },
+        { "title": "होम प्लेसमेंट टेस्ट (HUT)", "link": "/methodology/hut" },
+        {
+          "title": "कार क्लिनिक / बाइक क्लिनिक",
+          "link": "/methodology/clinic"
+        },
+        { "title": "जनगणना", "link": "/methodology/census" },
+        {
+          "title": "वेब सर्वेक्षण (ऑफ़लाइन भर्ती और ऑनलाइन पूर्णता)",
+          "link": "/methodology/web-surveys"
+        },
+        { "title": "फोकस ग्रुप चर्चा (FGD)", "link": "/methodology/fgd" },
+        { "title": "इन-डेप्थ इंटरव्यू (IDI)", "link": "/methodology/idi" },
+        { "title": "इन-होम विज़िट/अवलोकन", "link": "/methodology/in-home" },
+        { "title": "मिस्ट्री शॉपिंग", "link": "/methodology/mystery-shopping" },
+        { "title": "ऑनलाइन सर्वेक्षण", "link": "/methodology/online-survey" },
+        { "title": "FGD/IDI ऑनलाइन", "link": "/methodology/fgd-idi-online" },
+        { "title": "ऑनलाइन बुलेटिन", "link": "/methodology/online-bulletin" },
+        { "title": "त्वरित मतदान", "link": "/methodology/quick-poll" }
+      ]
+    },
+    { "title": "ब्लॉग्स", "link": "/blogs" },
+    { "title": "संपर्क करें", "link": "/contact" }
+  ],
+  "btnText": "कोट का अनुरोध करें"
+}

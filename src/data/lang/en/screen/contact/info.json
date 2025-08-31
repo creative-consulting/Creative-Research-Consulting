@@ -1,0 +1,15 @@
+{
+  "office": {
+    "title": "Our Office",
+    "address": "123 Business Avenue\nNew York, NY 10001\nUnited States"
+  },
+  "contact": {
+    "title": "Contact Info",
+    "email": "info@company.com",
+    "phone": "+1 (123) 456-7890"
+  },
+  "hours": {
+    "title": "Working Hours",
+    "schedule": "Monday - Friday: 9am - 6pm\nSaturday: 10am - 4pm\nSunday: Closed"
+  }
+}

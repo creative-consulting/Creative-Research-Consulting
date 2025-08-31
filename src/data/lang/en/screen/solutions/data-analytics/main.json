@@ -1,0 +1,12 @@
+{
+  "description": "<span class=\"deepText\">Data Analytics & Strategic Consulting:</span> Our Data Analytics and Strategic Consulting service is designed to convert raw data into valuable insights. By utilizing advanced analytical tools and predictive models, we assist businesses in developing strategies that promote growth, minimize risks, and seize market opportunities. ",
+  "features": {
+    "heading": "Key Features:",
+    "allFeatures": [
+      "<span class=\"deepText\">Advanced Analytics: </span>Employing big data tools, artificial intelligence, and machine learning to analyze intricate datasets for deeper understanding.",
+      "<span class=\"deepText\">Predictive Modeling: </span>Anticipating future trends and market behaviors to inform decision-making.",
+      "<span class=\"deepText\">Strategic Planning: </span>Transforming data insights into straightforward and actionable business strategies.",
+      "<span class=\"deepText\">Performance Metrics: </span>Setting up key performance indicators (KPIs) to ensure ongoing improvement and accountability."
+    ]
+  }
+}

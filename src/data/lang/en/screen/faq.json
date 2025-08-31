@@ -1,0 +1,186 @@
+{
+  "hero": {
+    "heading": "Market Research <span class='text-blue-200'>FAQs</span>",
+    "text": "Find answers to common questions about our market research services and methodologies.",
+    "backgroundImage": "/images/research-hero.jpg",
+    "firstButton": {
+      "name": "Contact Us",
+      "link": "/contact"
+    },
+    "secondButton": {
+      "name": "Our Services",
+      "link": "/services/all"
+    }
+  },
+  "sections": [
+    {
+      "heading": "Market Research:",
+      "faqs": [
+        {
+          "question": "What is market research, and why is it important for my business?",
+          "answer": "Market research helps you understand your customers, competitors, and industry trends, enabling data-driven decisions for growth, innovation, and customer satisfaction."
+        },
+        {
+          "question": "What types of market research do you offer?",
+          "answer": "We offer both quantitative (surveys, structured interviews) and qualitative (focus groups, in-depth interviews, ethnographic studies) research across various sectors."
+        },
+        {
+          "question": "Which industries do you specialize in?",
+          "answer": "We have expertise in FMCG, healthcare, finance, telecom, construction, garments, and retail, among others."
+        },
+        {
+          "question": "Do you offer both B2C and B2B research?",
+          "answer": "Yes, we conduct both consumer and business-to-business research tailored to your specific target audiences."
+        },
+        {
+          "question": "Can you help design the questionnaire or discussion guide?",
+          "answer": "Absolutely. Our research consultants will work with you to develop effective questionnaires and guides aligned with your objectives."
+        }
+      ]
+    },
+    {
+      "heading": "Fieldwork & Data Collection:",
+      "faqs": [
+        {
+          "question": "What types of fieldwork methods do you support?",
+          "answer": "We support CATI, CAPI, CAWI, face-to-face interviews, focus groups, mystery shopping, ethnographic visits, and more."
+        },
+        {
+          "question": "Where do you conduct fieldwork?",
+          "answer": " We operate across Bangladesh with capabilities in APAC and GCC regions through our extended network of field partners."
+        },
+        {
+          "question": "How do you recruit respondents for studies?",
+          "answer": "We use a combination of panel recruitment, on-ground intercepts, community engagement, and client-provided lists, depending on project needs."
+        },
+        {
+          "question": "How do you ensure data quality and respondent authenticity?",
+          "answer": "We use quality control protocols, GPS tracking, call recordings, back-checks, and follow ESOMAR & ISO guidelines."
+        },
+        {
+          "question": "Are your enumerators trained?",
+          "answer": " Yes, all enumerators undergo project-specific training and are monitored by supervisors and QC teams throughout fieldwork."
+        },
+        {
+          "question": "What platforms do you use for online surveys and data collection?",
+          "answer": "We use a range of reliable platforms including:",
+          "answerList": [
+            "SurveyCTO",
+            "SurveyMonkey",
+            "Google Forms",
+            "Qualtrics",
+            "Custom-built solutions"
+          ]
+        }
+      ]
+    },
+    {
+      "heading": "Social Research & Public Sector:",
+      "faqs": [
+        {
+          "question": "Do you conduct social or development sector research?",
+          "answer": "Yes. We regularly work on education, health, livelihood, gender, WASH, and impact assessment studies for NGOs, donors, and government bodies."
+        },
+        {
+          "question": "Do you handle ethical clearance and consent procedures?",
+          "answer": " Yes, we follow ethical guidelines, obtain informed consent, and maintain respondent confidentiality in all social research."
+        },
+        {
+          "question": "Can you work with marginalized or hard-to-reach populations?",
+          "answer": " Yes, we have specialized teams and strategies to reach vulnerable and underrepresented groups while maintaining sensitivity and ethical standards."
+        },
+        {
+          "question": "What sampling techniques do you use in social research?",
+          "answer": " We use random sampling, stratified sampling, quota-based methods, and purposive sampling depending on the project goals."
+        }
+      ]
+    },
+    {
+      "heading": "Logistics & Deliverables:",
+      "faqs": [
+        {
+          "question": "How long does a typical research project take?",
+          "answer": " Timelines vary based on scope, but a typical project ranges from 2 to 8 weeks, including design, fieldwork, and reporting."
+        },
+        {
+          "question": "Can I see the raw data collected?",
+          "answer": " Yes, we provide raw datasets in formats like Excel, SPSS, or CSV, along with data dictionaries if requested."
+        },
+        {
+          "question": "What is your approach to data privacy and confidentiality?",
+          "answer": " We strictly adhere to data protection policies, anonymize responses, and never share personal data without explicit consent."
+        },
+        {
+          "question": "Do you offer data analysis and reporting?",
+          "answer": " Yes. We provide analysis, dashboards, infographics, and actionable reports tailored to client needs."
+        }
+      ]
+    },
+    {
+      "heading": "Working with Creative Consulting Services Ltd.",
+      "faqs": [
+        {
+          "question": "What makes Creative Consulting Services Limited different?",
+          "answer": " We combine local expertise, rigorous field execution, cultural understanding, and client-centric service to deliver impactful research solutions."
+        },
+        {
+          "question": "How do I get started with a project?",
+          "answer": " You can reach out via our website or email. We’ll schedule an introductory call to understand your needs, propose a research design, and share a cost estimate."
+        }
+      ]
+    },
+    {
+      "heading": "Fieldwork & Market Research: ",
+      "faqs": [
+        {
+          "question": "Can you localize international studies for the Bangladesh market?",
+          "answer": " Yes. We specialize in adapting global methodologies to local contexts, including translation, cultural sensitivity, and region-specific customization."
+        },
+        {
+          "question": "Do you offer translation and back-translation of survey tools?",
+          "answer": " Yes, we provide professional translation and back-translation services in Bangla, Chittagonian, Sylheti, and other local dialects to ensure linguistic accuracy and cultural relevance."
+        },
+        {
+          "question": "How do you handle sensitive topics or vulnerable populations?",
+          "answer": " We train our field team on sensitivity protocols and work under strict ethical guidelines, especially in projects involving gender, health, or child-related topics."
+        },
+        {
+          "question": "Can you conduct tracking or longitudinal studies?",
+          "answer": " Yes. We have systems and panel management processes in place to run wave-based, longitudinal, or pre-post evaluation studies."
+        },
+        {
+          "question": "What is your experience with donor or UN-funded projects?",
+          "answer": " We have successfully partnered with organizations like UNICEF, BRAC, Save the Children, European Climet Foundation, UNDP, UNHCHR, Plan International and other INGOs, delivering impact assessments, baseline studies, and needs assessments."
+        },
+        {
+          "question": "Do you provide real-time monitoring or dashboards?",
+          "answer": " Yes. We can integrate real-time dashboards for ongoing monitoring and decision-making."
+        },
+        {
+          "question": "Can I observe interviews or focus groups?",
+          "answer": "  Yes. We facilitate live viewing via Zoom, Teams, or one-way mirrors in focus group facilities where available, and also provide recordings upon request."
+        },
+        {
+          "question": "Do you offer incentives or handle honorariums for respondents?",
+          "answer": " Yes. We manage incentives and reimbursements according to project needs and ethical considerations, ensuring transparency and consent."
+        },
+        {
+          "question": "Are you compliant with GDPR or data protection laws?",
+          "answer": " Yes. We adhere to global data privacy standards, including GDPR, and follow ESOMAR’s Code of Conduct."
+        },
+        {
+          "question": "Can you support multi-country or regional studies?",
+          "answer": " Yes. Through our regional partners in Nepal, Sri Lanka, Pakistan, Myanmar, and GCC/APAC countries, we support multi-country coordination and fieldwork execution."
+        }
+      ]
+    }
+  ],
+  "cta": {
+    "title": "Still have questions?",
+    "description": "Our research experts are ready to provide personalized answers and discuss how we can support your specific needs.",
+    "button": {
+      "name": "Get in Touch",
+      "link": "/contact"
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "Our Industry Expertise",
+  "subtitle": "Specialized research methodologies tailored to each sector's unique challenges",
+  "industries": [
+    {
+      "id": 1,
+      "name": "Personal Care",
+      "description": "Skincare, cosmetics, hair care and wellness market insights",
+      "icon": "💄",
+      "color": "bg-pink-100 text-pink-600",
+      "image": "https://images.pexels.com/photos/4041392/pexels-photo-4041392.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Tobacco",
+      "description": "Evolving consumption patterns and market dynamics",
+      "icon": "🚬",
+      "color": "bg-gray-100 text-gray-600",
+      "image": "https://images.pexels.com/photos/1267700/pexels-photo-1267700.jpeg"
+    },
+    {
+      "id": 3,
+      "name": "Smartphones",
+      "description": "Consumer preferences and technological breakthroughs",
+      "icon": "📱",
+      "color": "bg-blue-100 text-blue-600",
+      "image": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg"
+    },
+    {
+      "id": 4,
+      "name": "Home Care",
+      "description": "Products and services for modern households",
+      "icon": "🏠",
+      "color": "bg-green-100 text-green-600",
+      "image": "https://images.pexels.com/photos/5824893/pexels-photo-5824893.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Food & Beverages",
+      "description": "Consumer trends and product innovation",
+      "icon": "🍽️",
+      "color": "bg-red-100 text-red-600",
+      "image": "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg"
+    },
+    {
+      "id": 6,
+      "name": "Automotive",
+      "description": "From traditional vehicles to cutting-edge technologies",
+      "icon": "🚗",
+      "color": "bg-yellow-100 text-yellow-600",
+      "image": "https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "heading": "Why Choose Creative Consulting Services Limited as Your Field Partner?",
+  "features": [
+    {
+      "title": "Experienced in collaborating with top global research firms",
+      "icon": "FaGlobe"
+    },
+    {
+      "title": "Familiar with platforms like Qualtrics, Decipher, Survey CTO, Survey To Go, ViciDial, etc.",
+      "icon": "FaChartLine"
+    },
+    {
+      "title": "ESOMAR-compliant practices and multilingual capabilities",
+      "icon": "FaUsers"
+    },
+    {
+      "title": "Flexible, scalable team for Quant & Qual projects",
+      "icon": "FaShieldAlt"
+    },
+    {
+      "title": "Trusted for CATI, CAWI, F2F, IDIs, FGDs, Clinics, and B2B interviews",
+      "icon": "FaClipboardCheck"
+    },
+    {
+      "title": "Actionable Insights",
+      "icon": "FaSearch"
+    }
+  ],
+  "text": "At CCSL, we don’t just deliver data — we deliver clarity, direction, and impact."
+}

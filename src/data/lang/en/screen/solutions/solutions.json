@@ -1,0 +1,551 @@
+{
+  "title": "Our Research Solutions",
+  "description": "Comprehensive services designed to transform complex data into clear, strategic advantages",
+  "solutions": [
+    {
+      "icon": "📊",
+      "title": "Market Research",
+      "description": "We deliver precise insights that power brand, product, and business strategy across sectors.",
+      "features": [
+        "Analyze consumer behavior, buying patterns, and unmet needs",
+        "Identify market opportunities and size segments",
+        "Benchmark performance against competitors",
+        "Validate product concepts and pricing strategies",
+        "Support strategic decisions with actionable data",
+        "Deliver full-cycle research from design to insights"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/1market-research.jpg"
+    },
+    {
+      "icon": "👥",
+      "title": "Social Research",
+      "description": "Our social research expertise supports NGOs, institutions, and development agencies in understanding communities and change.",
+      "features": [
+        "Evaluate development programs and policy impact",
+        "Conduct KAP, needs assessment, and baseline studies",
+        "Address sensitive topics with cultural nuance and care",
+        "Deliver gender- and age-sensitive methodologies",
+        "Support advocacy and donor reporting with credible data",
+        "Offer urban-rural reach and multilingual capabilities"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/2.social-research.jpg"
+    },
+    {
+      "icon": "🗳️",
+      "title": "Fieldwork & Data Collection",
+      "description": " With a wide network of trained teams and tools, we offer comprehensive field management and data assurance.",
+      "features": [
+        "Execute CATI, CAPI, CAWI, and face-to-face surveys",
+        "Deliver FGDs, IDIs, ethnographies, and mystery shopping",
+        "Ensure high-quality respondent recruitment and screening",
+        "Offer bilingual teams and local logistics support",
+        "Provide secure data capture and live QC monitoring",
+        "Enable rapid turnaround and national coverage"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/3Fieldwork.jpg"
+    },
+    {
+      "icon": "🔍",
+      "title": "Political Research & Public Opinion Polls",
+      "description": "We help campaigns, institutions, and media understand voter priorities and political trends.",
+      "features": [
+        "Conduct large-scale opinion polls and sentiment tracking",
+        "Explore voting intent, policy response, and civic attitudes",
+        "Run exit polls and campaign diagnostics",
+        "Segment political insights by region, gender, and age",
+        "Handle sensitive data with strict confidentiality",
+        "Deliver fast, insight-rich reports for stakeholders"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/4.political-research-and-public-opinion.jpg"
+    },
+    {
+      "icon": "📈",
+      "title": " Customized Research Solutions",
+      "description": "Not all research fits a template—so we tailor every element to meet your goals.",
+      "features": [
+        "Design research that solves your unique business questions",
+        "Combine methods for richer insight (quant + qual)",
+        "Scale from pilot tests to multi-country projects",
+        "Adapt tools, languages, and formats to your audience",
+        "Align deliverables with your internal decision-making cycles",
+        "Provide fast, focused insights when you need them most"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/5.Customized-Research-Solutions.jpg"
+    },
+    {
+      "icon": "📉",
+      "title": " Data Analytics & Strategic Consulting",
+      "description": "Our analytics team transforms data into direction—backed by models, dashboards, and expert storytelling.",
+      "features": [
+        "Uncover patterns and drivers behind consumer actions",
+        "Create executive dashboards for leadership",
+        "Interpret research findings into business action",
+        "Bridge data with strategy for stronger outcomes"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/6.data-analytic.jpg"
+    },
+    {
+      "icon": "💻",
+      "title": "Survey Scripting & Programming",
+      "description": "We build dynamic digital surveys that engage respondents and protect data integrity.",
+      "features": [
+        "Program complex logic and flows across platforms",
+        "Create executive dashboards for leadership",
+        "Support multilingual, mobile, and offline data collection",
+        "Ensure seamless CATI, CAWI, or hybrid setup",
+        "Test rigorously to prevent skips or data gaps",
+        "Monitor survey performance in real time",
+        "Enable fast survey deployment and field-readiness"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/7.survey-scripting.jpg"
+    },
+    {
+      "icon": "📦",
+      "title": "Retail & Distributor Audit",
+      "description": "We help brands measure retail execution, product availability, and distribution health in real-time.",
+      "features": [
+        "Monitor stock levels, pricing, and promotional compliance",
+        "Evaluate merchandising, placement, and shelf visibility",
+        "Track distributor performance and channel gaps",
+        "Conduct mystery shopping and outlet audits",
+        "Provide actionable retail intelligence dashboards",
+        "Ensure coverage in modern and traditional trade"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/8.DistributorAudit.jpg"
+    },
+    {
+      "icon": "📞",
+      "title": "Call Center for Telephonic Surveys (CATI)",
+      "description": "Our professional call center delivers consistent, multilingual interviews for nationwide reach.",
+      "features": [
+        "Conduct B2C and B2B CATI interviews",
+        "Manage regional accents and language variations",
+        "Ensure high-quality recordings and real-time QC",
+        "Collect sensitive data with respondent comfort in mind",
+        "Deploy surveys rapidly across cities or rural areas",
+        "Offer flexible scheduling for different time zones"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/9.call-center-survey.jpg"
+    },
+    {
+      "icon": "📡",
+      "title": "Media Research",
+      "description": "We uncover how audiences engage with media—across platforms and formats.",
+      "features": [
+        "Track advertising recall and effectiveness",
+        "Evaluate media planning and cross-channel behavior",
+        "Assess digital and traditional media consumption",
+        "Test creatives pre- and post-launch",
+        "Explore influencers, content types, and preferences",
+        "Guide media strategy with real-world data"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/10.media-research.jpg"
+    },
+    {
+      "icon": "🏷️",
+      "title": "Brand Research",
+      "description": "Understand how your brand is perceived—and how to improve impact and recall.",
+      "features": [
+        "Measure awareness, usage, and loyalty",
+        "Explore brand equity and emotional connection",
+        "Assess brand imagery and message recall",
+        "Monitor performance over time via tracking",
+        "Benchmark against competitors",
+        "Support positioning and rebranding efforts"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/11.Brand-Research.jpg"
+    },
+    {
+      "icon": "🧠",
+      "title": "Business Intelligence Services & Solutions",
+      "description": "We deliver strategic BI to help businesses thrive in complex, data-rich environments.",
+      "features": [
+        "Aggregate multiple data streams into smart dashboards",
+        "Analyze KPIs for performance optimization",
+        "Build competitor intelligence frameworks",
+        "Enable real-time business alerts and insights",
+        "Visualize patterns for faster decision-making",
+        "Deliver BI tailored to sales, operations, or marketing"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/12.Business-Intelligence-Solutions.jpg"
+    },
+    {
+      "icon": "🤝",
+      "title": "Business-to-Business (B2B) Research",
+      "description": "Our B2B research covers hard-to-reach respondents with credibility and relevance.",
+      "features": [
+        "Conduct interviews with SMEs, executives, and specialists",
+        "Explore buying cycles, procurement, and partnerships",
+        "Test B2B product and service offerings",
+        "Segment business audiences by vertical, size, or need",
+        "Explore loyalty, satisfaction, and brand image in B2B",
+        "Apply industry-specific terminology and moderation"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/13.Business-to-Business1.jpg"
+    },
+    {
+      "icon": "🧒",
+      "title": " Children & Youth Research",
+      "description": "We design research tools that engage and respect younger audiences.",
+      "features": [
+        "Use child-friendly survey designs and language",
+        "Conduct moderated FGDs and activities with youth",
+        "Capture media habits, brand preferences, and opinions",
+        "Understand digital behavior and social influences",
+        "Ensure ethical approvals and parental consent",
+        "Include educators and caregivers for richer context"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/14.Children-Youth-Research.jpg"
+    },
+    {
+      "icon": "🛍️",
+      "title": "Consumer Research",
+      "description": "We help you uncover motivations, habits, and perceptions that influence consumer choices.",
+      "features": [
+        "Map customer journeys from awareness to loyalty",
+        "Test product concepts, packaging, and messaging",
+        "Explore usage behavior, satisfaction, and barriers",
+        "Segment consumers by lifestyle, values, or spend",
+        "Uncover emotional triggers and unmet needs",
+        "Inform product development and marketing strategy"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/15.Consumer-Research.jpg"
+    },
+    {
+      "icon": "🏢",
+      "title": "Corporate Image Research",
+      "description": "We measure internal and external perceptions to guide reputation management.",
+      "features": [
+        "Assess public and stakeholder trust",
+        "Track associations with ethics, CSR, and performance",
+        "Benchmark against industry leaders",
+        "Explore visibility and media influence",
+        "Guide brand repositioning or rebranding efforts",
+        "Identify risk factors for image deterioration"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/16.CorporateImageResearch.jpg"
+    },
+    {
+      "icon": "🙂",
+      "title": "Customer Satisfaction Studies",
+      "description": "We evaluate the quality of customer experiences to help you improve service and retention.",
+      "features": [
+        "Measure satisfaction, loyalty, and net promoter scores",
+        "Identify pain points in customer journeys",
+        "Compare expectations vs. service delivery",
+        "Capture real-time or post-interaction feedback",
+        "Analyze satisfaction across channels or segments",
+        "Support service redesign and CX strategies"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/17.Customer-Satisfaction-Studies.jpg"
+    },
+    {
+      "icon": "👥",
+      "title": " Demographic Research",
+      "description": "We profile populations to reveal behavioral, social, and economic patterns.",
+      "features": [
+        "Map gender, age, income, and location variables",
+        "Study regional or national demographic shifts",
+        "Segment audiences by lifestyle or social role",
+        "Support market sizing and feasibility studies",
+        "Integrate with GIS for geo-based planning",
+        "Guide recruitment, media planning, or outreach"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/18.Demographic-Research.jpg"
+    },
+    {
+      "icon": "👔",
+      "title": " Employee Research",
+      "description": "We help organizations listen to and understand their people.",
+      "features": [
+        "Conduct employee satisfaction and engagement surveys",
+        "Evaluate leadership, culture, and workplace morale",
+        "Identify HR gaps and improvement areas",
+        "Support DEI (Diversity, Equity, Inclusion) tracking",
+        "Gather exit, onboarding, and internal feedback",
+        "Drive organizational transformation with insights"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/19.employee-research.jpg"
+    },
+    {
+      "icon": "🌍",
+      "title": "Ethnographic Research",
+      "description": "We immerse in real-world settings to observe behaviors and contexts.",
+      "features": [
+        "Study behavior at home, in-store, or in the field",
+        "Uncover unspoken habits, needs, and routines",
+        "Use participant observation, diaries, or video logs",
+        "Apply visual and cultural analysis",
+        "Support UX design, branding, and innovation",
+        "Deliver deep narrative-driven insights"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/20.Ethnographic-Research.jpg"
+    },
+    {
+      "icon": "🗣️",
+      "title": "Focus Group Facilities",
+      "description": "Our dedicated venues enable high-quality discussions and recordings.",
+      "features": [
+        "Equipped with audio-video recording systems",
+        "Viewing rooms for client observation",
+        "Onsite translators and technical support",
+        "Modern, comfortable layout for participants",
+        "Suitable for FGDs, workshops, or IDIs",
+        "Host hybrid or streamed discussions"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/21.Focus-Group-Facilities.jpg"
+    },
+    {
+      "icon": "📸",
+      "title": "Image Studies",
+      "description": "We evaluate mental associations and emotional connections to build stronger identities.",
+      "features": [
+        "Measure top-of-mind awareness and recall",
+        "Explore positive, neutral, or negative brand cues",
+        "Assess alignment with desired positioning",
+        "Compare public image vs. internal image",
+        "Guide reputation building and PR strategy",
+        "Track image shifts over time"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/22.Image-Studies.jpg"
+    },
+    {
+      "icon": "🗺️",
+      "title": "International Studies",
+      "description": "We coordinate regional and global research with localized execution.",
+      "features": [
+        "Harmonize methodologies across markets",
+        "Work with multilingual teams and tools",
+        "Adapt materials to local cultural context",
+        "Provide central coordination and QC",
+        "Deliver comparative or market-specific insights",
+        "Partner with global brands, NGOs, and agencies"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/23.International-Studies.jpg"
+    },
+    {
+      "icon": "📚",
+      "title": " Knowledge Management",
+      "description": "We help clients organize and use their data for continuous improvement.",
+      "features": [
+        "Audit and index past research and documents",
+        "Develop internal knowledge hubs",
+        "Create insight libraries for cross-team use",
+        "Support learning cycles and impact tracking",
+        "Standardize insights across departments",
+        "Enable smarter decisions with reusable data"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/24.Knowledge-Management.jpg"
+    },
+    {
+      "icon": "🔮",
+      "title": "Modeling & Predictive Research",
+      "description": "We use data science and research to forecast behaviors and outcomes.",
+      "features": [
+        "Build models for churn, loyalty, and revenue",
+        "Use regression, conjoint, and simulations",
+        "Segment by value, risk, or potential",
+        "Predict marketing ROI and pricing impact",
+        "Run what-if scenarios to test plans",
+        "Support proactive, data-led decisions"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/25.Modeling-Predictive-Research.jpg"
+    },
+    {
+      "icon": "📱",
+      "title": "Online/Mobile Panel",
+      "description": "Our validated panel gives you access to targeted respondents across devices.",
+      "features": [
+        "Reach mobile-first and hard-to-reach groups",
+        "Use pre-profiled panels for fast deployment",
+        "Conduct online surveys, diaries, and polls",
+        "Target by demographics, location, or interest",
+        "Track behavior longitudinally or on-demand",
+        "Integrate panel feedback with other data"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/26.Online-MobilePanel.jpg"
+    },
+    {
+      "icon": "💰",
+      "title": "Pricing Studies",
+      "description": "We test price sensitivity, elasticity, and value perception.",
+      "features": [
+        "Use Van Westendorp, Gabor-Granger, or conjoint",
+        "Segment pricing preferences by customer group",
+        "Understand willingness-to-pay and trade-offs",
+        "Model optimal price points and bundles",
+        "Align pricing with product features",
+        "Guide pricing strategy across markets"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/27.Pricing-Studies.jpg"
+    },
+    {
+      "icon": "🎭",
+      "title": "Projective Techniques",
+      "description": "We use creative, indirect methods to uncover what respondents may not say directly.",
+      "features": [
+        "Apply metaphors, storytelling, and imagery tasks",
+        "Use visual associations and role-play exercises",
+        "Explore underlying motivations and anxieties",
+        "Support brand, advertising, and product testing",
+        "Complement traditional qualitative tools",
+        "Reveal emotional truth behind rational claims"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/28.Projective-Techniques.jpg"
+    },
+    {
+      "icon": "💭",
+      "title": " Psychographic Research",
+      "description": "We explore personality, values, and lifestyles that drive decisions.",
+      "features": [
+        "Understand customer values, beliefs, and priorities",
+        "Identify motivational drivers across segments",
+        "Enhance targeting through lifestyle clustering",
+        "Support persona development for marketing",
+        "Complement behavioral and attitudinal data",
+        "Guide messaging, product design, and innovation"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/29.Psychographic-Research.jpg"
+    },
+    {
+      "icon": "🔥",
+      "title": " Psychological / Motivational Research",
+      "description": "We uncover emotional and cognitive factors behind decision-making.",
+      "features": [
+        "Explore fear, trust, satisfaction, and motivation",
+        "Combine psychological models with qualitative insights",
+        "Use in-depth interviews, laddering, and storytelling",
+        "Apply for health, education, and behavior change",
+        "Enhance communications with emotional cues",
+        "Reveal true drivers beyond stated reasons"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/30.Psychological-MotivationalResearch.jpg"
+    },
+    {
+      "icon": "🏆",
+      "title": " Reputation Research",
+      "description": "We track perceptions across stakeholders to guide reputation strategy.",
+      "features": [
+        "Measure credibility, trust, and responsibility",
+        "Monitor corporate, media, and community sentiment",
+        "Identify brand ambassadors and detractors",
+        "Compare reputation metrics with competitors",
+        "Prepare for crisis communication and issue managemen",
+        "Report insights to PR and executive teams"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/31.Reputation-Research.jpg"
+    },
+    {
+      "icon": "📋",
+      "title": " Scenario Planning",
+      "description": "We help you model multiple future scenarios and test strategic readiness.",
+      "features": [
+        "Identify drivers of change and uncertainty",
+        "Map future possibilities with stakeholder input",
+        "Test how plans perform under each scenario",
+        "Align internal teams on contingencies",
+        "Support risk mitigation and long-term strategy",
+        "Combine research, forecasting, and facilitation"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/32.ScenarioPlanning.jpg"
+    },
+    {
+      "icon": "🧩",
+      "title": "Segmentation Research",
+      "description": "We divide markets into actionable groups for sharper strategy.",
+      "features": [
+        "Segment by behavior, need, motivation, or value",
+        "Use cluster analysis, profiling, and typologies",
+        "Build personas to guide product and messaging",
+        "Identify high-value or underserved audiences",
+        "Link segments to channels and content",
+        "Align internal teams around segmentation strategy"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/33.Segmentation-Research.jpg"
+    },
+    {
+      "icon": "🌀",
+      "title": "Semiotic and Cultural Analysis",
+      "description": "We explore how language, color, and visuals influence perception.",
+      "features": [
+        "Analyze brand imagery and cultural resonance",
+        "Unpack metaphors, rituals, and visual cues",
+        "Guide brand identity and content creation",
+        "Compare interpretations across cultures or regions",
+        "Apply to packaging, ads, or brand narratives",
+        "Support local relevance in global campaigns"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/34.SemioticandCultural-Analysis.jpg"
+    },
+    {
+      "icon": "⏳",
+      "title": "Senior Citizen / Mid-life Research",
+      "description": "We capture insights from older demographics with respect and care.",
+      "features": [
+        "Explore retirement, wellness, and financial concerns",
+        "Study media, mobility, and lifestyle shifts",
+        "Understand digital inclusion and service access",
+        "Ensure ethical and accessible tools for participation",
+        "Segment by health, independence, or goals",
+        "Inform healthcare, insurance, and social policy"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/35.SeniorCitizen-Mid-lifeResearch.jpg"
+    },
+    {
+      "icon": "🔗",
+      "title": "Syndicated Research",
+      "description": "We offer sector-wide studies for trend, category, and consumer monitoring.",
+      "features": [
+        "Tap into multi-client research reports",
+        "Reduce cost and speed up delivery",
+        "Compare your brand with industry benchmarks",
+        "Customize questions within shared studies",
+        "Ideal for FMCG, media, and telecom tracking",
+        "Gain macro-level insight with micro breakout options"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/36.SyndicatedResearch.jpg"
+    },
+    {
+      "icon": "👣",
+      "title": "Tracking Studies",
+      "description": "We help you evaluate trends, performance, and changes over intervals.",
+      "features": [
+        "Track brand health, awareness, or satisfaction",
+        "Set baselines and measure growth or decline",
+        "Use wave-based or continuous tracking models",
+        "Visualize shifts by audience or region",
+        "Guide campaign optimization and feedback loops",
+        "Enable agile decisions with fresh data"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/37.TrackingStudies.jpg"
+    },
+    {
+      "icon": "✅",
+      "title": "Validation Services",
+      "description": "We validate participant authenticity, process, and output at every step.",
+      "features": [
+        "Confirm respondent identities and profiles",
+        "Monitor field adherence to methodology",
+        "Review data accuracy and logic consistency",
+        "Support independent audits and reviews",
+        "Enhance credibility for sensitive or high-stakes projects",
+        "Offer reporting on field team performance"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/38.ValidationServices.jpg"
+    },
+    {
+      "icon": "👩‍💻",
+      "title": "Website Usability Research",
+      "description": "We test real user behavior to improve navigation and experience.",
+      "features": [
+        "Identify friction points in site or app journeys",
+        "Conduct A/B testing and UX walkthroughs",
+        "Capture user expectations and drop-off causes",
+        "Use heatmaps, eye-tracking, and think-aloud methods",
+        "Improve conversions, retention, and satisfaction",
+        "Deliver clear UX recommendations for developers"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/39.WebsiteUsabilityResearch.jpg"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "paragraph1": "Your privacy is important to Creative Consulting Services Limited. We collect, store, and use your information only for research purposes.",
+    "list": [
+      "All data is kept confidential and anonymous unless otherwise stated.",
+      "We never share your personal information without consent.",
+      "Our systems are compliant with ESOMAR guidelines."
+    ],
+    "contact": "For any concerns about your data, please contact us at:",
+    "email": "info@ccslbd.com"
+  },
+  "termsConditions": {
+    "title": "Terms & Conditions",
+    "paragraph1": "By accessing and using our website or services, you agree to comply with the following:",
+    "list": [
+      "All content on this site is the property of Creative Consulting Services Limited and cannot be copied or reused without permission.",
+      "Participants in our studies must provide informed consent and adhere to the study requirements.",
+      "CCSL reserves the right to modify or discontinue any service without notice."
+    ],
+    "contact": "For full legal details, please visit our Terms & Conditions page or email:",
+    "email": "info@ccslbd.com"
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "paragraph1": "Information provided by CCSL is for general purposes only.",
+    "list": [
+      "We make no warranties about the completeness or accuracy.",
+      "Any action you take is at your own risk.",
+      "We are not liable for any losses related to our services."
+    ]
+  }
+}

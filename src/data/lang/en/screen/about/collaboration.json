@@ -1,0 +1,18 @@
+{
+  "heading": "Collaboration",
+  "text": "Got a project? Let's talk. We're always open to new research partnerships, collaboration opportunities, and exciting challenges. Whether you're launching a study or exploring a new market—our team is ready to support you.",
+  "contactMethods": [
+    {
+      "type": "email",
+      "value": "info@ccslbd.com"
+    },
+    {
+      "type": "phone",
+      "value": "+880 1948 373 084"
+    }
+  ],
+  "cta": {
+    "text": "Send Us An Email",
+    "link": "mailto:info@ccslbd.com"
+  }
+}

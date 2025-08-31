@@ -1,0 +1,29 @@
+{
+  "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg",
+  "heading": "Our Story",
+  "text1": "Creative Consulting Services Limited began its journey in 2014 as a research-focused agency based in Dhaka, Bangladesh. Since then, we have grown into a trusted market research partner, offering a full suite of qualitative and<strong> Quantitative Research Solutions </strong> for both<strong> Consumer </strong> and<strong> Business-to-Business (B2B) </strong>segments.",
+  "text2": "With over a decade of experience, we specialize in a wide range of services including:",
+  "text3": "Whether you are entering a new market, launching a product, optimizing customer experience, or shaping public opinion, we provide the<strong> Insights And Intelligence You Need To Make Informed, Strategic Decisions.</strong>",
+  "stroyItems": [
+    {
+      "title": "Qualitative & Quantitative Fieldwork / Data Collection"
+    },
+    {
+      "title": "Strategic Research & Consulting"
+    },
+    {
+      "title": "Desk Research & Market Intelligence"
+    },
+    {
+      "title": "Project Feasibility Studies"
+    },
+    {
+      "title": "Brand Health & Communication Studies"
+    },
+    {
+      "title": "Customer Satisfaction & Usage Studies",
+      "link": "/solutions",
+      "alt": "For more details, you can visit our Solutions page"
+    }
+  ]
+}

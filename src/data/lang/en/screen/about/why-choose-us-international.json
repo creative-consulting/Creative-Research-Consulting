@@ -1,0 +1,35 @@
+{
+  "heading": "Why Choose Us for Your International Research Projects",
+  "features": [
+    {
+      "title": "Global Reach, Local Expertise",
+      "text": "Operational presence across South Asia & the Middle East.",
+      "icon": "FaGlobe"
+    },
+    {
+      "title": "Deep Research Expertise",
+      "text": "Extensive experience in both qualitative and quantitative methodologies.",
+      "icon": "FaSearch"
+    },
+    {
+      "title": "Robust Quantitative Capabilities",
+      "text": "Proficient in CATI, CAPI, PAPI, and online surveys; handling large-scale projects with strict quality protocols.",
+      "icon": "FaClipboardCheck"
+    },
+    {
+      "title": "Multilingual Moderators & Interviewers",
+      "text": "Fluent in Bengali, English, Arabic, Hindi, Urdu, and more.",
+      "icon": "FaUsers"
+    },
+    {
+      "title": "End-to-End Field Support",
+      "text": "From recruitment and logistics to hosting, A/V setup, and documentation.",
+      "icon": "FaShieldAlt"
+    },
+    {
+      "title": "Data Quality & Integrity",
+      "text": "Real-time monitoring, rigorous validation, and adherence to international research standards (ESOMAR/MRSI).",
+      "icon": "FaChartLine"
+    }
+  ]
+}

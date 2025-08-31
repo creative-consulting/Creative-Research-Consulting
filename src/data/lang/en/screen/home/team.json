@@ -1,0 +1,38 @@
+[
+  {
+    "id": "team-1",
+    "name": "Abu Sayeed",
+    "position": "Director – Operations | Market & Social Research Specialist",
+    "bio": "14+ Years of Industry Experience | Expertise in Quantitative & Qualitative Fieldwork",
+    "expertise": [
+      "Statistical Modeling",
+      "Consumer Behavior",
+      "Data Visualization"
+    ],
+    "image": "/team/team-images/images/team2.jpg"
+  },
+  {
+    "id": "team-2",
+    "name": "KM Arifur Rahman",
+    "position": "Lead Consultant – Qualitative & Strategic Research",
+    "bio": "17+ years of hands-on experience in Market and Social Research across Bangladesh and the Asia-Pacific region.",
+    "expertise": ["Market Entry", "Competitive Analysis", "Strategic Planning"],
+    "image": "/team/team-images/images/team1.jpg"
+  },
+  {
+    "id": "team-3",
+    "name": "Rashed Sultan",
+    "position": "Director – Research Operations & Strategy",
+    "bio": "25+ Years of Market & Social Research Excellence Specialized in Field Operations, Project Management and Evaluation Studies",
+    "expertise": ["Consumer Insights", "UX Research", "Brand Perception"],
+    "image": "/team/team-images/images/team3.jpg"
+  },
+  {
+    "id": "team-4",
+    "name": "Abu Hayat",
+    "position": "Director of Operations – Domestic Fieldwork",
+    "bio": "9 years of experience in the market research industry",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "image": "/team/team-images/images/team4.jpg"
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "navItems": [
+    { "title": "হোম", "link": "/" },
+    { "title": "আমাদের সম্পর্কে", "link": "/about" },
+    {
+      "title": "সমাধানসমূহ",
+      "link": "/solutions",
+      "child": [
+        { "title": "বাজার গবেষণা", "link": "/solutions/market-research" },
+        { "title": "সামাজিক গবেষণা", "link": "/solutions/social-research" },
+        {
+          "title": "রাজনৈতিক গবেষণা ও জনমত জরিপ",
+          "link": "/solutions/political-research"
+        },
+        {
+          "title": "স্বনির্ধারিত গবেষণা সমাধান",
+          "link": "/solutions/customized-research"
+        },
+        {
+          "title": "ডেটা অ্যানালিটিক্স ও কৌশলগত পরামর্শ",
+          "link": "/solutions/data-analytics"
+        },
+        {
+          "title": "জরিপ স্ক্রিপ্টিং ও প্রোগ্রামিং",
+          "link": "/solutions/survey-scripting"
+        },
+        {
+          "title": "খুচরা ও ডিস্ট্রিবিউটর অডিট",
+          "link": "/solutions/retail-audit"
+        },
+        {
+          "title": "টেলিফোনিক জরিপের জন্য কল সেন্টার",
+          "link": "/solutions/telephonic-survey"
+        },
+        { "title": "ফিল্ডওয়ার্ক ও ডেটা সংগ্রহ", "link": "/solutions/fieldwork" }
+      ]
+    },
+    {
+      "title": "শিল্পসমূহ",
+      "link": "/industries",
+      "child": [
+        { "title": "ব্যক্তিগত যত্ন", "link": "/industries/personal-care" },
+        { "title": "তামাক", "link": "/industries/tobacco" },
+        { "title": "স্মার্টফোন", "link": "/industries/smartphones" },
+        { "title": "হোম কেয়ার", "link": "/industries/home-care" },
+        { "title": "খাদ্য ও পানীয়", "link": "/industries/food-beverages" },
+        { "title": "গাড়ি", "link": "/industries/automotive" },
+        { "title": "সম্পত্তি", "link": "/industries/property" },
+        { "title": "আর্থিক সেবা", "link": "/industries/financial-services" },
+        { "title": "ইলেকট্রনিকস", "link": "/industries/electronics" },
+        {
+          "title": "স্বাস্থ্যসেবা ও জন্মনিয়ন্ত্রণ",
+          "link": "/industries/healthcare"
+        },
+        { "title": "টেলিকমিউনিকেশন", "link": "/industries/telecommunication" },
+        {
+          "title": "গৃহস্থালী যন্ত্রপাতি ও আসবাব",
+          "link": "/industries/home-appliances"
+        },
+        { "title": "ভ্রমণ সেবা", "link": "/industries/travel-services" },
+        {
+          "title": "নির্মাণ সামগ্রী",
+          "link": "/industries/material-construction"
+        },
+        {
+          "title": "সার্বজনীন পরিবহন",
+          "link": "/industries/public-transportation"
+        },
+        { "title": "ই-কমার্স", "link": "/industries/e-commerce" }
+      ]
+    },
+    {
+      "title": "সেবা",
+      "link": "/services",
+      "child": [
+        { "title": "পরিমাণগত গবেষণা সেবা", "link": "/services/quantitative" },
+        { "title": "গুণগত গবেষণা সেবা", "link": "/services/qualitative" },
+        {
+          "title": "ডেস্ক গবেষণা (গৌণ গবেষণা)",
+          "link": "/services/desk-research"
+        },
+        { "title": "ফিল্ডওয়ার্ক সেবা", "link": "/services/fieldwork" },
+        {
+          "title": "উন্নত অ্যানালিটিক্স ও ডেটা মডেলিং",
+          "link": "/services/advanced-analytics"
+        },
+        { "title": "ব্র্যান্ড গবেষণা", "link": "/services/brand-research" },
+        {
+          "title": "গ্রাহক অভিজ্ঞতা (CX) গবেষণা",
+          "link": "/services/cx-research"
+        },
+        {
+          "title": "পণ্য ও উদ্ভাবনী গবেষণা",
+          "link": "/services/product-innovation"
+        },
+        {
+          "title": "বাজার সম্ভাব্যতা ও প্রবেশ অধ্যয়ন",
+          "link": "/services/feasibility-entry"
+        },
+        {
+          "title": "মিডিয়া ও বিজ্ঞাপন গবেষণা",
+          "link": "/services/media-research"
+        },
+        {
+          "title": "সামাজিক ও নীতিগত গবেষণা",
+          "link": "/services/social-policy"
+        },
+        { "title": "প্রযুক্তি ও UX গবেষণা", "link": "/services/ux-research" },
+        { "title": "ব্যবসা-টু-ব্যবসা (B2B) গবেষণা", "link": "/services/b2b" },
+        { "title": "স্বাস্থ্যসেবা গবেষণা", "link": "/services/healthcare" },
+        { "title": "মিস্ট্রি শপিং", "link": "/services/mystery-shopping" },
+        {
+          "title": "ডেটা ভিজ্যুয়ালাইজেশন ও রিপোর্টিং",
+          "link": "/services/data-visualization"
+        },
+        {
+          "title": "অনুবাদ ও লোকালাইজেশন সেবা",
+          "link": "/services/translation"
+        },
+        {
+          "title": "প্রতিযোগিতামূলক গোয়েন্দা তথ্য",
+          "link": "/services/competitive-intelligence"
+        }
+      ]
+    },
+    {
+      "title": "পদ্ধতি",
+      "link": "/methodology",
+      "child": [
+        {
+          "title": "ডোর-টু-ডোর সাক্ষাৎকার (CAPI/PAPI)",
+          "link": "/methodology/door-to-door"
+        },
+        { "title": "সেন্ট্রাল লোকেশন টেস্ট (CLT)", "link": "/methodology/clt" },
+        {
+          "title": "স্ব-সম্পন্ন সাক্ষাৎকার (CASI)",
+          "link": "/methodology/casi"
+        },
+        {
+          "title": "কম্পিউটার সহায়তাপ্রাপ্ত টেলিফোনিক সাক্ষাৎকার (CATI)",
+          "link": "/methodology/cati"
+        },
+        { "title": "হোম প্লেসমেন্ট টেস্ট (HUT)", "link": "/methodology/hut" },
+        {
+          "title": "কার ক্লিনিক / বাইক ক্লিনিক",
+          "link": "/methodology/clinic"
+        },
+        { "title": "জনগণনা", "link": "/methodology/census" },
+        {
+          "title": "ওয়েব জরিপ (অফলাইন রিক্রুটমেন্ট ও অনলাইন সম্পাদন)",
+          "link": "/methodology/web-surveys"
+        },
+        { "title": "ফোকাস গ্রুপ আলোচনা (FGD)", "link": "/methodology/fgd" },
+        { "title": "গভীর সাক্ষাৎকার (IDI)", "link": "/methodology/idi" },
+        { "title": "ইন-হোম ভিজিট/পর্যবেক্ষণ", "link": "/methodology/in-home" },
+        { "title": "মিস্ট্রি শপিং", "link": "/methodology/mystery-shopping" },
+        { "title": "অনলাইন জরিপ", "link": "/methodology/online-survey" },
+        { "title": "FGD/IDI অনলাইন", "link": "/methodology/fgd-idi-online" },
+        { "title": "অনলাইন বুলেটিন", "link": "/methodology/online-bulletin" },
+        { "title": "কুইক পোল", "link": "/methodology/quick-poll" }
+      ]
+    },
+    { "title": "ব্লগ", "link": "/blogs" },
+    { "title": "যোগাযোগ করুন", "link": "/contact" }
+  ],
+  "btnText": "কোট চাও"
+}

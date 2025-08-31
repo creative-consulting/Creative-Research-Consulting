@@ -1,0 +1,205 @@
+{
+  "one": {
+    "top": {
+      "heading": "वैश्विक कार्यालय",
+      "info": [
+        {
+          "title": "+8801948373084",
+          "icon": "FiPhone",
+          "link": "tel:+8801948373084"
+        },
+        {
+          "title": "abu.sayeed@ccslbd.com",
+          "icon": "FiMail",
+          "link": "mailto:abu.sayeed@ccslbd.com"
+        },
+        {
+          "title": "लेवल-3, हाउस-1286/3 ईस्ट मनिपुर, बेगम रोकेया सरणी, मिर्पुर-10, ढाका-1216, बांग्लादेश।",
+          "icon": "FiMapPin"
+        }
+      ]
+    },
+    "bottom": {
+      "heading": "हमें फॉलो करें:",
+      "contacts": [
+        {
+          "name": "facebook",
+          "icon": "FaFacebook",
+          "link": "https://www.facebook.com/creativeCSbd/",
+          "color": "#1877F2"
+        },
+        {
+          "name": "pinterest",
+          "icon": "FaPinterest",
+          "link": "https://www.pinterest.com/creativecsbd/",
+          "color": "#E60023"
+        },
+        {
+          "name": "twitter",
+          "icon": "FaTwitter",
+          "link": "https://x.com/i/flow/login?redirect_after_login=%2FCreativeCSbd",
+          "color": "#1DA1F2"
+        },
+        {
+          "name": "youtube",
+          "icon": "FaYoutube",
+          "link": "https://www.youtube.com/channel/UCjLsusc9UcrALANKNVryBbA",
+          "color": "#FF0000"
+        },
+        {
+          "name": "linkedin",
+          "icon": "FaLinkedin",
+          "link": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/?viewAsMember=true",
+          "color": "#0A66C2"
+        },
+        {
+          "name": "whatsapp",
+          "icon": "FaWhatsapp",
+          "link": "https://api.whatsapp.com/send?phone=8801948373084",
+          "color": "#25D366"
+        }
+      ]
+    }
+  },
+  "two": {
+    "heading": "समाधान",
+    "links": [
+      {
+        "title": "बाजार अनुसंधान",
+        "link": "market-research.html"
+      },
+      {
+        "title": "सामाजिक अनुसंधान",
+        "link": "social-research.html"
+      },
+      {
+        "title": "राजनीतिक अनुसंधान और जनमत सर्वेक्षण",
+        "link": "political-research.html"
+      },
+      {
+        "title": "कस्टम अनुसंधान समाधान",
+        "link": "customise-research.html"
+      },
+      {
+        "title": "डेटा एनालिटिक्स और रणनीतिक परामर्श",
+        "link": "data-analytics-and-strategic.html"
+      },
+      {
+        "title": "सर्वे स्क्रिप्टिंग और प्रोग्रामिंग",
+        "link": "survey-scripting-and-programming.html"
+      },
+      {
+        "title": "रिटेल और वितरक ऑडिट",
+        "link": "retail-and-distributor-audit.html"
+      },
+      {
+        "title": "टेलीफोनिक सर्वे के लिए कॉल सेंटर",
+        "link": "call-center-for-telephonic-survey.html"
+      },
+      {
+        "title": "फील्डवर्क और डेटा संग्रह",
+        "link": "fieldwork-and-data-collection.html"
+      }
+    ]
+  },
+  "three": {
+    "heading": "उद्योग",
+    "links": [
+      {
+        "title": "पर्सनल केयर",
+        "link": "personal-care.html"
+      },
+      {
+        "title": "तंबाकू",
+        "link": "tobacco.html"
+      },
+      {
+        "title": "स्मार्टफोन",
+        "link": "smartphone.html"
+      },
+      {
+        "title": "होम केयर",
+        "link": "home-care.html"
+      },
+      {
+        "title": "खाद्य और पेय",
+        "link": "food-and-beverages.html"
+      },
+      {
+        "title": "ऑटोमोटिव",
+        "link": "automotive.html"
+      },
+      {
+        "title": "संपत्ति",
+        "link": "property.html"
+      },
+      {
+        "title": "वित्तीय सेवाएं",
+        "link": "financial-services.html"
+      },
+      {
+        "title": "इलेक्ट्रॉनिक्स",
+        "link": "electronics.html"
+      },
+      {
+        "title": "हेल्थकेयर और गर्भनिरोधक",
+        "link": "healthcare-and-contraception.html"
+      },
+      {
+        "title": "दूरसंचार",
+        "link": "telecommunication.html"
+      },
+      {
+        "title": "घरेलू उपकरण और सजावट",
+        "link": "home-appliances-and-furnishing.html"
+      },
+      {
+        "title": "यात्रा सेवाएं",
+        "link": "travel-services.html"
+      },
+      {
+        "title": "सामग्री निर्माण",
+        "link": "material-construction.html"
+      },
+      {
+        "title": "सार्वजनिक परिवहन",
+        "link": "public-transportation.html"
+      },
+      {
+        "title": "ई-कॉमर्स",
+        "link": "e-commerce.html"
+      }
+    ]
+  },
+  "four": {
+    "heading": "कंपनी",
+    "links": [
+      {
+        "title": "हमारे बारे में",
+        "link": "#"
+      },
+      {
+        "title": "करियर",
+        "link": "#"
+      },
+      {
+        "title": "स्थान",
+        "link": "#"
+      },
+      {
+        "title": "संपर्क करें",
+        "link": "#"
+      }
+    ],
+    "logins": [
+      {
+        "title": "क्लाइंट लॉगिन",
+        "link": "clientLogin.html"
+      },
+      {
+        "title": "कर्मचारी लॉगिन",
+        "link": "#"
+      }
+    ]
+  }
+}

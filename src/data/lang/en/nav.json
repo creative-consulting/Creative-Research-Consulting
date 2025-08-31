@@ -1,0 +1,25 @@
+{
+  "navItems": [
+    { "title": "Home", "link": "/" },
+    { "title": "About", "link": "/about" },
+    {
+      "title": "Solutions",
+      "link": "/solutions"
+    },
+    {
+      "title": "Industries",
+      "link": "/industries"
+    },
+    {
+      "title": "Services",
+      "link": "/services"
+    },
+    {
+      "title": "Methodology",
+      "link": "/methodology"
+    },
+    { "title": "Blogs", "link": "/blogs" },
+    { "title": "FAQ", "link": "/faq" }
+  ],
+  "btnText": "Contact Us"
+}

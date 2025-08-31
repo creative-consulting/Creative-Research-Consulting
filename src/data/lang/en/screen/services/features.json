@@ -1,0 +1,41 @@
+{
+  "title": "Our Research Approach",
+  "subtitle": "At Creative Consulting Services Limited, our approach is built on trust, transparency, and tailored solutions to meet each client’s unique research objectives. Whether it's a full-service research study or fieldwork-only support, we deliver insights that drive impact.",
+  "items": [
+    {
+      "icon": "🎯",
+      "title": "Understanding Your Goals",
+      "description": "We begin with a detailed discussion to understand your research objectives, target audience, and expected outcomes. This helps us shape the right methodology for your needs."
+    },
+    {
+      "icon": "🔄",
+      "title": "Customized Research Design",
+      "description": "We don’t believe in one-size-fits-all. We design research solutions—quantitative, qualitative, or hybrid—that are customized to your industry, budget, and market context."
+    },
+    {
+      "icon": "📈",
+      "title": "Tested Tools & Techniques",
+      "description": "We use global and local tools including CATI, CAPI, CAWI, F2F, Online Panels, and digital dashboards to gather accurate data across various platforms and geographies."
+    },
+    {
+      "icon": "📈",
+      "title": " Expert Field Execution",
+      "description": "Our experienced team of supervisors, interviewers, moderators, and recruiters ensure high-quality fieldwork, strict adherence to sampling, and complete compliance with ESOMAR standards."
+    },
+    {
+      "icon": "📈",
+      "title": "Quality Control at Every Step",
+      "description": "We deploy a layered QC approach with real-time monitoring, back-checks, and logic checks to ensure data reliability and validity."
+    },
+    {
+      "icon": "🔍",
+      "title": " Insightful Analysis & Reporting",
+      "description": "Our insights team transforms raw data into meaningful stories using advanced analytics and data visualization, ensuring clarity, depth, and actionability."
+    },
+    {
+      "icon": "📊",
+      "title": "Collaborative Client Engagement",
+      "description": "We keep our clients updated at every stage—setup, field, analysis, and delivery—with proactive communication, flexibility, and responsiveness."
+    }
+  ]
+}

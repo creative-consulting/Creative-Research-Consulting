@@ -1,0 +1,622 @@
+{
+  "title": "Trusted by Industry Leaders",
+  "subtitle": "We partner with the world's most innovative companies",
+  "clients": [
+    {
+      "id": 1,
+      "name": "Berger",
+      "logo": "/home/images/bergerLogo.png",
+      "width": 120,
+      "height": 60
+    },
+    {
+      "id": 2,
+      "name": "Plan International",
+      "logo": "/home/images/planInter.jpg",
+      "width": 150,
+      "height": 70
+    },
+    {
+      "id": 3,
+      "name": "BRAC",
+      "logo": "/home/images/brac-logo.png",
+      "width": 100,
+      "height": 80
+    },
+    {
+      "id": 4,
+      "name": "World Bank",
+      "logo": "/home/images/worldBank.jpg",
+      "width": 140,
+      "height": 60
+    },
+    {
+      "id": 5,
+      "name": "SMEC",
+      "logo": "/home/images/SMEC-Logo.png",
+      "width": 120,
+      "height": 50
+    },
+    {
+      "id": 6,
+      "name": "RAK",
+      "logo": "/home/images/RAKlogo.svg.png",
+      "width": 90,
+      "height": 90
+    },
+    {
+      "id": 7,
+      "name": "Oxfam",
+      "logo": "/home/images/oxfam.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 8,
+      "name": "Save the Children",
+      "logo": "/home/images/saveChild.jpg",
+      "width": 160,
+      "height": 50
+    },
+    {
+      "id": 9,
+      "name": "TIB",
+      "logo": "/home/images/TIB.jpg",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": 10,
+      "name": "Robi",
+      "logo": "/home/images/robi.jpg",
+      "width": 110,
+      "height": 60
+    },
+    {
+      "id": 11,
+      "name": "Banglalink",
+      "logo": "/home/images/banglalink.jpg",
+      "width": 140,
+      "height": 50
+    },
+    {
+      "id": 12,
+      "name": "Grameenphone",
+      "logo": "/home/images/gp.png",
+      "width": 150,
+      "height": 40
+    },
+    {
+      "id": 13,
+      "name": "Dow",
+      "logo": "/home/images/Dow-Logo.png",
+      "width": 120,
+      "height": 70
+    },
+    {
+      "id": 14,
+      "name": "IFC",
+      "logo": "/home/images/ifc-logo.png",
+      "width": 100,
+      "height": 100
+    },
+    {
+      "id": 15,
+      "name": "ACI",
+      "logo": "/home/images/aci-logo.png",
+      "width": 110,
+      "height": 60
+    },
+    {
+      "id": 16,
+      "name": "Akij",
+      "logo": "/home/images/akij-logo.jpg",
+      "width": 120,
+      "height": 70
+    },
+    {
+      "id": 17,
+      "name": "Pran",
+      "logo": "/home/images/Pran.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 18,
+      "name": "Australia",
+      "logo": "/home/images/Picture1.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 19,
+      "name": "BBC",
+      "logo": "/home/images/Picture2.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 20,
+      "name": "Field",
+      "logo": "/home/images/Picture3.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 21,
+      "name": "Gsk",
+      "logo": "/home/images/Picture4.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 22,
+      "name": "Katalyst",
+      "logo": "/home/images/Picture5.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 23,
+      "name": "Reckkit",
+      "logo": "/home/images/Picture6.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 24,
+      "name": "Maritime",
+      "logo": "/home/images/Picture7.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 25,
+      "name": "Quipper",
+      "logo": "/home/images/Picture8.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 26,
+      "name": "Square",
+      "logo": "/home/images/Picture9.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 27,
+      "name": "UKaid",
+      "logo": "/home/images/Picture10.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 28,
+      "name": "USaid",
+      "logo": "/home/images/Picture11.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 29,
+      "name": "cocacola",
+      "logo": "/home/images/Picture12.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 30,
+      "name": "Tobacco",
+      "logo": "/home/images/Picture13.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 31,
+      "name": "Varinia",
+      "logo": "/home/images/Picture14.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 32,
+      "name": "Maction",
+      "logo": "/home/images/Picture15.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 33,
+      "name": "ResearchServices",
+      "logo": "/home/images/Picture16.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 34,
+      "name": "EuropeanClimate",
+      "logo": "/home/images/Picture17.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 35,
+      "name": "SocialImpact",
+      "logo": "/home/images/Picture18.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 36,
+      "name": "Jica",
+      "logo": "/home/images/Picture19.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 37,
+      "name": "SAgroup",
+      "logo": "/home/images/Picture20.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 38,
+      "name": "Ucash",
+      "logo": "/home/images/Picture21.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 39,
+      "name": "SADC",
+      "logo": "/home/images/Picture22.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 40,
+      "name": "RFL",
+      "logo": "/home/images/Picture23.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 41,
+      "name": "IPSOS",
+      "logo": "/home/images/Picture24.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 42,
+      "name": "Kantar",
+      "logo": "/home/images/Picture25.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 43,
+      "name": "Nielsen",
+      "logo": "/home/images/Picture26.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 44,
+      "name": "RedSheer",
+      "logo": "/home/images/Picture28.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 45,
+      "name": "Dabur",
+      "logo": "/home/images/Picture29.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 46,
+      "name": "Bkash",
+      "logo": "/home/images/Picture30.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 47,
+      "name": "Tangar",
+      "logo": "/home/images/Picture31.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 48,
+      "name": "BussinessExpress",
+      "logo": "/home/images/Picture32.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 49,
+      "name": "Panoramix",
+      "logo": "/home/images/Picture33.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 50,
+      "name": "NewVision",
+      "logo": "/home/images/Picture34.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 51,
+      "name": "Parlance",
+      "logo": "/home/images/Picture35.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 52,
+      "name": "SRT",
+      "logo": "/home/images/Picture36.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 53,
+      "name": "PartextStar",
+      "logo": "/home/images/Picture37.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 54,
+      "name": "Sbrand",
+      "logo": "/home/images/Picture38.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 55,
+      "name": "BIID",
+      "logo": "/home/images/Picture39.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 56,
+      "name": "MIRG",
+      "logo": "/home/images/Picture40.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 57,
+      "name": "Nokia",
+      "logo": "/home/images/Picture41.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 58,
+      "name": "HUL",
+      "logo": "/home/images/Picture42.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 59,
+      "name": "Nestle",
+      "logo": "/home/images/Picture43.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 60,
+      "name": "Trident",
+      "logo": "/home/images/Picture44.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 61,
+      "name": "Radius",
+      "logo": "/home/images/Picture45.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 62,
+      "name": "RSPL",
+      "logo": "/home/images/Picture47.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 63,
+      "name": "ResearchTree",
+      "logo": "/home/images/Picture48.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 64,
+      "name": "Sumsang",
+      "logo": "/home/images/Picture49.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 65,
+      "name": "IDS",
+      "logo": "/home/images/Picture50.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 66,
+      "name": "BrandWorldWide",
+      "logo": "/home/images/Picture51.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 67,
+      "name": "Redquanta",
+      "logo": "/home/images/Picture52.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 68,
+      "name": "PWC",
+      "logo": "/home/images/Picture53.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 69,
+      "name": "TATA",
+      "logo": "/home/images/Picture54.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 70,
+      "name": "OPPO",
+      "logo": "/home/images/Picture55.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 71,
+      "name": "Abedin",
+      "logo": "/home/images/Picture56.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 72,
+      "name": "BAJAJ",
+      "logo": "/home/images/Picture57.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 73,
+      "name": "Samphony",
+      "logo": "/home/images/Picture58.jpg",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 74,
+      "name": "AkijGroup",
+      "logo": "/home/images/Picture59.png",
+      "width": 130,
+      "height": 60
+    },
+    {
+      "id": 75,
+      "name": "IRI",
+      "logo": "/home/images/Picture60.png",
+      "width": 130,
+      "height": 60
+    }
+  ],
+  "cta": {
+    "text": "Become a client",
+    "href": "/contact"
+  },
+  "showTestimonials": true,
+  "testimonials": [
+    {
+      "id": 1,
+      "rating": 5,
+      "content": "Working with this team has transformed our digital presence. Their expertise and attention to detail are unmatched in the industry.",
+      "author": "Sarah Johnson",
+      "position": "Chief Marketing Officer",
+      "company": "TechCorp",
+      "avatar": "https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg",
+      "date": "2025-03-15",
+      "project": "Digital Transformation Initiative",
+      "metrics": [
+        {
+          "value": "78%",
+          "label": "Increase in lead generation"
+        },
+        {
+          "value": "2.5x",
+          "label": "ROI improvement"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "content": "The results exceeded our expectations. We've seen a 40% increase in engagement since implementing their solutions, with measurable impact on our bottom line.",
+      "author": "Michael Chen",
+      "position": "Director of Product",
+      "company": "InnovateCo",
+      "avatar": "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+      "date": "2025-02-28",
+      "project": "Customer Engagement Platform",
+      "metrics": [
+        {
+          "value": "40%",
+          "label": "Engagement increase"
+        },
+        {
+          "value": "3.2x",
+          "label": "Faster load times"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "rating": 4,
+      "content": "A reliable partner with creative solutions. They understand our business needs and consistently deliver quality work on time, becoming an extension of our team.",
+      "author": "Emma Rodriguez",
+      "position": "Head of Marketing",
+      "company": "BrandVision",
+      "avatar": "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+      "date": "2025-01-10",
+      "project": "Brand Identity Refresh",
+      "metrics": [
+        {
+          "value": "92%",
+          "label": "Brand recognition"
+        },
+        {
+          "value": "4.8/5",
+          "label": "Customer satisfaction"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "rating": 5,
+      "content": "Their strategic approach delivered results we couldn't have achieved internally. The team became true partners in our growth journey.",
+      "author": "David Kim",
+      "position": "CEO",
+      "company": "ScaleFast",
+      "avatar": "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg",
+      "date": "2025-11-22",
+      "project": "Growth Strategy Implementation",
+      "metrics": [
+        {
+          "value": "120%",
+          "label": "Revenue growth"
+        },
+        {
+          "value": "65%",
+          "label": "Market expansion"
+        }
+      ]
+    }
+  ]
+}

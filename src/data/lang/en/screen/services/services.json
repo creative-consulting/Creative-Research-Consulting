@@ -1,0 +1,223 @@
+{
+  "title": "Our Service Offerings",
+  "subtitle": "Specialized solutions designed to drive your business forward",
+  "services": [
+    {
+      "id": 1,
+      "name": "Quantitative Research Services",
+      "description": "Numbers that tell real stories. We design surveys and analyze data to reveal behaviors, trends, and preferences.",
+      "icon": "📊",
+      "color": "bg-blue-100 text-blue-600",
+      "image": "/services/services-grid/images/1.QuantitativeResearchServices.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Qualitative Research Services ",
+      "description": "Listening to understand. In-depth interviews and group discussions that uncover feelings, needs, and motivations.",
+      "icon": "🔢",
+      "color": "bg-purple-100 text-purple-600",
+      "image": "/services/services-grid/images/2.QualitativeResearchServices.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Desk Research (Secondary Research) ",
+      "description": "Smart insights from existing sources. We gather and analyze data to inform your strategy efficiently.",
+      "icon": "📚",
+      "color": "bg-green-100 text-green-600",
+      "image": "/services/services-grid/images/3.DeskResearch.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Fieldwork Services",
+      "description": "Reliable on-ground data collection by experienced teams across urban and rural locations.",
+      "icon": "📝",
+      "color": "bg-yellow-100 text-yellow-600",
+      "image": "/services/services-grid/images/4.FieldworkServices.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Brand Research",
+      "description": "Understand brand positioning, perception, and equity in the market.",
+      "icon": "🏷️",
+      "color": "bg-red-100 text-red-600",
+      "image": "/services/services-grid/images/6.BrandResearch.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Advanced Analytics & Data Modeling",
+      "description": "  Extracting meaning from complex data to support strategic decisions.",
+      "icon": "📈",
+      "color": "bg-indigo-100 text-indigo-600",
+      "image": "/services/services-grid/images/5.AdvancedAnalytics&DataModeling.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Customer Experience (CX) Research ",
+      "description": "Capturing what matters to customers at every touchpoint to improve satisfaction and loyalty.",
+      "icon": "😊",
+      "color": "bg-pink-100 text-pink-600",
+      "image": "/services/services-grid/images/7.CustomerExperience(CX)Research.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Product and Innovation Research",
+      "description": "From idea to execution, we guide innovation with user-driven insights.",
+      "icon": "💡",
+      "color": "bg-teal-100 text-teal-600",
+      "image": "/services/services-grid/images/8.Product-and-InnovationResearch.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Market Feasibility and Entry Studies",
+      "description": "Evaluating opportunities, risks, and readiness for new market ventures.",
+      "icon": "🚪",
+      "color": "bg-gray-100 text-gray-600",
+      "image": "/services/services-grid/images/9.MarketFeasibility-EntryStudies.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Media & Advertising Research ",
+      "description": "Testing and optimizing ads to ensure your message connects with the audience.",
+
+      "icon": "📢",
+      "color": "bg-orange-100 text-orange-600",
+      "image": "/services/services-grid/images/10.Media&AdvertisingResearch.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Social and Policy Research",
+      "description": "Evidence-based insights to support social change, public opinion, and policy reform. ",
+      "icon": "⚖️",
+      "color": "bg-blue-200 text-blue-800",
+      "image": "/services/services-grid/images/11.SocialAndPolicyResearch.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Technology and UX Research",
+      "description": "Enhancing digital experiences through user feedback, testing, and interface evaluations.",
+      "icon": "🖥️",
+      "color": "bg-purple-200 text-purple-800",
+      "image": "/services/services-grid/images/12.TechnologyAndUXResearch.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Business-to-Business (B2B) Research",
+      "description": "Tailored studies to understand business decision-makers and industry trends.",
+      "icon": "🤝",
+      "color": "bg-green-200 text-green-800",
+      "image": "/services/services-grid/images/13.Business-to-Business(B2B)Research.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Healthcare Research ",
+      "description": "Analyzing policies to inform decision-making and improve governance.",
+      "icon": "🩺",
+      "color": "bg-yellow-200 text-yellow-800",
+      "image": "/services/services-grid/images/14.HealthcareResearch.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Mystery Shopping",
+      "description": "Real-time feedback on customer service and operational standards from the consumer’s point of view.",
+      "icon": "🌳",
+      "color": "bg-red-200 text-red-800",
+      "image": "/services/services-grid/images/15.MysteryShopping.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Data Visualization & Reporting",
+      "description": " Presenting data in clean, clear, and impactful formats for better understanding.",
+      "icon": "📊",
+      "color": "bg-indigo-200 text-indigo-800",
+      "image": "/services/services-grid/images/16.DataVisualization&Reporting.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Translation and Localization Services",
+      "description": "Ensuring research tools and results are relevant, accurate, and culturally appropriate.",
+      "icon": "🌐",
+      "color": "bg-pink-200 text-pink-800",
+      "image": "/services/services-grid/images/17.TranslationAndLocalizationServices.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Competitive Intelligence",
+      "description": "Monitoring market dynamics and competitors to help you stay ahead strategically.",
+      "icon": "🕵️‍♂️",
+      "color": "bg-teal-200 text-teal-800",
+      "image": "/services/services-grid/images/18.CompetitiveIntelligence.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Consultancy",
+      "description": "Research supporting business strategy and advisory services.",
+      "icon": "🏙️",
+      "color": "bg-gray-200 text-gray-800",
+      "image": "/services/services-grid/images/21.Consultancy.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Analytical Services (Big Data, Data Mining, Statistical Analysis)",
+      "description": "Turn raw data into clear, decision-ready answers. (data cleaning & integration, exploratory analysis, statistical testing, predictive modeling, segmentation, dashboards.)",
+      "icon": "⚡",
+      "color": "bg-orange-200 text-orange-800",
+      "image": "/services/services-grid/images/19.AnalyticalServices.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Biometrics Research (Eye Tracking, Neuroscience, Wearables)",
+      "description": "Understand what consumers really see, feel, and notice. (eye-tracking for visual attention, EEG/GSR for emotional response, facial coding, time-to-notice and heatmaps.)",
+      "icon": "👁️ ",
+      "color": "bg-blue-300 text-blue-900",
+      "image": "/services/services-grid/images/20.BiometricsResearch.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Data Collection / Field Services (CATI, CAWI, FGD, IDI, PAPI, CAPI)",
+      "description": "High-quality fieldwork, nationwide. (recruitment & scheduling, trained moderators/interviewers, multilingual execution, consent & QC (monitoring/recordings), secure data handling)",
+      "icon": "🤝",
+      "color": "bg-green-300 text-green-900",
+      "image": "/services/services-grid/images/22.DataCollection.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Mobile Research (Mobile Panels, Surveys, Ethnography)",
+      "description": "Reach people where decisions happen—on their phones. (app/web surveys, diaries, photo/video ethnography, geo-triggered tasks, quick pulse checks.)",
+      "icon": "📱",
+      "color": "bg-yellow-300 text-yellow-900",
+      "image": "/services/services-grid/images/23.MobileResearch.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Panels & Communities",
+      "description": "Always-on access to the right audiences. (recruitment & profiling, community setup/moderation, incentive management, re-contact for longitudinal work.)",
+      "icon": "👥",
+      "color": "bg-red-300 text-red-900",
+      "image": "/services/services-grid/images/34.Panels.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Qualitative (Focus Groups, IDIs, Semiotics)",
+      "description": "Go deep into motivations, language, and culture. (FGDs, IDIs, ethnography/in-home, shop-alongs, online qual, semiotic analysis of symbols & meaning.)",
+      "icon": "💬",
+      "color": "bg-indigo-300 text-indigo-900",
+      "image": "/services/services-grid/images/25.Qualitative.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Quantitative (CATI, CAWI, Online, PAPI)",
+      "description": "Measure what matters and how big it is. (sampling & quotas, questionnaire design, programming, weighting, advanced analytics, dashboards.)",
+      "icon": "📈 ",
+      "color": "bg-pink-300 text-pink-900",
+      "image": "/services/services-grid/images/26.Quantitative.jpg"
+    },
+    {
+      "id": 28,
+      "name": " Research & Insight Consultancy (Advertising, B2B, Consumer)",
+      "description": "From the right questions to the right actions. (problem framing, study design, brand & comms evaluation, U&A, pricing & concept tests, B2B decision-maker insights.)",
+      "icon": "🤳",
+      "color": "bg-teal-300 text-teal-900",
+      "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg"
+    }
+  ]
+}

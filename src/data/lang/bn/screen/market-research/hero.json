@@ -1,0 +1,11 @@
+{
+  "videoPath": "/videos/HomeCare.mp4",
+  "videoAlt": "আধুনিক ব্যবসায়িক চিত্র সম্বলিত একটি ব্যাকগ্রাউন্ড ভিডিও",
+  "fallbackImage": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heading": "গবেষণাভিত্তিক অন্তর্দৃষ্টির মাধ্যমে ব্র্যান্ডকে সক্ষম করা",
+  "slowgan": "তথ্য-ভিত্তিক মার্কেটিং গবেষণা সমাধানের মাধ্যমে বৈশ্বিক ব্যবসাগুলিকে ক্ষমতায়ন করা।",
+  "navigation": {
+    "title": "আমাদের সেবাগুলো দেখুন",
+    "link": "/services"
+  }
+}

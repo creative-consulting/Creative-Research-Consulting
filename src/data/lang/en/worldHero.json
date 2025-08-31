@@ -1,0 +1,29 @@
+{
+  "title": "Global Market Intelligence",
+  "titleSequences": [
+    "Global Market Intelligence",
+    1500,
+    "Worldwide Consumer Insights",
+    1500,
+    "International Research Solutions",
+    1500
+  ],
+  "descriptionSequences": [
+    "Uncovering trends across 150+ countries",
+    2000,
+    "Cultural insights that drive global strategy",
+    2000,
+    "Actionable intelligence for international markets",
+    2000
+  ],
+  "indicators": [
+    { "value": "150+", "label": "Countries Covered" },
+    { "value": "95%", "label": "Market Accuracy" },
+    { "value": "24/7", "label": "Data Collection" },
+    { "value": "10K+", "label": "Global Respondents" }
+  ],
+  "buttonTexts": {
+    "primary": "Explore Global Coverage",
+    "secondary": "Request Market Report"
+  }
+}

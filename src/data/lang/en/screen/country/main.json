@@ -1,0 +1,267 @@
+{
+  "hero": {
+    "heading": "Market Research Company in <span class=\"text-primary\"> (countryName) </span> — Creative Consulting Services Limited (CCSL)",
+    "paragraph": "Creative Consulting Services Limited (CCSL) is a leading full-service market & social research and fieldwork partner in <span class=\"font-bold text-primary\">(countryName)</span> with operational coverage across APAC & GCC. We specialize in consumer, healthcare, B2B, automotive, financial services, FMCG, retail, and development/NGO research, delivering end-to-end <span class=\"font-bold cursor-pointer underline\"><a href='/services/all'>qualitative</a></span> and <span class=\"font-bold cursor-pointer underline\"><a href='/services/all'>quantitative</a></span> solutions.<br/>Our teams combine local language expertise, nationwide field logistics, and modern research technology (CATI/CAWI/CAPI, online & mobile qual, dashboards, and advanced analytics) to turn questions into clear, decision-ready answers—from concept to implementation.",
+    "focusText": "<span class=\"font-bold\">Standards & Ethics:</span> We follow the ICC/ESOMAR International Code for Market, Opinion & Social Research and Data Analytics. Participant consent, privacy, and multi-layer quality control are embedded in every project."
+  },
+  "whyClientChoose": {
+    "heading": "Why Clients Choose Creative Consulting Services Limited (CCSL): ",
+    "list": [
+      "<span class=\"font-bold\"> Strong field operations in <span class=\"text-primary\"> (countryName) </span>:</span> vetted recruiters, trained interviewers/moderators, centralized scheduling, secure data handling.",
+      "<span class=\"font-bold\"> Multi-mode, fit-for-purpose design:</span> Survey, FGDs, IDIs, ethnography, CATI, CAWI, CAPI, online communities, mobile diaries.",
+      "<span class=\"font-bold\"> Quality you can verify:</span> live monitoring, call/listen-backs and consented recordings, GPS/time-stamps, 100% critical back-checks.",
+      "<span class=\"font-bold\"> Actionable outputs: </span> concise narratives, clear visuals, and prioritized recommendations—not just data dumps."
+    ]
+  },
+  "whatWeDo": {
+    "heading": "What We Do:",
+    "list": [
+      "<span class=\"font-bold\"> Quantitative Research</span> (CATI, CAWI, CAPI, Online).",
+      "<span class=\"font-bold\"> Qualitative Research</span>(FGDs, IDIs, Ethnography, Online Qual, Semiotics).",
+      "<span class=\"font-bold\"> Data Collection & Fieldwork in <span class=\"text-primary\"> (countryName) </span> </span> (nationwide recruitment, survey,  moderation, logistics & QC).",
+      "<span class=\"font-bold\"> Mobile Research</span>(diaries, photo/video ethnography, geo-tasks).",
+      "<span class=\"font-bold\"> Panels & Communities </span>(always-on audiences, re-contact studies).",
+      "<span class=\"font-bold\"> Biometrics & Neuromarketing </span> (Eye-Tracking, Facial Coding, Wearables).",
+      "<span class=\"font-bold\"> Analytical Services</span>  (Big Data, Data Mining, Statistical Modeling).",
+      "<span class=\"font-bold\"> Social & Digital Analytics</span> vetted recruiters, trained interviewers/moderators, centralized scheduling, secure data handling.",
+      "<span class=\"font-bold\"> Research Software </span>(scripting, portals, dashboards, ETL/API)."
+    ]
+  },
+  "howWeWork": {
+    "heading": "How We Work (Concept → Completion)",
+    "list": [
+      "<span class=\"font-bold\"> Brief & Objectives </span>clarify the problem, KPIs, markets, and timelines.",
+      "<span class=\"font-bold\"> Design & Sampling</span> method mix, incidence & quotas, discussion guide/questionnaire, compliance plan.",
+      "<span class=\"font-bold\"> Recruitment & Scheduling </span>screeners, verification, reminders, venue/tech setup.",
+      "<span class=\"font-bold\"> Fieldwork Execution</span> moderators/interviewers, stimulus handling, live client access.",
+      "<span class=\"font-bold\"> Quality Control</span>consented monitoring/recordings, back-checks, fraud/duplicate checks, GPS/time-stamps.",
+      "<span class=\"font-bold\"> Analysis & Insight </span>stats modeling, thematic coding, frameworks (What/Why/Now-What).",
+      "<span class=\"font-bold\"> Delivery & Enablement</span>datasets, dashboards, reports, and an action plan."
+    ]
+  },
+  "OurResearch": {
+    "heading": "Our Research Solution or Services:",
+    "list": [
+      "Market Research",
+      "Social Research",
+      "Fieldwork & Data Collection",
+      "Political Research & Public Opinion Polls",
+      "Customized Research Solutions",
+      "Data Analytics & Strategic Consulting",
+      "Survey Scripting & Programming",
+      "Retail & Distributor Audit",
+      "Call Center for Telephonic Survey",
+      "Media Research",
+      "Brand Research",
+      "Business Intelligence Services & Solutions",
+      "Business-to-business (B2B)",
+      "Children / Youth's Research",
+      "Consumer Research",
+      "Corporate Image Research",
+      "Customer Satisfaction Studies",
+      "Demographic Research",
+      "Employee Research",
+      "Ethnographic Research",
+      "Focus Groups Facilities",
+      "Image Studies",
+      "International Studie",
+      "Knowledge Management",
+      "Modeling & Predictive Research",
+      "Online/Mobile Panel",
+      "Pricing Studies",
+      "Projective Techniques",
+      "Psychographic Research",
+      "Psychological / Motivational Research",
+      "Reputation Research",
+      "Scenario Planning",
+      "Segmentation Research",
+      "Semiotic and Cultural Analysis",
+      "Senior Citizen / Mid-life Research",
+      "Syndicated Research",
+      "Tracking Studies",
+      "Validation Services",
+      "Website Usability",
+      "Quantitative Research Services",
+      "Qualitative Research Services",
+      "Desk Research (Secondary Research)",
+      "Fieldwork Services",
+      "Advanced Analytics & Data Modeling",
+      "Brand Research",
+      "Customer Experience (CX) Research",
+      "Product and Innovation Research",
+      "Market Feasibility and Entry Studies",
+      "Media & Advertising Research",
+      "Social and Policy Research",
+      "Technology and UX Research",
+      "Business-to-Business (B2B) Research",
+      "Healthcare Research",
+      "Mystery Shopping",
+      "Data Visualization & Reporting",
+      "Translation and Localization Services",
+      "Competitive Intelligence",
+      "Analytical Services (Big Data, Data Mining, Statistical Analysis)",
+      "Biometrics Research (Eye Tracking, Neuroscience, Wearables)",
+      "Consultancy (Advertising, B2B, Consumer Research)",
+      "Data Collection / Field Services (CATI, CAWI, FGD, IDI, PAPI, CAPI)",
+      "Mobile Research (Mobile Panels, Surveys, Ethnography)",
+      "Panels & Communities",
+      "Qualitative (Focus Groups, IDIs, Semiotics)",
+      "Quantitative (CATI, CAWI, Online, PAPI)",
+      "Social Media Research",
+      "Support Services (Incentives, SaaS Platforms, Scanning Services)",
+      "Analytical Services",
+      "Biometrics Research",
+      "Consultancy",
+      "Data Collection / Field Services",
+      "Mobile Research",
+      "Panels",
+      "Research Software",
+      "Support Service Provider"
+    ]
+  },
+  "QuantitativeResearch": {
+    "heading": "Quantitative Research (CATI • CAWI • CAPI • Online) ",
+    "list": [
+      "<span class=\"font-bold\">Purpose:</span> size markets, track KPIs, and validate decisions with statistical confidence.",
+      "<span class=\"font-bold\">Applications:</span> U&A, segmentation, concept/pack tests, brand & comms tracking, pricing, ad effectiveness, CSAT/NPS, shelf/planogram.",
+      "<span class=\"font-bold\">Process:</span> sampling & quotas, scripting with logic/validations, mixed-mode execution, real-time dashboards, weighting & significance testing, regression/driver analysis, MaxDiff, Conjoint, TURF.",
+      "<span class=\"font-bold\">Deliverables: </span>SPSS/CSV/XLSX datasets, tabs/banners, dashboards, and executive report with clear recommendations."
+    ]
+  },
+  "QualitativeResearch": {
+    "heading": "Qualitative Research (FGDs • IDIs • Ethnography • Online Qual • Semiotics)",
+    "list": [
+      "<span class=\"font-bold\">Purpose:</span> uncover motivations, barriers, language, and cultural meanings to shape propositions and communication.",
+      "<span class=\"font-bold\">Applications:</span> idea exploration, product/pack refinement, messaging, patient/HCP journeys, shopper missions, UX/usability, cultural decoding.",
+      "<span class=\"font-bold\">Execution:</span> targeted recruitment, senior moderation, projective/creative tasks, in-facility/in-home/shop-along, online or offline FGDs/IDIs, mobile diaries.",
+      "<span class=\"font-bold\">Deliverables:</span> transcripts & translations, verbatim packs, highlight reels, thematic maps, personas/journeys, and action frameworks."
+    ]
+  },
+  "PanelsCommunities": {
+    "heading": "Panels & Communities: ",
+    "subHeading": "Build and engage always-on audiences for faster, iterative learning.",
+    "list": [
+      "<span class=\"font-bold\">We handle:</span> in-the-moment diaries, path-to-purchase, mystery shopping, OOH checks, product trials.",
+      "<span class=\"font-bold\">Toolkit: </span> app/web tasks, photo/video uploads, barcode/QR scans, geo-fenced assignments, opt-in passive metering."
+    ]
+  },
+  "MobileResearch": {
+    "heading": "Mobile Research: ",
+    "list": [
+      "<span class=\"font-bold\">Use-cases:</span> in-the-moment diaries, path-to-purchase, mystery shopping, OOH checks, product trials.",
+      "<span class=\"font-bold\">Toolkit:</span> app/web tasks, photo/video uploads, barcode/QR scans, geo-fenced assignments, opt-in passive metering.",
+      "<span class=\"font-bold\">Deliverables:</span> rich media galleries, journey timelines, location heatmaps, rapid pulse insights."
+    ]
+  },
+  "BiometricsNeuromarketing": {
+    "heading": "Biometrics & Neuromarketing (Eye-Tracking • Facial Coding • Wearables): ",
+    "subHeading": "Measure attention and emotion to optimize creative, packaging, UI, and shelf layouts.",
+    "list": [
+      "<span class=\"font-bold\">Methods:</span> gaze plots, heatmaps, time-to-notice, sequence analysis; emotion valence/arousal traces (where applicable).",
+      "<span class=\"font-bold\">Outputs:</span> attention maps, emotion timelines, priority-of-notice, and concrete optimization guidance."
+    ]
+  },
+  "AnalyticalServices": {
+    "heading": "Analytical Services (Big Data • Data Mining • Statistical Modeling):",
+    "list": [
+      "<span class=\"font-bold\">Techniques:</span> data cleaning/integration, EDA, clustering/segmentation, predictive modeling, driver analysis, churn/propensity, price elasticity, demand estimatio MaxDiff, Conjoint, TURF, text analytics & topic modeling.",
+      "<span class=\"font-bold\">Visualization:</span> interactive dashboards, automated KPI trackers, cohort views, and story-first decks.",
+      "<span class=\"font-bold\">Deliverables:</span> codebooks, models/scoring files, dashboards, and an action plan."
+    ]
+  },
+  "SocialDigitalAnalytics": {
+    "heading": "Social & Digital Analytics:",
+    "subHeading": "Social listening, trend & sentiment analysis, topic clustering, influencer/KOL mapping, creative benchmarking, and campaign lift indicators.",
+    "list": [
+      "<span class=\"font-bold\">Use-cases:</span> crisis alerts, brand health monitoring, category trend spotting, competitor tracking."
+    ]
+  },
+  "ResearchPlatformScripting": {
+    "heading": "Research Platform and Scripting: ",
+    "list": [
+      "<span class=\"font-bold\">Platform:</span> Survey To Go, Survey CTO, Qualtrics, SurveyMonkey, Kobo Toolbox and our client platforms (i-field and n-field and others), <br/> Survey scripting/hosting (CATI/CAWI/CAPI), respondent portals, dashboarding, automated ETL/API pipelines, data vaults.",
+      "<span class=\"font-bold\">Security:</span> role-based access, encryption at rest/in transit, audit logs, backups."
+    ]
+  },
+  "IndustryWeServe": {
+    "heading": "Industry We Serve:",
+    "list": [
+      "Personal care",
+      "Tobacco",
+      "Smartphones",
+      "Home care",
+      "Food & Beverages",
+      "Automotive",
+      "Property",
+      "Financial Services",
+      "Electronics",
+      "Healthcare & Contraception",
+      "Telecommunication",
+      "Home appliances & furnishing",
+      "Travel Services",
+      "Material Construction",
+      "Public Transportation",
+      "E-Commerce",
+      "Agriculture",
+      "Advertising / Public Relations",
+      "Airlines",
+      "Apparel / Clothing",
+      "Association Membership",
+      "Beverages",
+      "Casinos/Gambling",
+      "Catering / Hospitality",
+      "Charity / Non-profit",
+      "Chemicals",
+      "Confectionery",
+      "Consultancy",
+      "Consumer Services",
+      "Cosmetics / Hygiene",
+      "Demographics",
+      "Detergents",
+      "Direct Marketing",
+      "Durables / Electrical Goods",
+      "Education",
+      "Energy / Utilities",
+      "Entertainment",
+      "Environment & Ecology",
+      "Exercise & Fitness",
+      "Fashion Industry",
+      "Financial Services",
+      "Fragrance Industry",
+      "Gay & Lesbian Market",
+      "IT / Software / Hardware",
+      "Legal / Lawyers",
+      "Logistics / Mail / Transportation",
+      "Media",
+      "New Products",
+      "Non-Profit / Fund Raising",
+      "Pet Owners / Foods / Supplies",
+      "Petrol / Oil / Gas",
+      "Political Polling / Planning",
+      "Public Sector / Government",
+      "Publishing",
+      "Real Estate",
+      "Retail / Wholesale",
+      "Service Industries",
+      "Social Development Organisations",
+      "Technology"
+    ]
+  },
+  "EngagementModelsClients": {
+    "heading": "Our Engagement Models with Clients:",
+    "list": [
+      "<span class=\"font-bold\">Full-Service:</span> research design → fieldwork → analysis → reporting",
+      "<span class=\"font-bold\">Field & Tab:</span> fieldwork execution + tabs + datasets",
+      "<span class=\"font-bold\">Recruit-Only/Facility-Only: </span>  if our client have your own moderators.",
+      "<span class=\"font-bold\">Consultancy:</span> problem framing, methodology design, stakeholder workshops."
+    ]
+  },
+  "GetTouchBangladesh": {
+    "heading": "Get in Touch for only Bangladesh  and across APAC & GCC",
+    "list": ["<span class=\"font-bold\">Email:</span> abu.sayeed@ccslbd.com"]
+  },
+  "GetTouchOtherCountries": {
+    "heading": "Get in Touch for all country",
+    "list": ["<span class=\"font-bold\">Email:</span> info@ccslbd.com"]
+  }
+}

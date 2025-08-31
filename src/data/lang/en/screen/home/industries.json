@@ -1,0 +1,66 @@
+{
+  "title": "Industries We Serve",
+  "description": "Deep sector expertise across key industries",
+  "industries": [
+    {
+      "id": "ind-1",
+      "name": "Technology",
+      "description": "Insights on software, hardware, and emerging tech trends",
+      "icon": "ChipIcon",
+      "stats": [
+        {
+          "value": "120+",
+          "label": "Projects Completed"
+        }
+      ]
+    },
+    {
+      "id": "ind-2",
+      "name": "Healthcare",
+      "description": "Research on pharmaceuticals, devices, and healthcare services",
+      "icon": "HeartIcon",
+      "stats": [
+        {
+          "value": "80+",
+          "label": "Studies Conducted"
+        }
+      ]
+    },
+    {
+      "id": "ind-3",
+      "name": "Financial Services",
+      "description": "Banking, insurance, and fintech market intelligence",
+      "icon": "CurrencyDollarIcon",
+      "stats": [
+        {
+          "value": "65+",
+          "label": "Client Engagements"
+        }
+      ]
+    },
+    {
+      "id": "ind-4",
+      "name": "Consumer Goods",
+      "description": "FMCG and retail market analysis",
+      "icon": "ShoppingBagIcon",
+      "stats": [
+        {
+          "value": "200+",
+          "label": "Brands Analyzed"
+        }
+      ]
+    },
+    {
+      "id": "ind-5",
+      "name": "Energy",
+      "description": "Renewables and traditional energy market research",
+      "icon": "BoltIcon",
+      "stats": [
+        {
+          "value": "45+",
+          "label": "Market Reports"
+        }
+      ]
+    }
+  ]
+}

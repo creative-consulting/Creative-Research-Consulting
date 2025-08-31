@@ -1,0 +1,56 @@
+{
+  "title": "Our Research Approach",
+  "subtitle": "Custom methodologies for each industry's unique requirements",
+  "methods": [
+    {
+      "icon": "🔍",
+      "title": "Industry Immersion & Client Collaboration",
+      "description": "Before designing any research, we take time to understand:",
+      "list": [
+        "The sector-specific challenges you’re addressing",
+        "Your business objectives, decision timelines, and stakeholders",
+        "Relevant industry dynamics, policy environments, and competitor benchmarks"
+      ]
+    },
+    {
+      "icon": "📊",
+      "title": "Customized Research Design",
+      "description": "We craft a research framework that fits the sector:",
+      "list": [
+        "Selection of relevant respondents (e.g., engineers, homemakers, small business owners, digital natives, etc.)",
+        "Customization of tools to match industry-specific language, terminologies, and usage patterns",
+        "Use of multi-mode methodologies (F2F, CATI, CAWI, IDIs, FGDs, UX studies, ethnographies, etc.)"
+      ]
+    },
+    {
+      "icon": "🛠️",
+      "title": "Ground-Level Fieldwork Execution",
+      "description": "Our field teams are trained with sector-specific knowledge, allowing them to engage meaningfully with:",
+      "list": [
+        "Technical professionals (e.g., masons, architects, app developers)",
+        "Consumers with sensitive decision journeys (e.g., real estate buyers, online shoppers)",
+        "Service users across public and private sectors (e.g., transport, health, travel)"
+      ]
+    },
+    {
+      "icon": "🚀",
+      "title": "Data Quality & Validation",
+      "description": "We implement industry-specific checks such as:",
+      "list": [
+        "On-site observations (e.g., retail audits, property visits, product trials)",
+        "B2B validations (e.g., verifying supplier/distributor feedback)",
+        "Technical logic checks (e.g., usage cycles, decision chains, budget constraints)"
+      ]
+    },
+    {
+      "icon": "📈",
+      "title": "Insightful Analysis & Sector-Relevant Reporting",
+      "description": "Our analysis goes beyond numbers—we tell stories rooted in your business landscape:",
+      "list": [
+        "Highlight emerging trends, behavioral shifts, and competitive gaps",
+        "Tailor deliverables by sector: maps, personas, dashboards, ethnographic summaries, or market models",
+        "Provide industry-specific recommendations to improve products, campaigns, pricing, or experiences"
+      ]
+    }
+  ]
+}

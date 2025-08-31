@@ -1,0 +1,26 @@
+{
+  "left": [
+    {
+      "title": "फेसबुक",
+      "icon": "FaFacebook",
+      "link": "https://facebook.com"
+    },
+    {
+      "title": "गूगल",
+      "icon": "FaGoogle",
+      "link": "https://ccslbd.com/"
+    }
+  ],
+  "right": [
+    {
+      "icon": "MdMail",
+      "title": "abu.sayeed@ccslbd.com",
+      "link": "mailto:abu.sayeed@ccslbd.com"
+    },
+    {
+      "icon": "MdPhone",
+      "title": "+८८०१९४८३७३०८४",
+      "link": "tel:+8801948373084"
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "one": {
+    "top": {
+      "heading": "গ্লোবাল অফিস",
+      "info": [
+        {
+          "title": "+৮৮০১৯৪৮৩৭৩০৮৪",
+          "icon": "FiPhone",
+          "link": "tel:+8801948373084"
+        },
+        {
+          "title": "abu.sayeed@ccslbd.com",
+          "icon": "FiMail",
+          "link": "mailto:abu.sayeed@ccslbd.com"
+        },
+        {
+          "title": "লেভেল-৩, হাউস-১২৮৬/৩ পূর্ব মনিপুর, বেগম রোকেয়া সরণি, মিরপুর-১০, ঢাকা-১২১৬, বাংলাদেশ।",
+          "icon": "FiMapPin"
+        }
+      ]
+    },
+    "bottom": {
+      "heading": "আমাদের অনুসরণ করুন:",
+      "contacts": [
+        {
+          "name": "ফেসবুক",
+          "icon": "FaFacebook",
+          "link": "https://www.facebook.com/creativeCSbd/",
+          "color": "#1877F2"
+        },
+        {
+          "name": "পিন্টারেস্ট",
+          "icon": "FaPinterest",
+          "link": "https://www.pinterest.com/creativecsbd/",
+          "color": "#E60023"
+        },
+        {
+          "name": "টুইটার",
+          "icon": "FaTwitter",
+          "link": "https://x.com/i/flow/login?redirect_after_login=%2FCreativeCSbd",
+          "color": "#1DA1F2"
+        },
+        {
+          "name": "ইউটিউব",
+          "icon": "FaYoutube",
+          "link": "https://www.youtube.com/channel/UCjLsusc9UcrALANKNVryBbA",
+          "color": "#FF0000"
+        },
+        {
+          "name": "লিংকডইন",
+          "icon": "FaLinkedin",
+          "link": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/?viewAsMember=true",
+          "color": "#0A66C2"
+        },
+        {
+          "name": "হোয়াটসঅ্যাপ",
+          "icon": "FaWhatsapp",
+          "link": "https://api.whatsapp.com/send?phone=8801948373084",
+          "color": "#25D366"
+        }
+      ]
+    }
+  },
+  "two": {
+    "heading": "সমাধানসমূহ",
+    "links": [
+      { "title": "মার্কেট রিসার্চ", "link": "market-research.html" },
+      { "title": "সামাজিক গবেষণা", "link": "social-research.html" },
+      {
+        "title": "রাজনৈতিক গবেষণা ও জনমত জরিপ",
+        "link": "political-research.html"
+      },
+      {
+        "title": "কাস্টমাইজড গবেষণা সমাধান",
+        "link": "customise-research.html"
+      },
+      {
+        "title": "ডেটা অ্যানালিটিকস ও স্ট্র্যাটেজিক পরামর্শ",
+        "link": "data-analytics-and-strategic.html"
+      },
+      {
+        "title": "সার্ভে স্ক্রিপ্টিং ও প্রোগ্রামিং",
+        "link": "survey-scripting-and-programming.html"
+      },
+      {
+        "title": "রিটেইল ও ডিস্ট্রিবিউটর অডিট",
+        "link": "retail-and-distributor-audit.html"
+      },
+      {
+        "title": "টেলিফোনিক জরিপের জন্য কল সেন্টার",
+        "link": "call-center-for-telephonic-survey.html"
+      },
+      {
+        "title": "ফিল্ডওয়ার্ক ও তথ্য সংগ্রহ",
+        "link": "fieldwork-and-data-collection.html"
+      }
+    ]
+  },
+  "three": {
+    "heading": "শিল্পসমূহ",
+    "links": [
+      { "title": "ব্যক্তিগত যত্ন", "link": "personal-care.html" },
+      { "title": "তামাক", "link": "tobacco.html" },
+      { "title": "স্মার্টফোন", "link": "smartphone.html" },
+      { "title": "হোম কেয়ার", "link": "home-care.html" },
+      { "title": "খাদ্য ও পানীয়", "link": "food-and-beverages.html" },
+      { "title": "অটোমোটিভ", "link": "automotive.html" },
+      { "title": "সম্পত্তি", "link": "property.html" },
+      { "title": "আর্থিক পরিষেবা", "link": "financial-services.html" },
+      { "title": "ইলেকট্রনিক্স", "link": "electronics.html" },
+      {
+        "title": "স্বাস্থ্যসেবা ও গর্ভনিরোধক",
+        "link": "healthcare-and-contraception.html"
+      },
+      { "title": "টেলিযোগাযোগ", "link": "telecommunication.html" },
+      {
+        "title": "গৃহস্থালী যন্ত্রপাতি ও আসবাব",
+        "link": "home-appliances-and-furnishing.html"
+      },
+      { "title": "ভ্রমণ পরিষেবা", "link": "travel-services.html" },
+      { "title": "নির্মাণ সামগ্রী", "link": "material-construction.html" },
+      { "title": "সার্বজনীন পরিবহন", "link": "public-transportation.html" },
+      { "title": "ই-কমার্স", "link": "e-commerce.html" }
+    ]
+  },
+  "four": {
+    "heading": "প্রতিষ্ঠান",
+    "links": [
+      { "title": "আমাদের সম্পর্কে", "link": "#" },
+      { "title": "ক্যারিয়ার", "link": "#" },
+      { "title": "অবস্থানসমূহ", "link": "#" },
+      { "title": "যোগাযোগ করুন", "link": "#" }
+    ],
+    "logins": [
+      { "title": "ক্লায়েন্ট লগইন", "link": "clientLogin.html" },
+      { "title": "কর্মচারী লগইন", "link": "#" }
+    ]
+  }
+}

@@ -1,0 +1,183 @@
+{
+  "hero": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you. Reach out to our team for any questions or inquiries.",
+    "buttons": [
+      {
+        "name": "Schedule For Demo",
+        "link": "https://cal.com/ccsl-a-market-research-compnay/collaborative-opportunities-in-market-research-for-the-bangladesh-market?month=2025-09"
+      },
+      {
+        "name": "Request Proposal",
+        "link": ""
+      },
+      {
+        "name": "Request for Quote",
+        "link": ""
+      }
+    ]
+  },
+  "form": {
+    "title": "Contact Us"
+  },
+  "locations": {
+    "heading": "Urgent Research Needs?",
+    "pragraph": "Call our 24/7 research hotline for immediate assistance",
+    "title": "Our Offices",
+    "offices": [
+      {
+        "id": "1",
+        "name": "Address",
+        "address": "Level-3, House-1286/3 East Monipur, Begum Rokeya Sarani, Mirpur-10, Dhaka-1216, Bangladesh.",
+        "link": "https://maps.app.goo.gl/oo4bwz78cv9caFoC9"
+      }
+    ]
+  },
+  "importantText": "Get in touch with us for expert market research solutions tailored to your business needs. Whether you have a project inquiry or need insights, our team is ready to assist you. Contact us today!",
+  "contactMethods": {
+    "title": "Other Ways to Reach Us",
+    "email": "abu.sayeed@ccslbd.com",
+    "phone": "+8801948373084",
+    "hours": "Monday - Friday, 9:00 AM - 6:00 PM (your local time)"
+  },
+  "teamContacts": {
+    "title": "Our Team",
+    "subtitle": "Connect directly with our team members who can help with your specific needs.",
+    "members": [
+      {
+        "id": "1",
+        "name": "Alex Johnson",
+        "position": "Customer Support Lead",
+        "email": "alex@company.com",
+        "avatar": "/images/team/alex.jpg",
+        "bio": "Alex has been helping our customers for over 5 years and specializes in onboarding and technical support."
+      },
+      {
+        "id": "2",
+        "name": "Maria Garcia",
+        "position": "Sales Director",
+        "email": "maria@company.com",
+        "avatar": "/images/team/maria.jpg",
+        "bio": "Maria leads our sales team and can help with pricing, enterprise plans, and partnerships."
+      },
+      {
+        "id": "3",
+        "name": "Sam Wilson",
+        "position": "Technical Consultant",
+        "email": "sam@company.com",
+        "avatar": "/images/team/sam.jpg",
+        "bio": "Sam is our API and integration expert who can help with technical implementation questions."
+      }
+    ]
+  },
+  "formFields": [
+    {
+      "name": "name",
+      "label": "Full Name",
+      "type": "text",
+      "placeholder": "John Doe",
+      "required": true
+    },
+    {
+      "name": "company",
+      "label": "Company Name",
+      "type": "text",
+      "placeholder": "Your Organization",
+      "required": true
+    },
+    {
+      "name": "email",
+      "label": "Email Address",
+      "type": "email",
+      "placeholder": "your@email.com",
+      "required": true
+    },
+    {
+      "name": "phone",
+      "label": "Phone Number",
+      "type": "tel",
+      "placeholder": "+1 (555) 123-4567"
+    },
+    {
+      "name": "interest",
+      "label": "Solution area of interest",
+      "type": "select",
+      "required": true,
+      "options": [
+        { "value": "Market Research", "label": "Market Research" },
+        { "value": "Social Research", "label": "Social Research" },
+        {
+          "value": "Political Research & Public Opinion Polls",
+          "label": "Political Research & Public Opinion Polls"
+        },
+        {
+          "value": "Customized Research Solutions",
+          "label": "Customized Research Solutions"
+        },
+        {
+          "value": "Data Analytics & Strategic Consulting",
+          "label": "Data Analytics & Strategic Consulting"
+        },
+        {
+          "value": "Survey Scripting & Programming",
+          "label": "Survey Scripting & Programming"
+        },
+        {
+          "value": "Retail & Distributor Audit",
+          "label": "Retail & Distributor Audit"
+        },
+        {
+          "value": "Call Center for Telephonic Survey",
+          "label": "Call Center for Telephonic Survey"
+        },
+        {
+          "value": "Fieldwork & Data Collection",
+          "label": "Fieldwork & Data Collection"
+        }
+      ]
+    },
+    {
+      "name": "market",
+      "label": "Market",
+      "type": "select",
+      "required": true,
+      "options": [
+        { "value": "Bangladesh", "label": "Bangladesh" },
+        { "value": "competitive", "label": "India" },
+        { "value": "India", "label": "Pakistan" },
+        { "value": "Nepal", "label": "Nepal" },
+        { "value": "Sri Lanka", "label": "Sri Lanka" },
+        { "value": "Myanmar", "label": "Myanmar" },
+        { "value": "Malaysia", "label": "Malaysia" },
+        { "value": "Indonesia", "label": "Indonesia" },
+        { "value": "Thailand", "label": "Thailand" },
+        { "value": "other", "label": "Vietnam" },
+        { "value": "Vietnam", "label": "Philippines" },
+        { "value": "Singapore", "label": "Singapore" },
+        { "value": "Japan", "label": "Japan" },
+        { "value": "South Korea", "label": "South Korea" },
+        { "value": "China", "label": "China" },
+        { "value": "Australia", "label": "Australia" },
+        { "value": "New Zealand", "label": "New Zealand" },
+        { "value": "Saudi Arabia", "label": "Saudi Arabia" },
+        {
+          "value": "United Arab Emirates (UAE)",
+          "label": "United Arab Emirates (UAE)"
+        },
+        { "value": "Qatar", "label": "Qatar" },
+        { "value": "Kuwait", "label": "Kuwait" },
+        { "value": "Oman", "label": "Oman" },
+        { "value": "Bahrain", "label": "Bahrain" }
+      ]
+    },
+    {
+      "name": "message",
+      "label": "Research Objectives",
+      "type": "textarea",
+      "placeholder": "Describe your research needs, target audience, and objectives...",
+      "required": true,
+      "maxLength": 1500
+    }
+  ],
+  "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.538442539768!2d-122.4194155846824!3d37.77492957975938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA%2C%20USA!5e0!3m2!1sen!2s!4v1620000000000!5m2!1sen!2s"
+}

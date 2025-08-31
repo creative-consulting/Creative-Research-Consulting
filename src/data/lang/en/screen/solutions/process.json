@@ -1,0 +1,163 @@
+{
+  "title": "Our Research Process",
+  "description": "A structured approach to deliver actionable insights",
+  "steps": [
+    {
+      "step": "1",
+      "title": "Its for End Client for full research services process:",
+      "description": "At Creative Consulting Services Limited, we follow a structured, efficient, and quality-driven process to deliver actionable insights. This step-by-step approach ensures transparency, accuracy, and value for every client project.",
+      "dittails": [
+        {
+          "heading": "Step 1: Understanding Client Objectives",
+          "description": "Laying the Foundation for Relevant Research - We begin every project by understanding your unique needs and business challenges:",
+          "image": "use link from pixels.com",
+          "content": [
+            "Conduct detailed discussions to define research goals",
+            "Identify your target audience, market scope, and information gaps",
+            "Suggest the right research methodology (Quantitative, Qualitative, or Hybrid)",
+            "This foundational step ensures the research is aligned with your decision-making needs."
+          ]
+        },
+        {
+          "heading": "Step 2: Research Design & Planning",
+          "description": "Structuring the Study for Clarity and Impact - We design a research framework that delivers accurate, decision-ready insights:",
+          "image": "use link from pixels.com",
+          "content": [
+            "Prepare sampling plans and screener questionnaires",
+            "Develop tools for data collection such as IDI-FGD guides or survey scripts",
+            "Finalize study timeline, team structure, and logistics.",
+            "This planning phase ensures your project is strategically sound and operationally smooth."
+          ]
+        },
+        {
+          "heading": "Step 3:  Recruitment & Training",
+          "description": "Getting the Right People and Team in Place - Success in research begins with the right participants and skilled execution.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Recruit respondents based on agreed profiles and quotas",
+            "Conduct detailed training for interviewers/moderators with live role-plays",
+            "Pilot test tools to fix any gaps before launch.",
+            " We ensure readiness at every level—respondents and researchers."
+          ]
+        },
+        {
+          "heading": "Step 4: Data Collection & Monitoring",
+          "description": "Capturing Reliable Data through Real-Time Supervision - We carry out data collection through multiple channels while ensuring quality control.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Utilize platforms like Qualtrics, Survey CTO, Survey To Go, ViciDial and others",
+            "Monitor interviews and survey progress daily",
+            "Address quota management and logic issues in real time. ",
+            "This step ensures field execution stays on-track and error-free."
+          ]
+        },
+        {
+          "heading": "Step 5: Data Validation & Quality Control",
+          "description": "Ensuring Accuracy and Clean Data Before Analysis -  Quality is non-negotiable—our QC process is rigorous and multilayered.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Validate entries through back-checks, audio reviews, and GPS tagging",
+            "Cross-check inconsistent or incomplete responses",
+            "Deliver clean and fully validated datasets.",
+            "You receive data that is trustworthy and ready for analysis."
+          ]
+        },
+        {
+          "heading": "Step 6: Analysis & Insight Generation",
+          "description": "Turning Data Into Business Intelligence -  Our researchers dig deep into data to uncover what matters most.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Use statistical tools or thematic coding to interpret findings",
+            "Highlight key drivers, challenges, and growth opportunities",
+            "Provide practical, decision-oriented recommendations.",
+            "Our insights are designed to support confident business actions."
+          ]
+        },
+        {
+          "heading": "Step 7: Reporting & Delivery",
+          "description": "Presenting Insights That Drive Results - We don’t just hand over data—we deliver clarity and confidence.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Submit comprehensive reports with visual summaries and actionable takeaways",
+            "Share raw data formats (SPSS, Excel, CSV) upon request",
+            "Offer virtual/in-person debriefs to align insights with your strategy.",
+            "We ensure you get the full value from the research investment."
+          ]
+        }
+      ]
+    },
+    {
+      "step": "2",
+      "title": "When we work with research company:",
+      "description": "Our Research Execution Support Process for Partner Agencies",
+      "dittails": [
+        {
+          "heading": "Step 1: Requirement Understanding & Alignment",
+          "description": "Clarity First, Execution Next - We begin by fully understanding your project scope and expectations.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Review the brief, sample structure, target groups, and methodology",
+            "Discuss platforms, deliverables, timeline, and any localization needs",
+            "Align on roles: whether you handle scripting & analysis, and we handle field only",
+            "We ensure we’re completely aligned with your agency’s objectives and timelines."
+          ]
+        },
+        {
+          "heading": "Step 2: Localization & Tool Preparation",
+          "description": "Ensuring Your Tools Work Seamlessly in Our Market - We help adapt your survey tools or discussion guides for local use.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Translate scripts (if needed) and check for cultural relevancy",
+            "Test CATI/CAWI platforms or import surveys into tools like Qualtrics, Survey CTO, Survey To Go or ViciDial",
+            "Run test interviews/pilot sessions and share feedback",
+            " Our team ensures your global tools are locally effective."
+          ]
+        },
+        {
+          "heading": "Step 3:  Recruitment & Logistics Setup",
+          "description": "Finding the Right Respondents, Preparing the Right Setup - We recruit participants as per your defined criteria with full transparency.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Use in-house panels, referral systems, or on-ground mobilization",
+            "Share profiles and get your approval (if required)",
+            "Book venues, manage incentives, and arrange moderators/interviewers",
+            "We manage the fieldwork logistics so you can focus on the research."
+          ]
+        },
+        {
+          "heading": "Step 4: Fieldwork Execution & Monitoring",
+          "description": "Executing the Plan with Transparency and Control - We carry out fieldwork according to your specs, with daily updates.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Conduct CATI, F2F, IDIs, FGDs, or ethnos as required",
+            "Share call recordings or session videos (if permitted)",
+            "Provide daily progress reports, quota trackers, and issue logs",
+            " You stay in control—even remotely—through real-time visibility."
+          ]
+        },
+        {
+          "heading": "Step 5:  Quality Control & Data Delivery",
+          "description": "Delivering Trusted Data with Proven QC Checks - We apply strict quality control across all projects.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Conduct back-checks, call verifications, and GPS validation",
+            "Review logic flags, open-end completeness, and consistency",
+            "Deliver raw data (Excel, SPSS, CSV) with documentation",
+            "We guarantee the quality and reliability your client expects from you."
+          ]
+        },
+        {
+          "heading": "Step 6: Debrief & Closure",
+          "description": "Wrap-Up with Transparency & Final Deliverables - We close each project with full transparency and documentation.",
+          "image": "use link from pixels.com",
+          "content": [
+            "Final summary of fieldwork execution",
+            "Sharing of raw files, transcripts, screeners, and materials",
+            "Debrief session with your team (optional) for future improvements",
+            " We aim to be your long-term partner—not just a vendor."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "backgroundImage": "/about/hero.jpeg",
+  "heading": "বিশ্বস্ত মার্কেট রিসার্চ পার্টনার <span class=\"text-blue-300\">২০১৪ সাল থেকে</span>",
+  "text": "গুণগত ও পরিমাণগত গবেষণার মাধ্যমে ব্যবহারযোগ্য অন্তর্দৃষ্টি প্রদান।",
+  "firstButton": {
+    "name": "যোগাযোগ করুন",
+    "link": "/"
+  },
+  "secondButton": {
+    "name": "আমাদের পরিষেবা",
+    "link": "/"
+  }
+}

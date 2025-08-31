@@ -1,0 +1,26 @@
+[
+  {
+    "id": "post-1",
+    "title": "Emerging Trends in AI Market Research",
+    "excerpt": "How artificial intelligence is transforming data collection and analysis methodologies",
+    "date": "2025-11-15",
+    "category": "Technology",
+    "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+  },
+  {
+    "id": "post-2",
+    "title": "Post-Pandemic Consumer Behavior Shifts",
+    "excerpt": "Key changes in purchasing patterns across different demographics",
+    "date": "2025-10-28",
+    "category": "Consumer Insights",
+    "image": "https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg"
+  },
+  {
+    "id": "post-3",
+    "title": "Sustainable Business Practices Market Impact",
+    "excerpt": "Measuring the ROI of sustainability initiatives in different sectors",
+    "date": "2025-09-12",
+    "category": "Sustainability",
+    "image": "https://images.pexels.com/photos/450035/pexels-photo-450035.jpeg"
+  }
+]

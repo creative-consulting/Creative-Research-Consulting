@@ -1,0 +1,11 @@
+{
+  "videoPath": "/videos/HomeCare.mp4",
+  "videoAlt": "आधुनिक व्यावसायिक दृश्यों वाला एक पृष्ठभूमि वीडियो",
+  "fallbackImage": "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+  "heading": "ब्रांड्स को अनुसंधान-आधारित जानकारियों से सशक्त बनाना",
+  "slowgan": "डेटा-आधारित मार्केटिंग अनुसंधान समाधानों के साथ वैश्विक व्यवसायों को सशक्त बनाना।",
+  "navigation": {
+    "title": "हमारी सेवाओं का अन्वेषण करें",
+    "link": "/services"
+  }
+}

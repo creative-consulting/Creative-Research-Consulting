@@ -1,0 +1,208 @@
+"use client";
+
+import { useRef, useEffect } from "react";
+import gsap from "gsap";
+import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import { HomeAbout } from "@/types/lang";
+
+type Props = {
+  data: HomeAbout;
+};
+
+const About = ({ data }: Props) => {
+  const heroRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+  const imageRef = useRef<HTMLDivElement>(null);
+  const shapesRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    if (!heroRef.current) return;
+
+    const ctx = gsap.context(() => {
+      gsap.from(contentRef.current, {
+        opacity: 0,
+        y: 40,
+        duration: 1,
+        ease: "power3.out",
+        delay: 0.2,
+      });
+
+      gsap.from(imageRef.current, {
+        opacity: 0,
+        x: 40,
+        duration: 1,
+        ease: "power3.out",
+        delay: 0.4,
+      });
+
+      gsap.from(shapesRef.current, {
+        opacity: 0,
+        duration: 1.5,
+        ease: "power2.out",
+        delay: 0.6,
+      });
+
+      const handleMouseMove = (e: MouseEvent) => {
+        if (!shapesRef.current) return;
+
+        const bounds = shapesRef.current.getBoundingClientRect();
+        const xRatio = (e.clientX - bounds.left) / bounds.width;
+        const yRatio = (e.clientY - bounds.top) / bounds.height;
+
+        const xOffset = (0.9 - xRatio) * 30;
+        const yOffset = (0.9 - yRatio) * 30;
+
+        gsap.to(shapesRef.current, {
+          x: xOffset,
+          y: yOffset,
+          duration: 1.5,
+          ease: "power2.out",
+        });
+      };
+
+      window.addEventListener("mousemove", handleMouseMove);
+      return () => window.removeEventListener("mousemove", handleMouseMove);
+    }, heroRef);
+
+    return () => ctx.revert();
+  }, []);
+
+  return (
+    <main
+      ref={heroRef}
+      className="relative overflow-hidden bg-[#f6f4f0] pt-16 md:pt-20 lg:pt-28 xl:pt-32"
+      aria-labelledby="hero-heading"
+    >
+      <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
+        <div className="flex flex-col lg:flex-row flex-wrap md:flex-nowrap items-center lg:justify-between gap-8 w-full">
+          {/* Content Section - Comes first in DOM for better mobile flow */}
+          <div
+            ref={contentRef}
+            className="relative z-10 w-full md:max-w-[660px] order-1 md:order-none font-['Maven_Pro']"
+          >
+            <h1
+              id="hero-heading"
+              className="text-[#1c1c1d] font-bold leading-[1.1] md:leading-[75px] tracking-tight text-4xl sm:text-5xl md:text-6xl lg:text-[72px] mb-5 lg:mb-[20px] origin-[50%_50%]"
+              style={{ letterSpacing: "-1px" }}
+            >
+              {data.heading}
+            </h1>
+
+            <p
+              dangerouslySetInnerHTML={{ __html: data.text }}
+              className="text-[#0f0f0f] font-normal leading-relaxed md:leading-[30px] text-lg sm:text-lg mb-8 sm:mb-10 lg:mb-[40px] w-full lg:w-[647px]"
+            >
+              {/* {data.text} */}
+            </p>
+
+            <Button href="/about" variant="primaryLink">
+              {data.btnText}
+            </Button>
+          </div>
+
+          {/* Image Section - Comes second in DOM but visually appears on right in larger screens */}
+          <div
+            ref={imageRef}
+            className="w-full md:w-[calc(50%-32px)] lg:w-full relative flex justify-center items-center order-2 md:order-none mt-6 md:mt-0"
+          >
+            <div className="relative w-full max-w-xl z-10 h-auto">
+              <div className="w-full mx-auto md:ml-auto">
+                <Image
+                  src="/about/hero.jpeg"
+                  // src="/home/hero-boy.png"
+                  alt="Business consultant"
+                  width={1000}
+                  height={400} // Adjust to match aspect ratio if needed
+                  className="w-full h-full object-contain"
+                />
+              </div>
+              {/* <div className="w-full max-w-[381px] mx-auto md:ml-auto">
+                <Image
+                  src="/about/hero-boy.png"
+                  // src="/home/hero-boy.png"
+                  alt="Business consultant"
+                  width={381}
+                  height={400} // Adjust to match aspect ratio if needed
+                  className="w-full h-auto object-contain"
+                />
+              </div> */}
+
+              <div
+                ref={shapesRef}
+                className="absolute inset-0 w-full h-full pointer-events-none z-[-1] overflow-hidden"
+              >
+                <div className="absolute top-[20%] left-[10%] w-[30%] max-w-[239px] aspect-[239/204] hidden lg:block">
+                  <Image
+                    src="/home/hero-shape1.svg"
+                    alt="Decorative shape"
+                    width={239}
+                    height={204}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+
+                <div className="absolute top-[50%] right-[10%] w-[50%] max-w-[244px] aspect-[244/261] hidden lg:block">
+                  <Image
+                    src="/home/hero-shape2.png"
+                    alt="Decorative triangle"
+                    width={244}
+                    height={261}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+
+                <div className="absolute bottom-0 right-0 w-[80%] max-w-[620px] aspect-[620/336] hidden lg:block">
+                  <Image
+                    src="/home/hero-shape3.svg"
+                    alt="Decorative dotted shape"
+                    width={620}
+                    height={336}
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+};
+
+
+
+{
+  "heading": "How We Add Value",
+  "text": "At Creative Consulting, we believe that research should<strong> drive transformation </strong>Our services are designed to help clients.",
+  "tex2": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences.",
+  "valueItems": [
+    {
+      "title": "Increase<strong> business efficiency, agility,</strong> and <strong>profitability</strong>",
+      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+    },
+    {
+      "title": "Enter <strong>new markets</strong> with confidence",
+      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+    },
+    {
+      "title": "Enhance <strong>brand positioning</strong> and <strong>image</strong>",
+      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+    },
+    {
+      "title": "Improve <strong>sales processes</strong> and <strong>customer loyalty</strong>",
+      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+    },
+    {
+      "title": "Reduce <strong>operational risks</strong> and <strong>costs</strong>",
+      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+    },
+
+    {
+      "title": "Develop <strong>better products</strong> and <strong>services</strong>",
+      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+    }
+  ]
+}
+
+export default About;

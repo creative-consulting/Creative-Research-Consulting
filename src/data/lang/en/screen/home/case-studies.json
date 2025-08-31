@@ -1,0 +1,26 @@
+[
+  {
+    "id": "case-1",
+    "title": "Market Entry Strategy for Tech Startup",
+    "description": "Helped a SaaS company identify optimal European markets for expansion",
+    "industry": "Technology",
+    "results": [
+      "Identified 3 high-potential markets",
+      "30% cost savings on market entry",
+      "Achieved 15% market share in first year"
+    ],
+    "image": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg"
+  },
+  {
+    "id": "case-2",
+    "title": "Product Launch Research for FMCG Brand",
+    "description": "Comprehensive consumer testing for new product line",
+    "industry": "Consumer Goods",
+    "results": [
+      "80% positive consumer reception",
+      "Identified key pricing sweet spot",
+      "Launched 2 months ahead of schedule"
+    ],
+    "image": "https://images.pexels.com/photos/264547/pexels-photo-264547.jpeg"
+  }
+]

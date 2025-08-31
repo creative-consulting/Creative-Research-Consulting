@@ -1,0 +1,13 @@
+{
+  "backgroundImage": "/about/hero.jpeg",
+  "heading": "विश्वसनीय मार्केट रिसर्च पार्टनर <span class=\"text-blue-300\">2014 से</span>",
+  "text": "गुणात्मक और मात्रात्मक अनुसंधान समाधानों के माध्यम से व्यावहारिक जानकारी प्रदान करना।",
+  "firstButton": {
+    "name": "संपर्क करें",
+    "link": "/"
+  },
+  "secondButton": {
+    "name": "हमारी सेवाएं",
+    "link": "/"
+  }
+}

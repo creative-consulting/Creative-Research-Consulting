@@ -1,0 +1,238 @@
+{
+  "title": "Our 16-Step Process",
+  "subtitle": "At Creative Consulting Services Limited, our methodological framework is designed to deliver accurate, actionable, and ethical research outcomes through a combination of traditional and modern techniques. We believe in transparency, rigor, and client-focused flexibility. Here’s a detailed breakdown of the methodologies we employ, along with our end-to-end process.",
+  "steps": [
+    {
+      "id": 1,
+      "title": "Door-to-Door Interview (CAPI/PAPI)",
+      "description": "We begin by thoroughly understanding your business objectives and challenges",
+      "image": "/methodology/process-section/images/1.Door-to-Door Interview.jpg",
+      "icon": "🚪",
+      "color": "bg-blue-100 text-blue-600",
+      "list": [
+        "Recruitment of trained enumerators",
+        "Household listing and sampling",
+        "Face-to-face interviews conducted at respondent homes",
+        "Data collected via tablets (CAPI) or paper forms (PAPI) based on the region’s digital readiness",
+        "Supervisory checks and quality control checks "
+      ]
+    },
+    {
+      "id": 2,
+      "title": " Central Location Test (CLT)",
+      "description": "Custom methodology development tailored to your specific needs",
+      "image": "/methodology/process-section/images/2.CentralLocationTest.jpg",
+      "icon": "📍",
+      "color": "bg-purple-100 text-purple-600",
+      "list": [
+        "Venue setup in urban or semi-urban centers",
+        "Pre-recruited or walk-in respondents",
+        "Controlled testing environment for product/pack/taste evaluations",
+        "Data collection through interviewers or self-completion devices"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Data Collection",
+      "description": "Rigorous primary and secondary research from multiple sources",
+      "image": "/methodology/process-section/images/3.SelfCompletionInterview.jpg",
+      "icon": "📋",
+      "color": "bg-green-100 text-green-600",
+      "list": [
+        "Digital devices (tablets/laptops) provided to respondents",
+        "Respondents complete the survey privately",
+        "Field staff available to support in case of technical issues",
+        "Immediate data syncing to central server"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Computer-Assisted Telephone Interviewing (CATI)",
+      "description": "Advanced analytics to uncover meaningful patterns and opportunities",
+      "image": "/methodology/process-section/images/4.Computer-assisted-telephone-interviewing.jpg",
+      "icon": "💻",
+      "color": "bg-yellow-100 text-yellow-600",
+      "list": [
+        "Database preparation (client-provided or CCSL-sourced)",
+        "Interviewer training and mock calls",
+        "Real-time interviewing via CATI software",
+        "Audio recording and QC monitoring",
+        "Call scheduling and follow-up on non-responses"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Home Placement Test (HUT)",
+      "description": "Actionable recommendations tailored to your business context",
+      "image": "/methodology/process-section/images/5.HomePlacementTest.jpg",
+      "icon": "🏡",
+      "color": "bg-red-100 text-red-600",
+      "list": [
+        "Recruitment as per the eligibility and product delivered to respondent’s home",
+        "Usage diary or feedback form shared",
+        "Follow-up interview after trial period",
+        "Observational notes if required"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Car Clinic / Bike Clinic",
+      "description": "Ongoing guidance to ensure successful execution",
+      "image": "/methodology/process-section/images/6.Carclinic-Bikeclinic.jpg",
+      "icon": "🏍️",
+      "color": "bg-indigo-100 text-indigo-600",
+      "list": [
+        "Recruitmnet as per RQ ",
+        "Location selection and setup",
+        "Prototype or existing models displayed",
+        "Respondents invited for experiential interaction",
+        "Evaluation forms and in-depth probing",
+        "Feedback captured via digital or paper tools"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Census",
+      "description": "Regular reviews to assess impact and adjust strategies as needed",
+      "image": "/methodology/process-section/images/7.Census.jpg",
+      "icon": "👥 ",
+      "color": "bg-teal-100 text-teal-600",
+      "list": [
+        "Area mapping and segmentation",
+        "Comprehensive household listing",
+        "Full enumeration using trained teams",
+        "Digital or paper-based data entry",
+        "Extensive validation and cross-checking"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Web Surveys (Offline Recruitment & Online Completion)",
+      "description": "Incorporating client feedback to refine our approach continuously",
+      "image": "/methodology/process-section/images/8.Web-surveys.jpg",
+      "icon": "📱",
+      "color": "bg-pink-100 text-pink-600",
+      "list": [
+        "Recruitment via phone, door-to-door, or intercept",
+        "Survey link sent through SMS/email",
+        "Follow-up for completion confirmation",
+        "Real-time data access for monitoring"
+      ]
+    },
+    {
+      "id": 9,
+      "title": " Focus Group Discussion (FGD)",
+      "description": "Comprehensive reports summarizing findings, insights, and recommendations",
+      "image": "/methodology/process-section/images/(FGD).jpg",
+      "icon": "🗣️",
+      "color": "bg-gray-100 text-gray-600",
+      "list": [
+        "Recruitment and screening",
+        "Moderation guide development",
+        "In-person session with 6–10 participants",
+        "Video/audio recording and transcription",
+        "Thematic analysis and reporting"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "In-Depth Interview (IDI)",
+      "description": "Workshops and training sessions to empower your team with our insights",
+      "image": "/methodology/process-section/images/9.In-DepthInterview.jpg",
+      "icon": "🎤",
+      "color": "bg-orange-100 text-orange-600",
+      "list": [
+        "One-on-one interviews scheduled at respondent convenience",
+        "Interview guide-based open-ended discussion",
+        "Conducted in-person or virtually",
+        "Transcription and detailed analysis"
+      ]
+    },
+    {
+      "id": 11,
+      "title": " In-Home Visit/Observation",
+      "description": "Ensuring all research adheres to ethical standards and best practices",
+      "image": "/methodology/process-section/images/10.In-HomeVisitObservation.jpg",
+      "icon": "👀",
+      "color": "bg-lime-100 text-lime-600",
+      "list": [
+        "Observational session planned at respondent's home",
+        "Researcher spends time understanding behavior, usage, and environment",
+        "Photographic or video evidence collected (with consent)",
+        "Narrative and behavioral analysis"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Mystery Shopping",
+      "description": "Robust measures to protect sensitive information throughout the process",
+      "image": "/methodology/process-section/images/11.MysteryShopping.jpg",
+      "icon": "🛍️",
+      "color": "bg-cyan-100 text-cyan-600",
+      "list": [
+        "Script and scenario development",
+        "Shopper recruitment and training",
+        "Visit or call execution with detailed observation",
+        "Experience ratings and evidence collection",
+        "Reporting with key metrics and insights"
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Online Survey",
+      "description": "Regularly updating our methodologies based on industry trends and client needs",
+      "image": "/methodology/process-section/images/12.Online-survey.jpg",
+      "icon": "🌐",
+      "color": "bg-purple-200 text-purple-800",
+      "list": [
+        "Questionnaire scripting",
+        "Panel or client database used for deployment",
+        "Live monitoring and automated reminders",
+        "Data cleansing and analytics dashboard setup"
+      ]
+    },
+    {
+      "id": 14,
+      "title": "FGD/IDI Online",
+      "description": "Engaging clients at every step to ensure alignment and satisfaction",
+      "image": "/methodology/process-section/images/13.FGD-IDI-Online.jpg",
+      "icon": "💻",
+      "color": "bg-pink-200 text-pink-800",
+      "list": [
+        "Platform selection (Zoom, Teams, etc.)",
+        "Virtual recruitment and digital consent",
+        "Secure, recorded sessions",
+        "Online stimuli sharing",
+        "Full transcription and coded analysis"
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Online Bulletin",
+      "description": "Providing clients with access to our research database and insights",
+      "image": "/methodology/process-section/images/14.OnlineBulletin.jpg",
+      "icon": "📢",
+      "color": "bg-yellow-200 text-yellow-800",
+      "list": [
+        "Participants invited to a private discussion forum",
+        "Moderator posts topics/questions daily",
+        "Respondents interact over multiple days",
+        "Ongoing moderation and insight extraction"
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Quick Poll",
+      "description": "Incorporating sustainable practices into our research methodologies",
+      "image": "/methodology/process-section/images/15.QuickPoll.jpg",
+      "icon": "⚡",
+      "color": "bg-green-200 text-green-800",
+      "list": [
+        "1–3 question micro-survey",
+        "Deployed through SMS, social media, or online panel",
+        "Instant results tracking",
+        "Quick turnaround for top-line feedback"
+      ]
+    }
+  ]
+}
