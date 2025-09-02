@@ -64,14 +64,8 @@
   "two": {
     "heading": "Solutions",
     "links": [
-      {
-        "title": "Market Research",
-        "link": "market-research.html"
-      },
-      {
-        "title": "Social Research",
-        "link": "social-research.html"
-      },
+      { "title": "Market Research", "link": "market-research.html" },
+      { "title": "Social Research", "link": "social-research.html" },
       {
         "title": "Political Research & Public Opinion Polls",
         "link": "political-research.html"
@@ -105,58 +99,25 @@
   "three": {
     "heading": "Industries",
     "links": [
-      {
-        "title": "Personal Care",
-        "link": "personal-care.html"
-      },
-      {
-        "title": "Tobacco",
-        "link": "tobacco.html"
-      },
-      {
-        "title": "Smartphones",
-        "link": "smartphone.html"
-      },
-      {
-        "title": "Home Care",
-        "link": "home-care.html"
-      },
-      {
-        "title": "Food & Beverages",
-        "link": "food-and-beverages.html"
-      },
-      {
-        "title": "Automotive",
-        "link": "automotive.html"
-      },
-      {
-        "title": "Property",
-        "link": "property.html"
-      },
-      {
-        "title": "Financial Services",
-        "link": "financial-services.html"
-      },
-      {
-        "title": "Electronics",
-        "link": "electronics.html"
-      },
+      { "title": "Personal Care", "link": "personal-care.html" },
+      { "title": "Tobacco", "link": "tobacco.html" },
+      { "title": "Smartphones", "link": "smartphone.html" },
+      { "title": "Home Care", "link": "home-care.html" },
+      { "title": "Food & Beverages", "link": "food-and-beverages.html" },
+      { "title": "Automotive", "link": "automotive.html" },
+      { "title": "Property", "link": "property.html" },
+      { "title": "Financial Services", "link": "financial-services.html" },
+      { "title": "Electronics", "link": "electronics.html" },
       {
         "title": "Healthcare & Contraception",
         "link": "healthcare-and-contraception.html"
       },
-      {
-        "title": "Telecommunication",
-        "link": "telecommunication.html"
-      },
+      { "title": "Telecommunication", "link": "telecommunication.html" },
       {
         "title": "Home Appliances & Furnishing",
         "link": "home-appliances-and-furnishing.html"
       },
-      {
-        "title": "Travel Services",
-        "link": "travel-services.html"
-      },
+      { "title": "Travel Services", "link": "travel-services.html" },
       {
         "title": "Material Construction",
         "link": "material-construction.html"
@@ -165,41 +126,22 @@
         "title": "Public Transportation",
         "link": "public-transportation.html"
       },
-      {
-        "title": "E-Commerce",
-        "link": "e-commerce.html"
-      }
+      { "title": "E-Commerce", "link": "e-commerce.html" }
     ]
   },
   "four": {
     "heading": "Company",
     "links": [
-      {
-        "title": "About Us",
-        "link": "#"
-      },
-      {
-        "title": "Locations",
-        "link": "#"
-      },
-      {
-        "title": "Contact Us",
-        "link": "#"
-      },
-      {
-        "title": "Our Team",
-        "link": "#"
-      }
+      { "title": "About Us", "link": "/about" },
+      { "title": "Locations", "link": "#" },
+      { "title": "Contact Us", "link": "/contact" },
+      { "title": "Our Team", "link": "#" },
+      { "title": "Join Us", "link": "/about" },
+      { "title": "RFI/RFQ/RFP", "link": "/contact" }
     ],
     "logins": [
-      {
-        "title": "Client Login",
-        "link": "clientLogin.html"
-      },
-      {
-        "title": "Employee Login",
-        "link": "#"
-      }
+      { "title": "Client Login", "link": "#" },
+      { "title": "Employee Login", "link": "#" }
     ]
   }
 }

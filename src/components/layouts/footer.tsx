@@ -245,6 +245,7 @@ import {
 import FooterPopup from "../ui/FooterPopup";
 import { useState } from "react";
 import Popupmodal from "../../data/lang/en/popupmodal.json";
+import FooterData from "../../data/lang/en/footer.json";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -527,7 +528,7 @@ export const Footer = () => {
               Company
             </motion.h3>
 
-            <ul className="space-y-3 sm:mb-6 mb-2">
+            {/* <ul className="space-y-3 sm:mb-6 mb-2">
               {["About Us", "Locations", "Contact Us", "Our Team"].map(
                 (item, index) => (
                   <motion.li
@@ -537,13 +538,6 @@ export const Footer = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: index * 0.1 }}
                   >
-                    {/* <Link
-                      href={`/${item.toLowerCase().replace(/ /g, "-")}`}
-                      className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base flex items-center gap-1 group"
-                    >
-                      {item}
-                      <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </Link> */}
                     <Link
                       href="#"
                       className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
@@ -554,6 +548,26 @@ export const Footer = () => {
                   </motion.li>
                 )
               )}
+            </ul> */}
+
+            <ul className="space-y-3 sm:mb-6 mb-2">
+              {FooterData.four.links.map((item, index) => (
+                <motion.li
+                  key={index}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <Link
+                    href={item.link}
+                    className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
+                  >
+                    {item.title}
+                    <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </Link>
+                </motion.li>
+              ))}
             </ul>
 
             {/* <div className="space-y-3">
