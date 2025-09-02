@@ -3,7 +3,10 @@ import { Toaster } from "react-hot-toast";
 
 export const metadata = {
   title: "Creative Consulting",
-  description: "Next.js i18n app root layout",
+  description: "Market Research and Consulting Company",
+  icons: {
+    icon: "/creative.png",
+  },
 };
 
 export default function RootLayout({
