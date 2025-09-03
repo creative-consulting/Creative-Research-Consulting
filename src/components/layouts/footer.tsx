@@ -326,8 +326,8 @@ export const Footer = () => {
               >
                 <span className="mt-0.5">{iconMap.FiMapPin}</span>
                 <p className="text-gray-300 text-sm sm:text-base">
-                  Level-3, House-1286/3 East Monipur, Begum Rokeya Sarani,
-                  Mirpur-10, Dhaka-1216, Bangladesh.
+                  Level-3, House-1286/3, Begum Rokeya Sarani, Mirpur-10,
+                  Dhaka-1216, Bangladesh.
                 </p>
               </motion.li>
             </ul>

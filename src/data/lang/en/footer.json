@@ -137,7 +137,7 @@
       { "title": "Contact Us", "link": "/contact" },
       { "title": "Our Team", "link": "#" },
       { "title": "Join Us", "link": "/about" },
-      { "title": "RFI/RFQ/RFP", "link": "/contact" }
+      { "title": "Request For RFQ or RFP", "link": "/contact" }
     ],
     "logins": [
       { "title": "Client Login", "link": "#" },

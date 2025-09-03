@@ -2,8 +2,8 @@ import "./globals.css";
 import { Toaster } from "react-hot-toast";
 
 export const metadata = {
-  title: "Creative Consulting",
-  description: "Market Research and Consulting Company",
+  title: "Creative Research & Consulting",
+  description: "Market and Social Research Company in Dhaka, Bangladesh",
   icons: {
     icon: "/creative.png",
   },
