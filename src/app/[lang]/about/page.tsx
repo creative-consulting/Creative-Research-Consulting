@@ -28,6 +28,16 @@ import {
   TrustedPartnerData,
   WhyChooseUsInternationalData,
 } from "@/types/about";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "about");
+}
 
 const AboutPage = async ({
   params,

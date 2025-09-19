@@ -3,6 +3,28 @@ import getLangData from "@/lib/translator/getLangData";
 import { CCSLContent, CountryService } from "@/types/country";
 import { SupportedLang } from "@/types/lang";
 
+// const metadata = {
+//   title: "CCSL Research - Global Market Research Solutions",
+//   description:
+//     "CCSL Research offers comprehensive market research solutions worldwide. Partner with us for expert insights and data collection services.",
+//   keywords: [
+//     "global market research",
+//     "international research solutions",
+//     "data collection services",
+//     "market insights",
+//     "research consultancy",
+//   ],
+// };
+
+// export async function generateMetadata({
+//   params,
+// }: {
+//   params: Promise<{ lang: SupportedLang; country: string }>;
+// }) {
+//   const { lang } = await params;
+//   return metadata;
+// }
+
 const CCSLResearchPage = async ({
   params,
 }: {

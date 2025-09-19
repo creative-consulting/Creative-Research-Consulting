@@ -2,6 +2,7 @@ import ServicesCTA from "@/components/screens/services/cta-section";
 import FeaturesSection from "@/components/screens/services/features-section";
 import ServicesHero from "@/components/screens/services/hero-section";
 import ServicesGrid from "@/components/screens/services/services-grid";
+import { generatePageMetadata } from "@/lib/metadata";
 import getLangData from "@/lib/translator/getLangData";
 import { SupportedLang } from "@/types/lang";
 import {
@@ -10,6 +11,15 @@ import {
   ServicesGridData,
   ServicesHeroData,
 } from "@/types/services";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "services");
+}
 
 export default async function ServicesPage({
   params,

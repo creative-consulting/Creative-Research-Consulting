@@ -1,13 +1,9 @@
+import { Suspense } from "react";
 import { Footer } from "@/components/layouts/footer";
 import Header from "@/components/layouts/header";
 import NavBar from "@/components/layouts/nav-bar";
 import getLangData from "@/lib/translator/getLangData";
-import type {
-  // FooterData,
-  HeaderData,
-  NavData,
-  SupportedLang,
-} from "@/types/lang";
+import type { HeaderData, NavData, SupportedLang } from "@/types/lang";
 
 export default async function LangLayout({
   children,
@@ -20,7 +16,6 @@ export default async function LangLayout({
 
   const headerData: HeaderData = await getLangData(lang, "header");
   const navData: NavData = await getLangData(lang, "nav");
-  // const footerData: FooterData = await getLangData(lang, "footer");
 
   return (
     <html lang={lang || "en"}>
@@ -31,8 +26,18 @@ export default async function LangLayout({
           <NavBar data={navData} />
         </div>
 
-        {/* Page Content */}
-        <div className="sm:pt-[100px] pt-[70px]">{children}</div>
+        {/* Page Content with Suspense */}
+        <div className="sm:pt-[100px] pt-[70px]">
+          <Suspense
+            fallback={
+              <div className="flex items-center justify-center min-h-screen">
+                <div>Loading...</div>
+              </div>
+            }
+          >
+            {children}
+          </Suspense>
+        </div>
 
         {/* Footer */}
         <Footer />

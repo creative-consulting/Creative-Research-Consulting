@@ -25,6 +25,16 @@ import {
 import { DataCollectionSection, ResearchClinicsSection } from "@/types/home";
 import DataCollection from "@/components/screens/home/data-collection";
 import ResearchClinics from "@/components/screens/home/research-clinics";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "home");
+}
 
 const home = async ({
   params,
@@ -81,32 +91,64 @@ const home = async ({
 
   return (
     <>
-      <HeroSlider
-        slides={heroSlider}
-        autoSlideInterval={700}
-        typingSpeed={200}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            name: "Creative Consulting",
+            description:
+              "Leading market research and social research agency in Bangladesh",
+            url: "https://creativeresearch.com.bd",
+            logo: "https://creativeresearch.com.bd/logo.png",
+            address: {
+              "@type": "PostalAddress",
+              addressCountry: "BD",
+              addressRegion: "Dhaka",
+              addressLocality: "Dhaka",
+            },
+            contactPoint: {
+              "@type": "ContactPoint",
+              telephone: "+880-1948373084",
+              contactType: "customer service",
+            },
+            sameAs: [
+              // "https://facebook.com/yourpage",
+              // "https://linkedin.com/company/yourcompany",
+            ],
+          }),
+        }}
       />
+      <main>
+        <HeroSlider
+          slides={heroSlider}
+          autoSlideInterval={700}
+          typingSpeed={200}
+        />
+        <article>
+          <About data={heroData} />
+          <DataCollection data={data} />
 
-      <About data={heroData} />
-      <DataCollection data={data} />
+          <Services data={servicesSection} />
+          <ResearchClinics data={researchClinics} />
 
-      <Services data={servicesSection} />
-      <ResearchClinics data={researchClinics} />
+          {/* <IndustriesSection data={industriesData} /> */}
 
-      {/* <IndustriesSection data={industriesData} /> */}
+          <OurMethodology data={methodologies} />
 
-      <OurMethodology data={methodologies} />
+          <CaseStudies data={caseStudies} />
 
-      <CaseStudies data={caseStudies} />
+          <ClientsSection data={clientsSection} />
 
-      <ClientsSection data={clientsSection} />
+          <WorldMapSection />
+          <TeamSection data={teamMembers} />
 
-      <WorldMapSection />
-      <TeamSection data={teamMembers} />
+          <InsightsSection posts={blogPosts} />
 
-      <InsightsSection posts={blogPosts} />
-
-      <ContactSection lang={lang} />
+          <ContactSection lang={lang} />
+        </article>
+      </main>
     </>
   );
 };
