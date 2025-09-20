@@ -1,9 +1,10 @@
 import Script from "next/script";
 import { Suspense } from "react";
-import { GoogleAnalytics } from "@/components/analytics/google-analytics";
+// import { GoogleAnalytics } from "@/components/analytics/google-analytics";
 import { SEOPerformanceMonitoring } from "@/components/seo/performance-monitoring";
 import { SearchConsoleVerification } from "@/components/analytics/search-console-verification";
 import { Toaster } from "react-hot-toast";
+import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
 export const metadata = {
@@ -43,7 +44,8 @@ export default function RootLayout({
 
         {/* GA navigation tracking wrapped in Suspense */}
         <Suspense fallback={null}>
-          <GoogleAnalytics />
+          {/* <GoogleAnalytics /> */}
+          <Analytics />
         </Suspense>
       </body>
     </html>
