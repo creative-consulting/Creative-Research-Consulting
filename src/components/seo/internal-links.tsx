@@ -9,8 +9,8 @@ export const KeywordLinks = {
   marketResearch: {
     text: "market research company in Bangladesh",
     href: "/en/home",
-    title:
-      "Leading Market Research Company in Bangladesh - Creative Consulting",
+    title: "Market Research Company in Bangladesh - Creative Consulting",
+    // "Leading Market Research Company in Bangladesh - Creative Consulting",
   },
   socialResearch: {
     text: "social research agency in Bangladesh",
@@ -26,29 +26,29 @@ export const KeywordLinks = {
   // Service-specific links
   capiSurveys: {
     text: "CAPI surveys in Bangladesh",
-    href: "/en/services/capi-surveys",
+    href: "/en/home",
     title: "CAPI Survey Services - Computer Assisted Personal Interviews",
   },
   catiServices: {
     text: "CATI services Bangladesh",
-    href: "/en/services/cati-services",
+    href: "/en/home",
     title: "Professional CATI Services - Telephone Interview Solutions",
   },
   cawiPanel: {
     text: "CAWI online panel Bangladesh",
-    href: "/en/services/cawi-online-panel",
+    href: "/en/home",
     title: "CAWI Online Panel Services - Web-based Survey Solutions",
   },
 
   // Industry links
   fmcgResearch: {
     text: "FMCG research Bangladesh",
-    href: "/en/industries/fmcg",
+    href: "/en/industries",
     title: "FMCG Market Research Services in Bangladesh",
   },
   healthcareResearch: {
     text: "healthcare research Bangladesh",
-    href: "/en/industries/healthcare",
+    href: "/en/industries",
     title: "Healthcare Market Research and Consumer Insights",
   },
 };
