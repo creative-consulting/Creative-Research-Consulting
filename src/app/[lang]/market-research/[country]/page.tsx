@@ -222,10 +222,12 @@ const CCSLResearchPage = async ({
 
   return (
     <div className="bg-white">
-      <Main
-        data={replaceCountryName(data)}
-        countryData={replaceCountryName(countryData)}
-      />
+      <article>
+        <Main
+          data={replaceCountryName(data)}
+          countryData={replaceCountryName(countryData)}
+        />
+      </article>
 
       {/* JSON-LD injection */}
       <script
