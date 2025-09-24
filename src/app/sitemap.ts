@@ -103,12 +103,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
 
         // Country market research pages
-        countries.forEach((country) => {
+        countries.forEach((country) => { // ai page ta 1st priority thakbe
             sitemapEntries.push({
                 url: `${baseUrl}/${locale}/market-research/${country}`,
                 lastModified: new Date(),
                 changeFrequency: "monthly",
-                priority: 0.6,
+                priority: country === "bangladesh" ? 1.0 : 0.7,
             });
         });
 

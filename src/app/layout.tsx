@@ -6,6 +6,7 @@ import { SearchConsoleVerification } from "@/components/analytics/search-console
 import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import GoogleAnalytics from "@/components/analytics/google-analytics";
 
 export const metadata = {
   title: "Creative Consulting",
@@ -25,15 +26,17 @@ export default function RootLayout({
 
         {/* Google Analytics base script */}
         <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX`}
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-W6GDVBD1S1"
           strategy="afterInteractive"
         />
-        <Script id="ga-init" strategy="afterInteractive">
+        <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX', { send_page_view: true });
+
+            gtag('config', 'G-W6GDVBD1S1');
           `}
         </Script>
       </head>
@@ -44,7 +47,7 @@ export default function RootLayout({
 
         {/* GA navigation tracking wrapped in Suspense */}
         <Suspense fallback={null}>
-          {/* <GoogleAnalytics /> */}
+          <GoogleAnalytics />
           <Analytics />
         </Suspense>
       </body>

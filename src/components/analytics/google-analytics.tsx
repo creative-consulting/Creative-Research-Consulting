@@ -13,7 +13,9 @@ declare global {
   }
 }
 
-export const GA_MEASUREMENT_ID = "G-XXXXXXXXXX";
+// G-W6GDVBD1S1
+
+export const GA_MEASUREMENT_ID = "G-W6GDVBD1S1";
 
 export const GoogleAnalytics = () => {
   const pathname = usePathname();

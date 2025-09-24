@@ -22,15 +22,28 @@ export const trackKeywordRanking = async (keywords: string[]) => {
     return rankings
 }
 // Priority keywords to track
-export const priorityKeywords = [
-    'market research company in Bangladesh',
-    'social research agency in Bangladesh',
-    'Bangladesh fieldwork partner for research',
-    'CAPI surveys in Bangladesh',
-    'CATI services Bangladesh',
-    'CAWI online panel Bangladesh',
-    'FGD recruitment Bangladesh',
-    'best research firm in Bangladesh',
-    'opinion poll company Bangladesh',
-    'survey company Bangladesh'
-]
+// export const priorityKeywords = [
+//     'market research company in Bangladesh',
+//     'social research agency in Bangladesh',
+//     'Bangladesh fieldwork partner for research',
+//     'CAPI surveys in Bangladesh',
+//     'CATI services Bangladesh',
+//     'CAWI online panel Bangladesh',
+//     'FGD recruitment Bangladesh',
+//     'best research firm in Bangladesh',
+//     'opinion poll company Bangladesh',
+//     'survey company Bangladesh'
+// ]
+
+
+
+
+// <!-- Google tag (gtag.js) -->
+// <script async src="https://www.googletagmanager.com/gtag/js?id=G-W6GDVBD1S1"></script>
+// <script>
+//   window.dataLayer = window.dataLayer || [];
+//   function gtag(){dataLayer.push(arguments);}
+//   gtag('js', new Date());
+
+//   gtag('config', 'G-W6GDVBD1S1');
+// </script>
