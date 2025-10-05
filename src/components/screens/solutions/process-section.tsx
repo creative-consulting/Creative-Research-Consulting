@@ -476,7 +476,7 @@ function ProcessStep({
       >
         <div className="px-4 pb-4">
           {dittails && dittails.length > 0 && (
-            <div className="grid sm:grid-cols-2 gap-4 mt-4">
+            <div className="grid mt-4">
               {dittails.map((detail, i) => (
                 <div key={i} className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-semibold text-gray-800 mb-2">

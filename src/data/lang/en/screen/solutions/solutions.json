@@ -31,20 +31,6 @@
       "imageUrl": "/solutions/solution-grid/images/2.social-research.jpg"
     },
     {
-      "icon": "🗳️",
-      "title": "Fieldwork & Data Collection",
-      "description": " With a wide network of trained teams and tools, we offer comprehensive field management and data assurance.",
-      "features": [
-        "Execute CATI, CAPI, CAWI, and face-to-face surveys",
-        "Deliver FGDs, IDIs, ethnographies, and mystery shopping",
-        "Ensure high-quality respondent recruitment and screening",
-        "Offer bilingual teams and local logistics support",
-        "Provide secure data capture and live QC monitoring",
-        "Enable rapid turnaround and national coverage"
-      ],
-      "imageUrl": "/solutions/solution-grid/images/3Fieldwork.jpg"
-    },
-    {
       "icon": "🔍",
       "title": "Political Research & Public Opinion Polls",
       "description": "We help campaigns, institutions, and media understand voter priorities and political trends.",
@@ -126,6 +112,20 @@
         "Offer flexible scheduling for different time zones"
       ],
       "imageUrl": "/solutions/solution-grid/images/9.call-center-survey.jpg"
+    },
+    {
+      "icon": "🗳️",
+      "title": "Fieldwork & Data Collection",
+      "description": " With a wide network of trained teams and tools, we offer comprehensive field management and data assurance.",
+      "features": [
+        "Execute CATI, CAPI, CAWI, and face-to-face surveys",
+        "Deliver FGDs, IDIs, ethnographies, and mystery shopping",
+        "Ensure high-quality respondent recruitment and screening",
+        "Offer bilingual teams and local logistics support",
+        "Provide secure data capture and live QC monitoring",
+        "Enable rapid turnaround and national coverage"
+      ],
+      "imageUrl": "/solutions/solution-grid/images/3Fieldwork.jpg"
     },
     {
       "icon": "📡",
