@@ -64,7 +64,7 @@ export default function PrinciplesSection({ data }: PrinciplesSectionProps) {
               whileHover={{ y: -10 }}
               className="bg-white sm:p-8 p-5 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
-              <div className="text-2xl sm:mb-4 mb-3 bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three bg-clip-text text-transparent">
+              <div className="text-2xl sm:mb-4 mb-3 bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three bg-clip-text">
                 {principle.icon}
               </div>
               <h3 className="sm:text-xl text-lg font-bold text-gray-800 sm:mb-4 mb-2.5">

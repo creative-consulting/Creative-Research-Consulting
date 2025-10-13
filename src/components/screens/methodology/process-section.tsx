@@ -55,7 +55,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
               {/* Step content */}
               <div
                 className={`sm:lg:w-1/2 w-full ${
-                  index % 2 === 0 ? "lg:pr-16" : "lg:pl-16"
+                  index % 2 === 0 ? "lg:pr-4" : "lg:pl-4"
                 }`}
               >
                 <motion.div
@@ -74,7 +74,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
 
               <div
                 className={`lg:w-1/2 ${
-                  index % 2 === 0 ? "lg:pl-16" : "lg:pr-16"
+                  index % 2 === 0 ? "lg:pl-4" : "lg:pr-4"
                 }`}
               >
                 <motion.div
