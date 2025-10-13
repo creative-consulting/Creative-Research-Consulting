@@ -68,7 +68,7 @@ export default function FeaturesSection({ data }: FeaturesSectionProps) {
               whileHover={{ y: -10 }}
               className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100"
             >
-              <div className="text-5xl mb-6 bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three bg-clip-text text-transparent">
+              <div className="text-5xl mb-6 bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three bg-clip-text">
                 {item.icon}
               </div>
               <h3 className="sm:text-lg text-base font-bold text-gray-800 mb-4">
