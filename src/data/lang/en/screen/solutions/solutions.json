@@ -14,7 +14,7 @@
         "Support strategic decisions with actionable data",
         "Deliver full-cycle research from design to insights"
       ],
-      "imageUrl": "/solutions/solution-grid/images/1market-research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/1market-research.webp"
     },
     {
       "icon": "👥",
@@ -28,7 +28,7 @@
         "Support advocacy and donor reporting with credible data",
         "Offer urban-rural reach and multilingual capabilities"
       ],
-      "imageUrl": "/solutions/solution-grid/images/2.social-research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/2.social-research.webp"
     },
     {
       "icon": "🔍",
@@ -42,7 +42,7 @@
         "Handle sensitive data with strict confidentiality",
         "Deliver fast, insight-rich reports for stakeholders"
       ],
-      "imageUrl": "/solutions/solution-grid/images/4.political-research-and-public-opinion.jpg"
+      "imageUrl": "/solutions/solution-grid/images/4.political-research-and-public-opinion.webp"
     },
     {
       "icon": "📈",
@@ -56,7 +56,7 @@
         "Align deliverables with your internal decision-making cycles",
         "Provide fast, focused insights when you need them most"
       ],
-      "imageUrl": "/solutions/solution-grid/images/5.Customized-Research-Solutions.jpg"
+      "imageUrl": "/solutions/solution-grid/images/5.Customized-Research-Solutions.webp"
     },
     {
       "icon": "📉",
@@ -68,7 +68,7 @@
         "Interpret research findings into business action",
         "Bridge data with strategy for stronger outcomes"
       ],
-      "imageUrl": "/solutions/solution-grid/images/6.data-analytic.jpg"
+      "imageUrl": "/solutions/solution-grid/images/6.data-analytic.webp"
     },
     {
       "icon": "💻",
@@ -83,7 +83,7 @@
         "Monitor survey performance in real time",
         "Enable fast survey deployment and field-readiness"
       ],
-      "imageUrl": "/solutions/solution-grid/images/7.survey-scripting.jpg"
+      "imageUrl": "/solutions/solution-grid/images/7.survey-scripting.webp"
     },
     {
       "icon": "📦",
@@ -97,7 +97,7 @@
         "Provide actionable retail intelligence dashboards",
         "Ensure coverage in modern and traditional trade"
       ],
-      "imageUrl": "/solutions/solution-grid/images/8.DistributorAudit.jpg"
+      "imageUrl": "/solutions/solution-grid/images/8.DistributorAudit.webp"
     },
     {
       "icon": "📞",
@@ -111,7 +111,7 @@
         "Deploy surveys rapidly across cities or rural areas",
         "Offer flexible scheduling for different time zones"
       ],
-      "imageUrl": "/solutions/solution-grid/images/9.call-center-survey.jpg"
+      "imageUrl": "/solutions/solution-grid/images/9.call-center-survey.webp"
     },
     {
       "icon": "🗳️",
@@ -125,7 +125,7 @@
         "Provide secure data capture and live QC monitoring",
         "Enable rapid turnaround and national coverage"
       ],
-      "imageUrl": "/solutions/solution-grid/images/3Fieldwork.jpg"
+      "imageUrl": "/solutions/solution-grid/images/3Fieldwork.webp"
     },
     {
       "icon": "📡",
@@ -139,7 +139,7 @@
         "Explore influencers, content types, and preferences",
         "Guide media strategy with real-world data"
       ],
-      "imageUrl": "/solutions/solution-grid/images/10.media-research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/10.media-research.webp"
     },
     {
       "icon": "🏷️",
@@ -153,7 +153,7 @@
         "Benchmark against competitors",
         "Support positioning and rebranding efforts"
       ],
-      "imageUrl": "/solutions/solution-grid/images/11.Brand-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/11.Brand-Research.webp"
     },
     {
       "icon": "🧠",
@@ -167,7 +167,7 @@
         "Visualize patterns for faster decision-making",
         "Deliver BI tailored to sales, operations, or marketing"
       ],
-      "imageUrl": "/solutions/solution-grid/images/12.Business-Intelligence-Solutions.jpg"
+      "imageUrl": "/solutions/solution-grid/images/12.Business-Intelligence-Solutions.webp"
     },
     {
       "icon": "🤝",
@@ -181,7 +181,7 @@
         "Explore loyalty, satisfaction, and brand image in B2B",
         "Apply industry-specific terminology and moderation"
       ],
-      "imageUrl": "/solutions/solution-grid/images/13.Business-to-Business1.jpg"
+      "imageUrl": "/solutions/solution-grid/images/13.Business-to-Business1.webp"
     },
     {
       "icon": "🧒",
@@ -195,7 +195,7 @@
         "Ensure ethical approvals and parental consent",
         "Include educators and caregivers for richer context"
       ],
-      "imageUrl": "/solutions/solution-grid/images/14.Children-Youth-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/14.Children-Youth-Research.webp"
     },
     {
       "icon": "🛍️",
@@ -209,7 +209,7 @@
         "Uncover emotional triggers and unmet needs",
         "Inform product development and marketing strategy"
       ],
-      "imageUrl": "/solutions/solution-grid/images/15.Consumer-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/15.Consumer-Research.webp"
     },
     {
       "icon": "🏢",
@@ -223,7 +223,7 @@
         "Guide brand repositioning or rebranding efforts",
         "Identify risk factors for image deterioration"
       ],
-      "imageUrl": "/solutions/solution-grid/images/16.CorporateImageResearch.jpg"
+      "imageUrl": "/solutions/solution-grid/images/16.CorporateImageResearch.webp"
     },
     {
       "icon": "🙂",
@@ -237,7 +237,7 @@
         "Analyze satisfaction across channels or segments",
         "Support service redesign and CX strategies"
       ],
-      "imageUrl": "/solutions/solution-grid/images/17.Customer-Satisfaction-Studies.jpg"
+      "imageUrl": "/solutions/solution-grid/images/17.Customer-Satisfaction-Studies.webp"
     },
     {
       "icon": "👥",
@@ -251,7 +251,7 @@
         "Integrate with GIS for geo-based planning",
         "Guide recruitment, media planning, or outreach"
       ],
-      "imageUrl": "/solutions/solution-grid/images/18.Demographic-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/18.Demographic-Research.webp"
     },
     {
       "icon": "👔",
@@ -265,7 +265,7 @@
         "Gather exit, onboarding, and internal feedback",
         "Drive organizational transformation with insights"
       ],
-      "imageUrl": "/solutions/solution-grid/images/19.employee-research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/19.employee-research.webp"
     },
     {
       "icon": "🌍",
@@ -279,7 +279,7 @@
         "Support UX design, branding, and innovation",
         "Deliver deep narrative-driven insights"
       ],
-      "imageUrl": "/solutions/solution-grid/images/20.Ethnographic-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/20.Ethnographic-Research.webp"
     },
     {
       "icon": "🗣️",
@@ -293,7 +293,7 @@
         "Suitable for FGDs, workshops, or IDIs",
         "Host hybrid or streamed discussions"
       ],
-      "imageUrl": "/solutions/solution-grid/images/21.Focus-Group-Facilities.jpg"
+      "imageUrl": "/solutions/solution-grid/images/21.Focus-Group-Facilities.webp"
     },
     {
       "icon": "📸",
@@ -307,7 +307,7 @@
         "Guide reputation building and PR strategy",
         "Track image shifts over time"
       ],
-      "imageUrl": "/solutions/solution-grid/images/22.Image-Studies.jpg"
+      "imageUrl": "/solutions/solution-grid/images/22.Image-Studies.webp"
     },
     {
       "icon": "🗺️",
@@ -321,7 +321,7 @@
         "Deliver comparative or market-specific insights",
         "Partner with global brands, NGOs, and agencies"
       ],
-      "imageUrl": "/solutions/solution-grid/images/23.International-Studies.jpg"
+      "imageUrl": "/solutions/solution-grid/images/23.International-Studies.webp"
     },
     {
       "icon": "📚",
@@ -335,7 +335,7 @@
         "Standardize insights across departments",
         "Enable smarter decisions with reusable data"
       ],
-      "imageUrl": "/solutions/solution-grid/images/24.Knowledge-Management.jpg"
+      "imageUrl": "/solutions/solution-grid/images/24.Knowledge-Management.webp"
     },
     {
       "icon": "🔮",
@@ -349,7 +349,7 @@
         "Run what-if scenarios to test plans",
         "Support proactive, data-led decisions"
       ],
-      "imageUrl": "/solutions/solution-grid/images/25.Modeling-Predictive-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/25.Modeling-Predictive-Research.webp"
     },
     {
       "icon": "📱",
@@ -363,7 +363,7 @@
         "Track behavior longitudinally or on-demand",
         "Integrate panel feedback with other data"
       ],
-      "imageUrl": "/solutions/solution-grid/images/26.Online-MobilePanel.jpg"
+      "imageUrl": "/solutions/solution-grid/images/26.Online-MobilePanel.webp"
     },
     {
       "icon": "💰",
@@ -377,7 +377,7 @@
         "Align pricing with product features",
         "Guide pricing strategy across markets"
       ],
-      "imageUrl": "/solutions/solution-grid/images/27.Pricing-Studies.jpg"
+      "imageUrl": "/solutions/solution-grid/images/27.Pricing-Studies.webp"
     },
     {
       "icon": "🎭",
@@ -391,7 +391,7 @@
         "Complement traditional qualitative tools",
         "Reveal emotional truth behind rational claims"
       ],
-      "imageUrl": "/solutions/solution-grid/images/28.Projective-Techniques.jpg"
+      "imageUrl": "/solutions/solution-grid/images/28.Projective-Techniques.webp"
     },
     {
       "icon": "💭",
@@ -405,7 +405,7 @@
         "Complement behavioral and attitudinal data",
         "Guide messaging, product design, and innovation"
       ],
-      "imageUrl": "/solutions/solution-grid/images/29.Psychographic-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/29.Psychographic-Research.webp"
     },
     {
       "icon": "🔥",
@@ -419,7 +419,7 @@
         "Enhance communications with emotional cues",
         "Reveal true drivers beyond stated reasons"
       ],
-      "imageUrl": "/solutions/solution-grid/images/30.Psychological-MotivationalResearch.jpg"
+      "imageUrl": "/solutions/solution-grid/images/30.Psychological-MotivationalResearch.webp"
     },
     {
       "icon": "🏆",
@@ -433,7 +433,7 @@
         "Prepare for crisis communication and issue managemen",
         "Report insights to PR and executive teams"
       ],
-      "imageUrl": "/solutions/solution-grid/images/31.Reputation-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/31.Reputation-Research.webp"
     },
     {
       "icon": "📋",
@@ -447,7 +447,7 @@
         "Support risk mitigation and long-term strategy",
         "Combine research, forecasting, and facilitation"
       ],
-      "imageUrl": "/solutions/solution-grid/images/32.ScenarioPlanning.jpg"
+      "imageUrl": "/solutions/solution-grid/images/32.ScenarioPlanning.webp"
     },
     {
       "icon": "🧩",
@@ -461,7 +461,7 @@
         "Link segments to channels and content",
         "Align internal teams around segmentation strategy"
       ],
-      "imageUrl": "/solutions/solution-grid/images/33.Segmentation-Research.jpg"
+      "imageUrl": "/solutions/solution-grid/images/33.Segmentation-Research.webp"
     },
     {
       "icon": "🌀",
@@ -475,7 +475,7 @@
         "Apply to packaging, ads, or brand narratives",
         "Support local relevance in global campaigns"
       ],
-      "imageUrl": "/solutions/solution-grid/images/34.SemioticandCultural-Analysis.jpg"
+      "imageUrl": "/solutions/solution-grid/images/34.SemioticandCultural-Analysis.webp"
     },
     {
       "icon": "⏳",
@@ -489,7 +489,7 @@
         "Segment by health, independence, or goals",
         "Inform healthcare, insurance, and social policy"
       ],
-      "imageUrl": "/solutions/solution-grid/images/35.SeniorCitizen-Mid-lifeResearch.jpg"
+      "imageUrl": "/solutions/solution-grid/images/35.SeniorCitizen-Mid-lifeResearch.webp"
     },
     {
       "icon": "🔗",
@@ -503,7 +503,7 @@
         "Ideal for FMCG, media, and telecom tracking",
         "Gain macro-level insight with micro breakout options"
       ],
-      "imageUrl": "/solutions/solution-grid/images/36.SyndicatedResearch.jpg"
+      "imageUrl": "/solutions/solution-grid/images/36.SyndicatedResearch.webp"
     },
     {
       "icon": "👣",
@@ -517,7 +517,7 @@
         "Guide campaign optimization and feedback loops",
         "Enable agile decisions with fresh data"
       ],
-      "imageUrl": "/solutions/solution-grid/images/37.TrackingStudies.jpg"
+      "imageUrl": "/solutions/solution-grid/images/37.TrackingStudies.webp"
     },
     {
       "icon": "✅",
@@ -531,7 +531,7 @@
         "Enhance credibility for sensitive or high-stakes projects",
         "Offer reporting on field team performance"
       ],
-      "imageUrl": "/solutions/solution-grid/images/38.ValidationServices.jpg"
+      "imageUrl": "/solutions/solution-grid/images/38.ValidationServices.webp"
     },
     {
       "icon": "👩‍💻",
@@ -545,7 +545,7 @@
         "Improve conversions, retention, and satisfaction",
         "Deliver clear UX recommendations for developers"
       ],
-      "imageUrl": "/solutions/solution-grid/images/39.WebsiteUsabilityResearch.jpg"
+      "imageUrl": "/solutions/solution-grid/images/39.WebsiteUsabilityResearch.webp"
     }
   ]
 }
