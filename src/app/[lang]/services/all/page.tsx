@@ -42,7 +42,7 @@ export default function AllServicesPage() {
               transition={{ delay: index * 0.1 }}
               className="group relative overflow-hidden rounded-2xl shadow-xl"
             >
-              <div className="absolute inset-0 bg-gradient-to-br from-gradiant-one via-gradiant-two to-gradaint-three opacity-0 group-hover:opacity-90 transition-opacity duration-500 z-10 flex items-center justify-center" />
+              <div className="absolute inset-0 bg-gradient-to-br from-gradiant-one via-gradiant-two to-gradaint-three opacity-0 group-hover:opacity-20 transition-opacity duration-500 z-10 flex items-center justify-center" />
 
               <div
                 className={`sm:h-64 h-48 ${
