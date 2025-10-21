@@ -133,10 +133,10 @@
     "heading": "Company",
     "links": [
       { "title": "About Us", "link": "/about" },
-      { "title": "Locations", "link": "#" },
+      { "title": "Locations", "link": "/contact/#map-sec" },
       { "title": "Contact Us", "link": "/contact" },
-      { "title": "Our Team", "link": "#" },
-      { "title": "Join With Us", "link": "/about" },
+      { "title": "Our Team", "link": "/home/#our-team" },
+      { "title": "Join With Us", "link": "/about/#join-us" },
       { "title": "RFI/RFQ/RFP", "link": "/contact" }
     ],
     "logins": [

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { MapPin, Mail, Clock } from "lucide-react";
+import Link from "next/link";
 
 interface ContactInfoProps {
   data: {
@@ -52,20 +53,20 @@ export default function InfoSection({ data }: ContactInfoProps) {
               </h3>
             </div>
             <p className="text-gray-600 mb-2">
-              <a
+              <Link
                 href={`mailto:${data.contact.email}`}
                 className="hover:text-blue-600 transition"
               >
                 {data.contact.email}
-              </a>
+              </Link>
             </p>
             <p className="text-gray-600">
-              <a
+              <Link
                 href={`tel:${data.contact.phone}`}
                 className="hover:text-blue-600 transition"
               >
                 {data.contact.phone}
-              </a>
+              </Link>
             </p>
           </motion.div>
 

@@ -12,7 +12,7 @@ interface TeamSectionProps {
 
 const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
   return (
-    <section className="sm:py-9 py-7 px-4 bg-white">
+    <section id="our-team" className="sm:py-9 py-7 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
         <SectionHeading
           title="Our Research Experts"

@@ -99,7 +99,7 @@ const BlogPage = async ({
     <div className="bg-white">
       <HeroBanner data={pageData.hero} />
 
-      <div className="container px-4 sm:px-6 lg:px-8 mx-auto py-12 md:py-16 lg:py-20">
+      <div className="container px-4 sm:px-6 lg:px-8 mx-auto sm:py-12 py-7">
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-2/3">
             {/* Featured Posts */}
