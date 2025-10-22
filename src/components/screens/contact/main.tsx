@@ -12,7 +12,6 @@ import {
   Globe,
   Users,
   Database,
-  Link,
 } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -31,6 +30,7 @@ import SectionHeading from "@/components/ui/section-heading";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { ContactPageData, HeroButton } from "@/types/contact";
+import Link from "next/link";
 
 // Constants
 const RESEARCH_SERVICES = [
@@ -733,6 +733,7 @@ export default function ContactPage({
           viewport={{ once: true }}
           transition={{ duration: 1 }}
           className="h-full w-full relative bg-gray-100 mt-7"
+          id="map-sec"
         >
           {/* <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3650.496699450262!2d90.37131749999999!3d23.800930400000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0d236171dd9%3A0xddc1ece1a335e89f!2s1286%20Begum%20Rokeya%20Avenue%2C%20Dhaka!5e0!3m2!1sen!2sbd!4v1749710615281!5m2!1sen!2sbd"

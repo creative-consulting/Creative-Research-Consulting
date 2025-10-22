@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Link, Search } from "lucide-react";
+import { Search } from "lucide-react";
+import Link from "next/link";
 import { Input } from "@/components/ui/input";
 
 interface BlogSidebarProps {
@@ -52,6 +53,15 @@ const BlogSidebar = ({ categories, popularTags }: BlogSidebarProps) => {
                   {category.count}
                 </span>
               </Link>
+              {/* <a
+                href="#"
+                className="flex justify-between items-center py-2 hover:text-primary transition-colors"
+              >
+                <span>{category.name}</span>
+                <span className="bg-gray-200 px-2 py-1 rounded-full text-xs">
+                  {category.count}
+                </span>
+              </a> */}
             </li>
           ))}
         </ul>
@@ -71,10 +81,17 @@ const BlogSidebar = ({ categories, popularTags }: BlogSidebarProps) => {
             <Link
               key={index}
               href="#"
-              className="px-3 py-1 bg-white rounded-full text-sm hover:bg-primary hover:text-white transition-colors"
+              className="px-3 py-1 bg-primary/10 rounded-full text-sm hover:bg-primary hover:text-white transition-colors"
             >
               {tag}
             </Link>
+            // <a
+            //   key={index}
+            //   href="#"
+            //   className="px-3 py-1 bg-white rounded-full text-sm hover:bg-primary hover:text-white transition-colors"
+            // >
+            //   {tag}
+            // </a>
           ))}
         </div>
       </motion.div>

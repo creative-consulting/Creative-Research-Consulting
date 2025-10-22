@@ -1,6 +1,5 @@
 "use client";
 
-
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,17 +13,17 @@ interface LatestPostsProps {
 const LatestPosts = ({ posts }: LatestPostsProps) => {
   return (
     <section>
-      <motion.h2 
+      <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.5 }}
-        className="text-2xl md:text-3xl font-bold mb-8"
+        className="text-2xl md:text-3xl font-bold sm:mb-8 mb-6"
       >
         Latest Articles
       </motion.h2>
 
-      <div className="space-y-8">
+      <div className="sm:space-y-8 space-y-6">
         {posts.map((post, index) => (
           <motion.article
             key={post.id}
@@ -34,7 +33,7 @@ const LatestPosts = ({ posts }: LatestPostsProps) => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="flex flex-col md:flex-row gap-6 group"
           >
-            <Link 
+            <Link
               href={`/blog/${post.id}`}
               className="md:w-1/3 relative h-48 rounded-lg overflow-hidden"
             >
@@ -50,9 +49,7 @@ const LatestPosts = ({ posts }: LatestPostsProps) => {
                 {post.category}
               </span>
               <h3 className="text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                <Link href={`/blog/${post.id}`}>
-                  {post.title}
-                </Link>
+                <Link href={`/blog/${post.id}`}>{post.title}</Link>
               </h3>
               <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
                 <span className="flex items-center gap-1">
@@ -62,13 +59,23 @@ const LatestPosts = ({ posts }: LatestPostsProps) => {
                 <span>By {post.author}</span>
               </div>
               <p className="text-gray-600 mb-4">{post.excerpt}</p>
-              <Link 
+              <Link
                 href={`/blog/${post.id}`}
                 className="text-primary font-medium hover:underline inline-flex items-center"
               >
                 Read more
-                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7" />
+                <svg
+                  className="w-4 h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M9 5l7 7-7 7"
+                  />
                 </svg>
               </Link>
             </div>

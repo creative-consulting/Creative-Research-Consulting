@@ -50,7 +50,7 @@ const HeroBanner = ({ data }: Props) => {
   return (
     <section
       ref={container}
-      className=" relative text-white sm:pt-15 pt-16 sm:pb-15 pb-11 overflow-hidden bg-gradient-to-r from-primary/80 to-primary/90"
+      className=" relative text-white sm:pt-20 pt-16 sm:pb-20 pb-11 overflow-hidden bg-gradient-to-r from-primary/80 to-primary/90"
     >
       {/* Background image with overlay */}
       <div className="absolute inset-0">
@@ -68,7 +68,7 @@ const HeroBanner = ({ data }: Props) => {
       <div className="container px-5 sm:px-6 lg:px-8 mx-auto relative z-10">
         <div className="sm:max-w-3xl sm:text-start text-center">
           <motion.h1
-            className="heading text-2xl sm:text-5xl font-bold leading-tight mb-6 tracking-tight scroll-m-20"
+            className="heading text-2xl sm:text-5xl font-bold leading-tight tracking-tight scroll-m-20"
             dangerouslySetInnerHTML={{ __html: data.heading }}
             initial="hidden"
             animate="visible"
@@ -76,7 +76,7 @@ const HeroBanner = ({ data }: Props) => {
           />
 
           <motion.p
-            className="paragraph sm:text-lg text-base text-blue-100/90 mb-10 max-w-2xl [&:not(:first-child)]:mt-6"
+            className="paragraph sm:text-lg text-base text-blue-100/90 mb-10 max-w-2xl [&:not(:first-child)]:mt-3"
             initial="hidden"
             animate="visible"
             variants={paragraphVariants}
@@ -95,7 +95,7 @@ const HeroBanner = ({ data }: Props) => {
                 >
                   <Button
                     href={data.firstButton.link}
-                    className="button sm:px-7 px-14 sm:py-3 sm:text-base cursor-pointer"
+                    className="button sm:px-7 px-7 sm:py-3 sm:text-base cursor-pointer"
                     variant="about"
                   >
                     {data.firstButton.name}
@@ -111,7 +111,7 @@ const HeroBanner = ({ data }: Props) => {
                 >
                   <Button
                     href={data.secondButton.link}
-                    className="button !sm:px-14 !px-12 sm:py-2 sm:text-base !text-white border-white/2 bg-white/10 cursor-pointer"
+                    className="button !sm:px-8 !px-7 sm:py-2 sm:text-base !text-white border-white/2 bg-white/10 cursor-pointer"
                     variant="secondaryLink"
                   >
                     {data.secondButton.name}

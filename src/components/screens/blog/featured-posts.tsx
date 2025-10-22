@@ -1,6 +1,5 @@
 "use client";
 
-
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
@@ -13,13 +12,13 @@ interface FeaturedPostsProps {
 
 const FeaturedPosts = ({ posts }: FeaturedPostsProps) => {
   return (
-    <section className="mb-16">
-      <motion.h2 
+    <section className="sm:mb-16 mb-6">
+      <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: "-100px" }}
         transition={{ duration: 0.5 }}
-        className="text-2xl md:text-3xl font-bold mb-8"
+        className="text-2xl md:text-3xl font-bold sm:mb-8 mb-5"
       >
         Featured Posts
       </motion.h2>
@@ -43,8 +42,8 @@ const FeaturedPosts = ({ posts }: FeaturedPostsProps) => {
                   className="object-cover"
                 />
               </div>
-              <div className="p-6">
-                <div className="flex items-center gap-4 text-sm text-gray-500 mb-3">
+              <div className="sm:p-6 p-3">
+                <div className="flex items-center sm:gap-6 gap-1 text-sm text-gray-500 mb-3">
                   <span className="flex items-center gap-1">
                     <CalendarDays className="h-4 w-4" />
                     {post.date}

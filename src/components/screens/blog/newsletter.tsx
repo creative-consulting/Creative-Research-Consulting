@@ -28,7 +28,7 @@ const Newsletter = ({ data }: NewsletterProps) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.2 }}
-          className="text-2xl md:text-3xl font-bold text-white mb-4"
+          className="text-2xl md:text-3xl font-bold text-black mb-4"
         >
           {data.title}
         </motion.h2>
@@ -37,7 +37,7 @@ const Newsletter = ({ data }: NewsletterProps) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
-          className="text-lg text-white/90 mb-8"
+          className="text-lg text-black mb-8"
         >
           {data.description}
         </motion.p>
@@ -46,16 +46,18 @@ const Newsletter = ({ data }: NewsletterProps) => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.6 }}
-          className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto sm:max-w-xl"
+          className="flex flex-col sm:flex-row gap-4 mx-auto items-center"
         >
           <Input
             type="email"
             placeholder={data.placeholder}
             className="py-6 flex-grow"
           />
-          <Button className="py-6 px-8 bg-white text-primary hover:bg-gray-100">
-            {data.buttonText}
-          </Button>
+          <div className="mx-[1rem]">
+            <Button className="py-3 sm:px-4 px-8 bg-white text-black hover:bg-gray-100 cursor-pointer">
+              {data.buttonText}
+            </Button>
+          </div>
         </motion.div>
       </div>
     </motion.section>

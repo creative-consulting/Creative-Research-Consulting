@@ -149,7 +149,7 @@ const JoinUs = ({ data }: { data: JoinUsData }) => {
   };
 
   return (
-    <section ref={ref} className="sm:py-12 py-7 bg-white">
+    <section ref={ref} id="join-us" className="sm:py-12 py-7 bg-white">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="max-w-4xl mx-auto">
           <motion.div
