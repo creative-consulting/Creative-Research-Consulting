@@ -7,6 +7,7 @@ import { Toaster } from "react-hot-toast";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/analytics/google-analytics";
+import LottieAnimation from "@/components/lottie/LottieAnimaton";
 
 export const metadata = {
   title: "Creative Consulting",
@@ -50,6 +51,11 @@ export default function RootLayout({
           <GoogleAnalytics />
           <Analytics />
         </Suspense>
+        <div className="z-[999999999999999] relative">
+          <div className="fixed bottom-6 right-4">
+            <LottieAnimation />
+          </div>
+        </div>
       </body>
     </html>
   );
