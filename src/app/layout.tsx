@@ -52,7 +52,7 @@ export default function RootLayout({
           <Analytics />
         </Suspense>
         <div className="z-[999999999999999] relative">
-          <div className="fixed bottom-6 right-4">
+          <div className="fixed sm:bottom-6 bottom-4 right-4">
             <LottieAnimation />
           </div>
         </div>
