@@ -13,7 +13,7 @@ export default function LottieAnimation() {
         src="https://lottie.host/78e5b5ca-610c-4501-8e75-f46971e68d1a/1azmNdRiPg.lottie"
         loop
         autoplay
-        className="w-[7rem] h-[7rem]"
+        className="sm:w-[7rem] sm:h-[7rem] w-[4rem] h-[4rem]"
       />
     </motion.a>
   );
