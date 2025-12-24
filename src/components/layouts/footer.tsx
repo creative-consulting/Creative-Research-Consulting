@@ -679,7 +679,7 @@ export const Footer = () => {
             transition={{ duration: 0.5 }}
             className=" text-gray-400 sm:text-[16px] text-sm"
           >
-            &copy; {currentYear} Creative Console. All rights reserved.
+            &copy; {currentYear} Creative Consulting. All rights reserved.
           </motion.p>
         </div>
       </div>
