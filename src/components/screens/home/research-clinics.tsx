@@ -22,7 +22,7 @@ const ResearchClinics: React.FC<{ data: ResearchClinicsSection }> = ({
   data,
 }) => {
   return (
-    <section className="sm:py-8 py-4 bg-gray-50">
+    <section className="">
       <div className="container px-4 mx-auto max-w-7xl">
         <div className="text-center sm:mb-8 mb-4">
           <SectionHeading title={data.heading} description={data.subheading} />

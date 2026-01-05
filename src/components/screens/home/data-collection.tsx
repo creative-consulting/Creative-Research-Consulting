@@ -1,7 +1,7 @@
 // components/screens/data-collection/data-collection.tsx
 "use client";
-
-import React from "react";
+// import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 import SectionHeading from "@/components/ui/section-heading";
 import {
@@ -36,11 +36,9 @@ const DataCollection: React.FC<{ data: DataCollectionSection }> = ({
   return (
     <section className="sm:py-8 py-4 bg-gray-50">
       <div className="container px-4 mx-auto">
-        {/* Header Section */}
         <div className="text-center sm:mb-7 mb-4 ">
           <SectionHeading title={data.heading} description={data.description} />
-
-          {/* Methods List */}
+          {/* Methods List  */}
           <div className="sm:mt-0 mt-2">
             <div className="inline-flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
               {data.methods.map((method, index) => (
@@ -78,6 +76,7 @@ const DataCollectionCard: React.FC<{
   card: DataCollectionCard;
   index: number;
 }> = ({ card, index }) => {
+  const [expanded, setExpanded] = useState(false);
   return (
     <motion.div
       initial={{ opacity: 0, y: 50 }}
@@ -101,51 +100,67 @@ const DataCollectionCard: React.FC<{
           </div>
         </div>
       </div>
-
-      <div className="sm:p-4 p-2.5 flex flex-col">
+      <div className="sm:p-4 p-2.5 flex flex-col relative">
         <h3 className="sm:text-lg text-base font-bold text-gray-800 mb-3">
           {card.title}
         </h3>
-        <p className="text-gray-600 mb-4 sm:text-base text-sm">
-          {card.description}
-        </p>
-
-        <div className="space-y-4 mt-auto">
-          {card.content.map((item, i) => (
-            <div key={i} className="border-l-2 border-primary pl-3">
-              <h4 className="sm:text-base text-sm font-bold text-gray-600">
-                {item.heading}
-              </h4>
-              {item.description && (
-                <p className="text-gray-600 text-sm mt-1">{item.description}</p>
-              )}
-              {item.content && (
-                <ul className="mt-2 space-y-2">
-                  {item.content.map((subItem, j) => (
-                    <li key={j} className="text-sm text-gray-600 items-start">
-                      <span className="inline-block mr-2 mt-1 w-1.5 h-1.5 rounded-full bg-primary" />
-                      {subItem.heading}
-                      {subItem.content && (
-                        <ul className="ml-4 mt-1 space-y-1">
-                          {subItem.content.map((deepItem, k) => (
-                            <li
-                              key={k}
-                              className="text-xs text-gray-500 flex items-start"
-                            >
-                              <span className="inline-block mr-2 mt-1 w-1.5 h-1.5 rounded-full bg-gray-400" />
-                              {deepItem.heading}
-                            </li>
-                          ))}
-                        </ul>
-                      )}
-                    </li>
-                  ))}
-                </ul>
-              )}
-            </div>
-          ))}
+        <div
+          className={`overflow-hidden transition-all duration-500 ${
+            expanded ? "max-h-[3000px]" : "max-h-4.5"
+          }`}
+        >
+          <p className="text-gray-600 mb-4 sm:text-base text-sm">
+            {card.description}
+          </p>
+          <div className="space-y-4">
+            {card.content.map((item, i) => (
+              <div key={i} className="border-l-2 border-primary pl-3">
+                <h4 className="sm:text-base text-sm font-bold text-gray-600">
+                  {item.heading}
+                </h4>
+                {item.description && (
+                  <p className="text-gray-600 text-sm mt-1">
+                    {item.description}
+                  </p>
+                )}
+                {item.content && (
+                  <ul className="mt-2 space-y-2">
+                    {item.content.map((subItem, j) => (
+                      <li key={j} className="text-sm text-gray-600 items-start">
+                        <span className="inline-block mr-2 mt-1 w-1.5 h-1.5 rounded-full bg-primary" />
+                        {subItem.heading}
+                        {subItem.content && (
+                          <ul className="ml-4 mt-1 space-y-1">
+                            {subItem.content.map((deepItem, k) => (
+                              <li
+                                key={k}
+                                className="text-xs text-gray-500 flex items-start"
+                              >
+                                <span className="inline-block mr-2 mt-1 w-1.5 h-1.5 rounded-full bg-gray-400" />
+                                {deepItem.heading}
+                              </li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
+          </div>
         </div>
-
+        {!expanded && (
+          <div className="pointer-events-none absolute bottom-20 h-12 bg-gradient-to-t from-white to-transparent" />
+        )}
+        {card.content.length > 1 && (
+          <button
+            onClick={() => setExpanded(!expanded)}
+            className="mt-3 text-sm font-semibold text-primary hover:underline self-start cursor-pointer"
+          >
+            {expanded ? "Read less..." : "Read more..."}
+          </button>
+        )}
         {card.description2 && (
           <p className="text-gray-600 mt-4 text-sm italic">
             {card.description2}
