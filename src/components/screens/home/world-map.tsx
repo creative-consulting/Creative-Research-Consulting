@@ -566,7 +566,7 @@ const InteractiveEarth = () => {
         </motion.div>
 
         {/* Filter controls */}
-        <motion.div
+        {/* <motion.div
           className="flex flex-wrap justify-center gap-4 sm:mb-12 mb-7"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -617,10 +617,10 @@ const InteractiveEarth = () => {
               ))}
             </select>
           )}
-        </motion.div>
+        </motion.div> */}
 
         {/* Stats */}
-        <motion.div
+        {/* <motion.div
           ref={statsRef}
           className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
           initial={{ opacity: 0, y: 50 }}
@@ -645,7 +645,7 @@ const InteractiveEarth = () => {
             </div>
             <div className="text-slate-300">Global Offices</div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Location tooltip */}
