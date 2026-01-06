@@ -1,9 +1,11 @@
 "use client";
-import React from "react";
-import { motion } from "framer-motion";
+// import React from "react";
+import React, { useEffect, useState } from "react";
+import { X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import { HomeTeamMember } from "@/types/lang";
 import Image from "next/image";
-import Link from "next/link";
+// import Link from "next/link";
 import SectionHeading from "@/components/ui/section-heading";
 
 interface TeamSectionProps {
@@ -11,6 +13,12 @@ interface TeamSectionProps {
 }
 
 const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
+  // add korchi ei tuku
+  const [activeMember, setActiveMember] = useState<HomeTeamMember | null>(null);
+  useEffect(() => {
+    document.body.style.overflow = activeMember ? "hidden" : "";
+  }, [activeMember]);
+
   return (
     <section id="our-team" className="sm:py-9 py-7 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
@@ -33,10 +41,14 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
               viewport={{ once: true, margin: "0px 0px -100px 0px" }}
               className="w-full h-80 perspective-1000"
             >
-              <Link
-                href={`/team/${member.id}`}
-                passHref
-                className="block h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
+              {/* link remove */}
+              <div
+                // href={`/team/${member.id}`}
+                // passHref
+                // className="block h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
+                // aria-label={`View ${member.name}'s profile`}
+                onClick={() => setActiveMember(member)}
+                className="block h-full cursor-pointer focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
                 aria-label={`View ${member.name}'s profile`}
               >
                 <motion.div
@@ -159,11 +171,66 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                     </motion.div>
                   </motion.div>
                 </motion.div>
-              </Link>
+              </div>
             </motion.div>
           ))}
         </div>
       </div>
+
+      {/* ================= POPUP MODAL ================= */}
+      <AnimatePresence>
+        {activeMember && (
+          <>
+            {/* Overlay */}
+            <motion.div
+              className="fixed inset-0 bg-black/40 z-40"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              onClick={() => setActiveMember(null)}
+            />
+
+            {/* Modal */}
+            <motion.div
+              className="fixed inset-0 z-50 flex items-center justify-center p-4"
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.9 }}
+            >
+              <div
+                className="relative bg-white w-full max-w-lg rounded-xl shadow-2xl p-6"
+                onClick={(e) => e.stopPropagation()}
+              >
+                {/* Close */}
+                <button
+                  onClick={() => setActiveMember(null)}
+                  className="absolute cursor-pointer flex items-center justify-center top-3 right-3 w-8 h-8 rounded-full hover:bg-primary/10"
+                >
+                  <X className="text-primary" size={20} />
+                </button>
+
+                <div className="text-center">
+                  <div className="w-28 h-28 mx-auto mb-4 rounded-full overflow-hidden relative">
+                    <Image
+                      src={activeMember.image}
+                      alt={activeMember.name}
+                      fill
+                      className="object-cover"
+                    />
+                  </div>
+
+                  <h3 className="text-xl font-bold">{activeMember.name}</h3>
+                  <p className="text-primary font-medium mb-3">
+                    {activeMember.position}
+                  </p>
+
+                  <p className="text-sm text-gray-600">{activeMember.bio}</p>
+                </div>
+              </div>
+            </motion.div>
+          </>
+        )}
+      </AnimatePresence>
 
       {/* Animation styles */}
       <style jsx global>{`
