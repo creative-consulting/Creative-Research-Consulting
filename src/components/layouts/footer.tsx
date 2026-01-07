@@ -389,7 +389,7 @@ export const Footer = () => {
                     href={platform.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ backgroundColor: platform.color }}
+                    style={{ backgroundColor: platform.color } as any}
                     className="text-white p-2 rounded-full hover:scale-110 transition-transform"
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
