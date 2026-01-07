@@ -282,8 +282,6 @@ const StyledButton = styled.button`
   letter-spacing: -1px;
   border: 0;
   position: relative;
-  width: 220px;
-  height: 80px;
   transform: rotate(353deg) skewX(4deg);
 
   .bg {
