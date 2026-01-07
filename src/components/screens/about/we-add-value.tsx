@@ -6,6 +6,8 @@ import { HowWeAddValueData } from "@/types/lang";
 import React, { useRef } from "react";
 import { FaChartLine } from "react-icons/fa";
 import { motion, useAnimation, useInView } from "framer-motion";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 type Props = {
   data: HowWeAddValueData;
@@ -23,8 +25,8 @@ const WeAddValue = ({ data }: Props) => {
       controls.start("hidden");
     }
   }, [isInView, controls]);
-
-  const containerVariants = {
+  // ekhane  : Variants add kora
+  const containerVariants: Variants = {
     hidden: { opacity: 1 },
     visible: {
       transition: {
@@ -33,7 +35,7 @@ const WeAddValue = ({ data }: Props) => {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 50, opacity: 0 },
     visible: {
       y: 0,
@@ -45,7 +47,7 @@ const WeAddValue = ({ data }: Props) => {
     },
   };
 
-  const paragraphVariants = {
+  const paragraphVariants: Variants = {
     hidden: { y: 30, opacity: 0 },
     visible: {
       y: 0,
@@ -57,7 +59,7 @@ const WeAddValue = ({ data }: Props) => {
     },
   };
 
-  const cardVariants = {
+  const cardVariants: Variants = {
     hidden: { y: 40, opacity: 0 },
     visible: (i: number) => ({
       y: 0,

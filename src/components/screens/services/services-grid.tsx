@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { ServiceData } from "@/types/lang";
 import SectionHeading from "@/components/ui/section-heading";
 import { Button } from "@/components/ui/button";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 interface ServicesGridProps {
   data: {
@@ -12,8 +14,8 @@ interface ServicesGridProps {
     services: ServiceData[];
   };
 }
-
-const cardVariants = {
+// ekhane  : Variants add kora
+const cardVariants: Variants = {
   offscreen: {
     y: 50,
     opacity: 0,

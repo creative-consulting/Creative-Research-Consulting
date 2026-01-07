@@ -3,6 +3,8 @@
 import { HistoryTimelineData } from "@/types/about";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 const HistoryTimeline = ({ data }: { data: HistoryTimelineData }) => {
   const ref = useRef(null);
@@ -14,16 +16,16 @@ const HistoryTimeline = ({ data }: { data: HistoryTimelineData }) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const containerVariants = {
+  // ekhane  : Variants add kora
+  const containerVariants: Variants = {
     visible: {
       transition: {
         staggerChildren: 0.2,
       },
     },
   };
-
-  const itemVariants = {
+  // ekhane  : Variants add kora
+  const itemVariants: Variants = {
     hidden: { opacity: 0, y: 30 },
     visible: {
       opacity: 1,

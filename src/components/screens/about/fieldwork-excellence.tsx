@@ -7,7 +7,8 @@ import Image from "next/image";
 import React, { useRef } from "react";
 import { FaClipboardCheck } from "react-icons/fa";
 import { motion, useAnimation, useInView } from "framer-motion";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 type Props = {
   data: FieldworkExcellenceData;
 };
@@ -24,8 +25,8 @@ const FieldworkExcellence = ({ data }: Props) => {
       controls.start("hidden");
     }
   }, [isInView, controls]);
-
-  const headingVariants = {
+  // ekhane headingVariants : Variants add kora
+  const headingVariants: Variants = {
     hidden: { y: 50, opacity: 0 },
     visible: {
       y: 0,
@@ -36,8 +37,8 @@ const FieldworkExcellence = ({ data }: Props) => {
       },
     },
   };
-
-  const textVariants = {
+  // ekhane  : Variants add kora
+  const textVariants: Variants = {
     hidden: { y: 30, opacity: 0 },
     visible: (i: number) => ({
       y: 0,
@@ -49,8 +50,8 @@ const FieldworkExcellence = ({ data }: Props) => {
       },
     }),
   };
-
-  const listItemVariants = {
+  // ekhane  : Variants add kora
+  const listItemVariants: Variants = {
     hidden: { x: -20, opacity: 0 },
     visible: (i: number) => ({
       x: 0,
@@ -62,8 +63,8 @@ const FieldworkExcellence = ({ data }: Props) => {
       },
     }),
   };
-
-  const imageVariants = {
+  // ekhane  : Variants add kora
+  const imageVariants: Variants = {
     hidden: { scale: 0.95, opacity: 0 },
     visible: {
       scale: 1,

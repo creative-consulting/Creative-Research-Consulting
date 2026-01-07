@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { ServiceFeature } from "@/types/lang";
 import SectionHeading from "@/components/ui/section-heading";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 interface FeaturesSectionProps {
   data: {
     title: string;
@@ -11,8 +12,8 @@ interface FeaturesSectionProps {
     items: ServiceFeature[];
   };
 }
-
-const featureVariants = {
+// ekhane : Variants add kora
+const featureVariants: Variants = {
   hidden: { opacity: 0, y: 30 },
   visible: (i: number) => ({
     opacity: 1,

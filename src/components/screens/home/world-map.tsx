@@ -652,10 +652,14 @@ const InteractiveEarth = () => {
       {hoveredLocation && (
         <motion.div
           className="absolute z-50 pointer-events-none"
-          style={{
-            left: mousePosition.x + 20,
-            top: mousePosition.y - 60,
-          }}
+          style={
+            {
+              // left: mousePosition.x + 20,
+              // top: mousePosition.y - 60,
+              left: `${mousePosition.x + 20}px`,
+              top: `${mousePosition.y - 60}px`,
+            } as any
+          }
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}

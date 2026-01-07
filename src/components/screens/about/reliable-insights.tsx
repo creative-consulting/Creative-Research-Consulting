@@ -5,6 +5,8 @@ import { useRef, useEffect } from "react";
 import { List } from "@/components/ui/list";
 import Image from "next/image";
 import { ReliableInsightsData } from "@/types/about";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 const ReliableInsights = ({ data }: { data: ReliableInsightsData }) => {
   const ref = useRef(null);
@@ -16,8 +18,8 @@ const ReliableInsights = ({ data }: { data: ReliableInsightsData }) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,

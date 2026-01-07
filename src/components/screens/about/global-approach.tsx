@@ -4,6 +4,8 @@ import Image from "next/image";
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import { GlobalApproachData } from "@/types/about";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 const GlobalApproach = ({ data }: { data: GlobalApproachData }) => {
   const ref = useRef(null);
@@ -15,8 +17,8 @@ const GlobalApproach = ({ data }: { data: GlobalApproachData }) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,

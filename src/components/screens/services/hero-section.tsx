@@ -6,6 +6,8 @@ import { TypeAnimation } from "react-type-animation";
 import Services3DIcons from "./services-3d-icons";
 import Link from "next/link";
 import { useState, useEffect } from "react";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 interface ServicesHeroProps {
   data: {
@@ -14,8 +16,8 @@ interface ServicesHeroProps {
     ctaText: string;
   };
 }
-
-const floatingVariants = {
+// add kora : Variants
+const floatingVariants: Variants = {
   animate: {
     y: [0, -15, 0],
     transition: {
@@ -50,12 +52,16 @@ export default function ServicesHero({ data }: ServicesHeroProps) {
           <motion.div
             key={i}
             className="absolute rounded-full bg-white/10 backdrop-blur-sm"
-            style={{
-              width: Math.random() * 10 + 5,
-              height: Math.random() * 10 + 5,
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-            }}
+            style={
+              {
+                // width: Math.random() * 10 + 5,
+                // height: Math.random() * 10 + 5,
+                width: `${Math.random() * 10 + 5}px`,
+                height: `${Math.random() * 10 + 5}px`,
+                left: `${Math.random() * 100}%`,
+                top: `${Math.random() * 100}%`,
+              } as any
+            }
             animate={{
               y: [0, (Math.random() - 0.5) * 100],
               x: [0, (Math.random() - 0.5) * 50],

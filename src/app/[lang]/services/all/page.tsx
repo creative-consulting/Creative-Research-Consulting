@@ -3,15 +3,31 @@
 import { motion } from "framer-motion";
 import data from "@/data/lang/en/screen/services/services.json";
 import SectionHeading from "@/components/ui/section-heading";
+// eta add hoiche
+import type { Variants } from "framer-motion";
 
-const cardVariants = {
+// cardVariants কে Variants type বলে দেওয়া
+const cardVariants: Variants = {
   offscreen: { opacity: 0, y: 50 },
   onscreen: {
     opacity: 1,
     y: 0,
-    transition: { type: "spring", bounce: 0.2, duration: 0.8 },
+    transition: {
+      type: "spring", //এখন TS জানে এটা valid AnimationGeneratorType
+      bounce: 0.2,
+      duration: 0.8,
+    },
   },
 };
+
+// const cardVariants = {
+//   offscreen: { opacity: 0, y: 50 },
+//   onscreen: {
+//     opacity: 1,
+//     y: 0,
+//     transition: { type: "spring", bounce: 0.2, duration: 0.8 },
+//   },
+// };
 
 export default function AllServicesPage() {
   const services = (data.services ?? []) as {

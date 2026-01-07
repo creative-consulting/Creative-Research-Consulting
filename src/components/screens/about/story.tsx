@@ -8,6 +8,8 @@ import Link from "next/link";
 import React, { useRef } from "react";
 import { FaLink, FaSearch } from "react-icons/fa";
 import { motion, useAnimation, useInView } from "framer-motion";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 type Props = {
   data: OurStoryData;
@@ -23,8 +25,8 @@ const Story = ({ data }: Props) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,

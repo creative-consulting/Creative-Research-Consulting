@@ -1,11 +1,12 @@
 "use client";
-
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import { List } from "@/components/ui/list";
 import Link from "next/link";
 import { FaEnvelope, FaPhone } from "react-icons/fa";
 import { CollaborationData } from "@/types/about";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 const Collaboration = ({ data }: { data: CollaborationData }) => {
   const ref = useRef(null);
@@ -17,8 +18,8 @@ const Collaboration = ({ data }: { data: CollaborationData }) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,
