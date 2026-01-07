@@ -3,7 +3,8 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect, JSX } from "react";
 import { List } from "@/components/ui/list";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 // Define a local ListItem component as a wrapper for <li>
 const ListItem: React.FC<React.HTMLAttributes<HTMLLIElement>> = ({
   children,
@@ -42,16 +43,16 @@ const WhyChooseUsInternational = ({
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const containerVariants = {
+  // ekhane  : Variants add kora
+  const containerVariants: Variants = {
     visible: {
       transition: {
         staggerChildren: 0.1,
       },
     },
   };
-
-  const itemVariants = {
+  // ekhane  : Variants add kora
+  const itemVariants: Variants = {
     hidden: { y: 30, opacity: 0 },
     visible: {
       y: 0,

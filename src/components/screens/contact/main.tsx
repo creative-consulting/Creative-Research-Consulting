@@ -31,6 +31,8 @@ import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
 import { ContactPageData, HeroButton } from "@/types/contact";
 import Link from "next/link";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 // Constants
 const RESEARCH_SERVICES = [
@@ -85,7 +87,7 @@ const RESEARCH_SERVICES = [
 // ] as const;
 
 // Animation variants
-const fadeInUp = {
+const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 20 },
   visible: {
     opacity: 1,
@@ -97,7 +99,7 @@ const fadeInUp = {
   },
 };
 
-const fadeIn = {
+const fadeIn: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -271,7 +273,28 @@ export default function ContactPage({
       setIsSubmitting(false);
     }
   };
-
+  // const fadeInUp: Variants = {
+  //   hidden: { opacity: 0, y: 20 },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: {
+  //       duration: 0.5,
+  //       ease: easeInOut,
+  //     },
+  //   },
+  // };
+  // const fadeIn: Variants = {
+  //   hidden: { opacity: 0, y: 20 },
+  //   visible: {
+  //     opacity: 1,
+  //     y: 0,
+  //     transition: {
+  //       duration: 0.5,
+  //       ease: easeInOut,
+  //     },
+  //   },
+  // };
   return (
     <LazyMotion features={domAnimation}>
       <div className="bg-gradient-to-b from-gray-50 to-white overflow-hidden">

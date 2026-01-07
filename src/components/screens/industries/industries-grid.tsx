@@ -329,7 +329,8 @@ import SectionHeading from "@/components/ui/section-heading";
 import { IndustryData } from "@/types/lang";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 interface IndustriesGridProps {
   data: {
     title: string;
@@ -337,8 +338,8 @@ interface IndustriesGridProps {
     industries: IndustryData[];
   };
 }
-
-const containerVariants = {
+// ekhane  : Variants add kora
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -349,7 +350,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { y: 20, opacity: 0 },
   visible: {
     y: 0,

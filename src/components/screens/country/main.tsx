@@ -2,8 +2,10 @@
 
 import { motion } from "framer-motion";
 import { CCSLContent, CountryService } from "@/types/country";
-
-const containerVariants = {
+// eta import kora holo
+import type { Variants } from "framer-motion";
+// ekhane : Variants add kora
+const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
     opacity: 1,
@@ -14,7 +16,7 @@ const containerVariants = {
   },
 };
 
-const itemVariants = {
+const itemVariants: Variants = {
   hidden: { y: 20, opacity: 0 },
   visible: {
     y: 0,

@@ -10,12 +10,18 @@ export default async function LangLayout({
   params,
 }: {
   children: React.ReactNode;
-  params: Promise<{ lang: SupportedLang }>;
+  // params: Promise<{ lang: SupportedLang }>;
+  params: Promise<{ lang: string }>;
 }) {
   const { lang } = await params;
 
-  const headerData: HeaderData = await getLangData(lang, "header");
-  const navData: NavData = await getLangData(lang, "nav");
+  // const headerData: HeaderData = await getLangData(lang, "header");
+  // const navData: NavData = await getLangData(lang, "nav");
+  const headerData: HeaderData = await getLangData(
+    lang as SupportedLang,
+    "header"
+  );
+  const navData: NavData = await getLangData(lang as SupportedLang, "nav");
 
   return (
     <html lang={lang || "en"}>

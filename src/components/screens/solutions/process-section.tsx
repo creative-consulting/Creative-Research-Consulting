@@ -348,15 +348,16 @@ import { ChevronDown, ChevronUp } from "lucide-react";
 // import { ProcessSectionData } from "@/types/lang";
 // import { cn } from "@/lib/utils/cn";
 // import { ChevronDown, ChevronUp } from "lucide-react";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 export default function ProcessSection({ data }: { data: ProcessSectionData }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   const toggleStep = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
-  const containerVariants = {
+  // add kora : Variants
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -424,7 +425,7 @@ function ProcessStep({
   isActive: boolean;
   onToggle: () => void;
 }) {
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,

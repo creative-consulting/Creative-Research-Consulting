@@ -3,7 +3,8 @@
 import { motion, useAnimation, useInView } from "framer-motion";
 import { useRef, useEffect } from "react";
 import { List } from "@/components/ui/list";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 // Define a simple ListItem component if not provided by the UI library
 const ListItem = ({
   children,
@@ -24,8 +25,8 @@ const TrustedPartner = ({ data }: { data: TrustedPartnerData }) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,

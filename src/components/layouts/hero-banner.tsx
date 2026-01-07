@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Button } from "../ui/button";
 import { HeroBannerData } from "@/types/lang";
 import { useRef } from "react";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 type Props = {
   data: HeroBannerData;
@@ -11,8 +13,8 @@ type Props = {
 
 const HeroBanner = ({ data }: Props) => {
   const container = useRef(null);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     hidden: { y: 50, opacity: 0 },
     visible: {
       y: 0,
@@ -20,8 +22,8 @@ const HeroBanner = ({ data }: Props) => {
       transition: { ease: [0.16, 1, 0.3, 1], duration: 1 },
     },
   };
-
-  const paragraphVariants = {
+  // ekhane paragraphVariants: Variants add kora
+  const paragraphVariants: Variants = {
     hidden: { y: 40, opacity: 0 },
     visible: {
       y: 0,
@@ -33,8 +35,8 @@ const HeroBanner = ({ data }: Props) => {
       },
     },
   };
-
-  const buttonVariants = {
+  // ekhane buttonVariants: Variants add kora
+  const buttonVariants: Variants = {
     hidden: { y: 30, opacity: 0 },
     visible: (i: number) => ({
       y: 0,

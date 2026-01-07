@@ -566,7 +566,7 @@ const InteractiveEarth = () => {
         </motion.div>
 
         {/* Filter controls */}
-        <motion.div
+        {/* <motion.div
           className="flex flex-wrap justify-center gap-4 sm:mb-12 mb-7"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -617,10 +617,10 @@ const InteractiveEarth = () => {
               ))}
             </select>
           )}
-        </motion.div>
+        </motion.div> */}
 
         {/* Stats */}
-        <motion.div
+        {/* <motion.div
           ref={statsRef}
           className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
           initial={{ opacity: 0, y: 50 }}
@@ -645,17 +645,21 @@ const InteractiveEarth = () => {
             </div>
             <div className="text-slate-300">Global Offices</div>
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
 
       {/* Location tooltip */}
       {hoveredLocation && (
         <motion.div
           className="absolute z-50 pointer-events-none"
-          style={{
-            left: mousePosition.x + 20,
-            top: mousePosition.y - 60,
-          }}
+          style={
+            {
+              // left: mousePosition.x + 20,
+              // top: mousePosition.y - 60,
+              left: `${mousePosition.x + 20}px`,
+              top: `${mousePosition.y - 60}px`,
+            } as any
+          }
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0, scale: 0.8 }}

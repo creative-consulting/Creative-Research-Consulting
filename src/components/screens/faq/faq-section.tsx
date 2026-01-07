@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { FAQItem } from "@/types/faq";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 interface FAQSectionProps {
   sections: {
@@ -18,8 +20,8 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
   const toggleFAQ = (index: number) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
-  const containerVariants = {
+  // ekhane : Variants add kora
+  const containerVariants: Variants = {
     hidden: { opacity: 0 },
     visible: {
       opacity: 1,
@@ -29,7 +31,7 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
     },
   };
 
-  const itemVariants = {
+  const itemVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,

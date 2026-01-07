@@ -18,7 +18,8 @@ import {
 } from "react-icons/fa";
 import { motion, useInView } from "framer-motion";
 import SectionHeading from "@/components/ui/section-heading";
-
+// eta import kora holo
+import type { Variants } from "framer-motion";
 const iconsMap: Record<string, ReactNode> = {
   FaChartLine: <FaChartLine className="w-5 h-5" />,
   FaUsers: <FaUsers className="w-5 h-5" />,
@@ -64,8 +65,8 @@ const Services = ({ data }: Props) => {
   //     },
   //   },
   // };
-
-  const serviceItemVariants = {
+  // ekhane : Variants add kora
+  const serviceItemVariants: Variants = {
     hidden: { opacity: 0, y: 50 },
     visible: (i: number) => ({
       opacity: 1,
@@ -78,7 +79,7 @@ const Services = ({ data }: Props) => {
     }),
   };
 
-  const cardHoverVariants = {
+  const cardHoverVariants: Variants = {
     hover: {
       y: -4,
       boxShadow: "0 10px 20px -6px rgba(217, 28, 92, 0.0012)",
@@ -89,7 +90,7 @@ const Services = ({ data }: Props) => {
     },
   };
 
-  const iconHoverVariants = {
+  const iconHoverVariants: Variants = {
     hover: {
       backgroundColor: "#d91c5c",
       color: "#fff",
@@ -97,14 +98,14 @@ const Services = ({ data }: Props) => {
     },
   };
 
-  const titleHoverVariants = {
+  const titleHoverVariants: Variants = {
     hover: {
       color: "#d91c5c",
       y: -2,
     },
   };
 
-  const descHoverVariants = {
+  const descHoverVariants: Variants = {
     hover: {
       y: -1,
     },

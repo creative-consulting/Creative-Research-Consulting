@@ -7,6 +7,8 @@ import { JoinUsData } from "@/types/about";
 import toast from "react-hot-toast";
 import axios from "axios";
 // import RainbowButton from "@/components/3d/rainbow-button";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 interface FormData {
   name: string;
@@ -39,8 +41,8 @@ const JoinUs = ({ data }: { data: JoinUsData }) => {
       controls.start("visible");
     }
   }, [isInView, controls]);
-
-  const variants = {
+  // ekhane variants: Variants add kora
+  const variants: Variants = {
     visible: {
       opacity: 1,
       y: 0,

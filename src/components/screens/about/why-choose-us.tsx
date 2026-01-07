@@ -13,6 +13,8 @@ import {
   FaSearch,
 } from "react-icons/fa";
 import { motion, useAnimation, useInView } from "framer-motion";
+// eta import kora holo
+import type { Variants } from "framer-motion";
 
 const iconMap: Record<string, JSX.Element> = {
   FaChartLine: <FaChartLine className="w-6 h-6 text-primary" />,
@@ -39,8 +41,8 @@ const WhyChooseUs = ({ data }: Props) => {
       controls.start("hidden");
     }
   }, [isInView, controls]);
-
-  const headingVariants = {
+  // ekhane  : Variants add kora
+  const headingVariants: Variants = {
     hidden: { y: 50, opacity: 0 },
     visible: {
       y: 0,
@@ -52,7 +54,7 @@ const WhyChooseUs = ({ data }: Props) => {
     },
   };
 
-  const featureVariants = {
+  const featureVariants: Variants = {
     hidden: { y: 30, opacity: 0 },
     visible: (i: number) => ({
       y: 0,
@@ -65,7 +67,7 @@ const WhyChooseUs = ({ data }: Props) => {
     }),
   };
 
-  const footerVariants = {
+  const footerVariants: Variants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
       y: 0,
