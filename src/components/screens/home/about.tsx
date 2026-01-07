@@ -102,6 +102,7 @@ const About = ({ data }: Props) => {
                 onClick={() => router.push("/about")}
                 textOne={data.btnText}
                 textTwo="click here"
+                className="sm:w-[160px] sm:h-[70px] w-[160px] h-[70px]"
               />
             </div>
           </div>
@@ -162,6 +163,7 @@ const About = ({ data }: Props) => {
               onClick={() => router.push("/about")}
               textOne={data.btnText}
               textTwo="click here"
+              className="w-[135px] h-[64px]"
             />
           </div>
         </div>
