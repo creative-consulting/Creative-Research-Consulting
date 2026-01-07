@@ -27,7 +27,7 @@ export default async function LangLayout({
     <html lang={lang || "en"}>
       <body className="bg-white text-black">
         {/* Fixed Header */}
-        <div className="fixed top-0 left-0 w-full z-50">
+        <div className="fixed top-0 left-0 w-full z-18">
           <Header data={headerData} />
           <NavBar data={navData} />
         </div>
