@@ -139,7 +139,7 @@ const About = ({ data }: Props) => {
 
               <div className="absolute top-[50%] right-[10%] w-[50%] max-w-[244px] aspect-[244/261] hidden lg:block">
                 <Image
-                  src="/home/hero-shape2.png"
+                  src="/home/hero-shape2.webp"
                   alt="Decorative triangle"
                   fill
                   className="object-contain"
