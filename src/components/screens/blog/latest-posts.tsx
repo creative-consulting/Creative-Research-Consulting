@@ -31,11 +31,11 @@ const LatestPosts = ({ posts }: LatestPostsProps) => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-50px" }}
             transition={{ duration: 0.5, delay: index * 0.1 }}
-            className="flex flex-col md:flex-row gap-6 group"
+            className="flex flex-col md:flex-row gap-6 group bg-gray-50 rounded-lg"
           >
             <Link
               href={`/blog/${post.id}`}
-              className="md:w-1/3 relative h-48 rounded-lg overflow-hidden"
+              className="sm:w-1/3 relative rounded-tl-lg rounded-bl-lg overflow-hidden"
             >
               <Image
                 src={post.image}
@@ -44,7 +44,7 @@ const LatestPosts = ({ posts }: LatestPostsProps) => {
                 className="object-cover group-hover:scale-105 transition-transform"
               />
             </Link>
-            <div className="md:w-2/3">
+            <div className="sm:w-2/3 pl-0 pr-[0.5rem] pt-[0.5rem] pb-[0.5rem]">
               <span className="inline-block px-3 py-1 bg-primary/10 text-primary rounded-full text-sm mb-3">
                 {post.category}
               </span>
