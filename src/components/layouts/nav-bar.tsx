@@ -142,7 +142,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
       <div className="hidden lg:flex items-center justify-between w-full">
         <div className="flex items-center flex-1">
           <div className="flex-shrink-0 mr-10">
-            <Link href="/" className="inline-block">
+            <Link href="/">
               <Image
                 src="/logo-white.png"
                 alt="Company Logo"

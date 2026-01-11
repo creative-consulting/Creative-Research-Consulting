@@ -4,17 +4,17 @@ import { useState, useEffect, useRef, type FC } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { IoIosArrowDown } from "react-icons/io";
+import { FaLinkedinIn } from "react-icons/fa";
 import {
   // FaFacebook,
   FaGoogle,
   FaGlobe,
-  FaLinkedin,
-  FaYoutube,
+  // FaLinkedin,
+  // FaYoutube,
   FaFacebookF,
 } from "react-icons/fa";
 import { MdMail, MdPhone } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
-
 import { List } from "../ui/list";
 import { ListItem } from "../ui/list-item";
 import { Flex } from "../ui/flex";
@@ -25,8 +25,9 @@ import type { HeaderData } from "@/types/lang";
 const iconMap = {
   FaFacebook: <FaFacebookF />,
   FaGoogle: <FaGoogle />,
-  FaLinkedin: <FaLinkedin />,
-  FaYoutube: <FaYoutube />,
+  FaLinkedin: <FaLinkedinIn />,
+  // FaLinkedin: <FaLinkedin />,
+  // FaYoutube: <FaYoutube />,
   FaGlobe: <FaGlobe />,
   MdMail: <MdMail />,
   MdPhone: <MdPhone />,
@@ -139,7 +140,7 @@ const Header: FC<{ data: HeaderData; className?: string }> = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={item.title}
-                className="text-white/80 hover:text-white transition-colors duration-200 text-lg"
+                className="text-white/80 hover:text-white transition-colors duration-200 sm:p-[0.3rem] sm:border-1 sm:rounded-full"
               >
                 {iconMap[item.icon as keyof typeof iconMap]}
               </Link>
