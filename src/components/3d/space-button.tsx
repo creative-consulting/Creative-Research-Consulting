@@ -66,10 +66,10 @@ const StyledButton = styled.a<SpaceButtonProps>`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 13rem;
+  width: 10rem;
   overflow: hidden;
   height: 3rem;
-  background-size: 300% 300%;
+  // background-size: 300% 300%;
   cursor: pointer;
   backdrop-filter: blur(1rem);
   border-radius: 5rem;
@@ -82,7 +82,7 @@ const StyledButton = styled.a<SpaceButtonProps>`
       #ffdb3b 10%,
       #fe53bb 45%,
       #8f51ea 67%,
-      #0044ff 87%
+      #1cb5f0 87%
     );
   background-origin: border-box;
   background-clip: content-box, border-box;
@@ -94,7 +94,7 @@ const StyledButton = styled.a<SpaceButtonProps>`
     z-index: 2;
     font-family: "Arial", sans-serif; /* Fallback font */
     font-size: 12px;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     color: #ffffff;
     text-shadow: 0 0 4px white;
   }
