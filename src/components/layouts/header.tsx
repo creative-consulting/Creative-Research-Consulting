@@ -140,7 +140,7 @@ const Header: FC<{ data: HeaderData; className?: string }> = ({
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label={item.title}
-                className="text-white/80 hover:text-white transition-colors duration-200 text-lg sm:p-[0.3rem] sm:border-1 sm:rounded-full"
+                className="text-white/80 hover:text-white transition-colors duration-200 sm:p-[0.3rem] sm:border-1 sm:rounded-full"
               >
                 {iconMap[item.icon as keyof typeof iconMap]}
               </Link>
