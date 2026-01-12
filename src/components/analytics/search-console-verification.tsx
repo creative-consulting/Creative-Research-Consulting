@@ -2,7 +2,10 @@ export function SearchConsoleVerification() {
   return (
     <meta
       name="google-site-verification"
-      content="your-search-console-verification-code"
+      content="ChEEbZIfgYysgl5ToFnpwOI2lWEwHh47KzRSzc9Zs3s"
     />
   );
 }
+// verification: {
+//   google: "ChEEbZIfgYysgl5ToFnpwOI2lWEwHh47KzRSzc9Zs3s",
+// },

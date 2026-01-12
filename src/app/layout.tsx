@@ -14,6 +14,9 @@ export const metadata = {
   description: "Market Research and Consulting Company",
   keywords: ["market research", "social research", "consulting", "Bangladesh"],
 };
+{
+  /* <meta name="google-site-verification" content="ChEEbZIfgYysgl5ToFnpwOI2lWEwHh47KzRSzc9Zs3s" /> */
+}
 
 export default function RootLayout({
   children,
@@ -26,18 +29,27 @@ export default function RootLayout({
         <SearchConsoleVerification />
 
         {/* Google Analytics base script */}
+
+        {/* <script async src="https://www.googletagmanager.com/gtag/js?id=G-HP3TB0KWZS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-HP3TB0KWZS');
+</script> */}
         <Script
           async
-          src="https://www.googletagmanager.com/gtag/js?id=G-W6GDVBD1S1"
-          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-HP3TB0KWZS"
+          security="after"
         />
         <Script id="google-analytics" strategy="afterInteractive">
           {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
+             window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-            gtag('config', 'G-W6GDVBD1S1');
+  gtag('config', 'G-HP3TB0KWZS');
           `}
         </Script>
       </head>
