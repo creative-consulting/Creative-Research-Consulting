@@ -37,9 +37,13 @@ const DataCollection: React.FC<{ data: DataCollectionSection }> = ({
     <section className="sm:py-8 py-4 bg-gray-50">
       <div className="container px-4 mx-auto">
         <div className="text-center sm:mb-7 mb-4 ">
-          <SectionHeading title={data.heading} description={data.description} />
+          <SectionHeading
+            title={data.heading}
+            description={data.description}
+            className="data-collection "
+          />
           {/* Methods List  */}
-          <div className="sm:mt-0 mt-2">
+          {/* <div className="sm:mt-0 mt-2">
             <div className="inline-flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
               {data.methods.map((method, index) => (
                 <motion.span
@@ -54,7 +58,7 @@ const DataCollection: React.FC<{ data: DataCollectionSection }> = ({
                 </motion.span>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Cards Grid */}
@@ -90,7 +94,7 @@ const DataCollectionCard: React.FC<{
           src={card.image}
           alt={card.title}
           fill
-          className="object-cover"
+          className="object-cover object-top"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
@@ -149,6 +153,11 @@ const DataCollectionCard: React.FC<{
               </div>
             ))}
           </div>
+          {card.description2 && (
+            <p className="text-gray-600 mt-4 text-sm italic">
+              {card.description2}
+            </p>
+          )}
         </div>
         {!expanded && (
           <div className="pointer-events-none absolute bottom-20 h-12 bg-gradient-to-t from-white to-transparent" />
@@ -161,11 +170,11 @@ const DataCollectionCard: React.FC<{
             {expanded ? "Read less..." : "Read more..."}
           </button>
         )}
-        {card.description2 && (
+        {/* {card.description2 && (
           <p className="text-gray-600 mt-4 text-sm italic">
             {card.description2}
           </p>
-        )}
+        )} */}
       </div>
     </motion.div>
   );
