@@ -137,10 +137,11 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+  /* .swiper-pagination-bullet-active {
+    background-color: oklch(0.7023 0.2236 27.26) !important;
+  } */
   .swiper-pagination-bullet-active {
-    background-color: oklch(
-      0.7023 0.2236 27.26
-    ) !important; /* Your desired active dot color */
+    background-color: #d91c5c !important;
   }
 }
 

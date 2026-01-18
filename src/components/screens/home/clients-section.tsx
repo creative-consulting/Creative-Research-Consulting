@@ -128,7 +128,7 @@ const ClientsSection = ({ data }: { data: ClientsSectionProps }) => {
 
         {/* Swiper Testimonials */}
         {showTestimonials && testimonials.length > 0 && (
-          <div className="relative sm:py-8 py-4">
+          <div className="relative sm:py-0 py-4">
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
               <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-primary/5 rounded-full opacity-20 blur-3xl" />
               <div className="absolute bottom-1/3 right-1/3 w-72 h-72 bg-purple-50 rounded-full opacity-20 blur-3xl" />
@@ -138,14 +138,14 @@ const ClientsSection = ({ data }: { data: ClientsSectionProps }) => {
               <button
                 ref={prevRef}
                 aria-label="Previous testimonial"
-                className="p-2 rounded-full bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors shadow-sm"
+                className="p-2 cursor-pointer rounded-full bg-white border border-gray-200 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors shadow-sm"
               >
                 <ChevronLeft className="w-5 h-5" />
               </button>
               <button
                 ref={nextRef}
                 aria-label="Next testimonial"
-                className="p-2 rounded-full bg-white border border-gray-200 text-gray-700 hover:bg-gray-50 transition-colors shadow-sm"
+                className="p-2 cursor-pointer rounded-full bg-white border border-gray-200 text-gray-700 hover:bg-primary/10 hover:text-primary transition-colors shadow-sm"
               >
                 <ChevronRight className="w-5 h-5" />
               </button>
@@ -178,11 +178,11 @@ const ClientsSection = ({ data }: { data: ClientsSectionProps }) => {
                 swiper.navigation.init();
                 swiper.navigation.update();
               }}
-              className="sm:!pb-12 pb-0"
+              className="sm:!pb-3 !pb-[0.5rem]"
             >
               {testimonials.map((testimonial) => (
                 <SwiperSlide key={testimonial.id}>
-                  <div className="bg-white sm:p-8 p-4 rounded-3xl border border-gray-100 hover:border-transparent shadow-sm hover:shadow-lg transition-all duration-300 h-full">
+                  <div className="bg-white sm:h-[24rem] h-[26rem] sm:p-8 p-4 rounded-3xl border border-gray-100 shadow-sm transition-all duration-300">
                     {/* Rating and Header */}
                     <div className="flex flex-wrap items-center justify-between gap-4 sm:mb-6 mb-4">
                       <div className="flex items-center">
@@ -310,7 +310,7 @@ const ClientsSection = ({ data }: { data: ClientsSectionProps }) => {
 
         {/* CTA */}
         {cta && (
-          <div className="text-center sm:mt-10 mt-3">
+          <div className="text-center sm:mt-8 mt-3">
             <Button href={cta.href} variant="primaryLink">
               {cta.text}
               <svg
