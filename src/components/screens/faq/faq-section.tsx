@@ -15,11 +15,17 @@ interface FAQSectionProps {
 }
 
 const FAQSection = ({ sections }: FAQSectionProps) => {
-  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  // const [activeIndex, setActiveIndex] = useState<number | null>(null);
+  const [activeIndex, setActiveIndex] = useState<string | null>(null);
 
-  const toggleFAQ = (index: number) => {
-    setActiveIndex(activeIndex === index ? null : index);
+  // const toggleFAQ = (index: number) => {
+  //   setActiveIndex(activeIndex === index ? null : index);
+  // };
+  const toggleFAQ = (sectionIdx: number, faqIdx: number) => {
+    const id = `${sectionIdx}-${faqIdx}`;
+    setActiveIndex(activeIndex === id ? null : id);
   };
+
   // ekhane : Variants add kora
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
@@ -52,12 +58,6 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
       className="sm:py-7 py-4 px-4 sm:px-6 bg-gray-50"
     >
       <div className="sm:max-w-5xl max-w-full mx-auto">
-        {/* <motion.h2
-          variants={itemVariants}
-          className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12"
-        >
-          Frequently Asked Questions
-        </motion.h2> */}
         <h2 className="text-center sm:text-4xl text-2xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three sm:mb-2 mb-1.5 animate-glossy-gradient">
           Frequently Asked Questions
         </h2>
@@ -72,7 +72,7 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
                 heading?: string;
                 faqs: FAQItem[];
               },
-              i
+              i,
             ) => (
               <div key={i} className="bg-white rounded-lg shadow-md sm:p-6 p-3">
                 {section.heading && (
@@ -91,7 +91,7 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
                       answer: string;
                       answerList?: string[];
                     },
-                    index
+                    index,
                   ) => (
                     <motion.div
                       key={index}
@@ -99,14 +99,25 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
                       className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-200 sm:mb-4 mb-3 last:mb-0"
                     >
                       <button
-                        className="w-full cursor-pointer text-left p-4 flex justify-between items-center hover:bg-gray-50 transition-colors"
-                        onClick={() => toggleFAQ(index)}
+                        // className="w-full cursor-pointer text-left p-4 flex justify-between items-center hover:bg-primary/10 transition-colors"
+                        // onClick={() => toggleFAQ(index)}
+                        className={`w-full cursor-pointer text-left p-4 flex justify-between items-center transition-colors ${
+                          activeIndex === `${i}-${index}`
+                            ? "bg-primary/10 !text-primary"
+                            : "hover:bg-primary/10"
+                        }`}
+                        onClick={() => toggleFAQ(i, index)}
                       >
-                        <h3 className="sm:text-base text-sm font-semibold text-gray-800">
+                        <h3 className="sm:text-base text-sm font-semibold">
                           {faq.question}
                         </h3>
-                        {activeIndex === index ? (
+                        {/* {activeIndex === index ? (
                           <ChevronUp className="h-5 w-5 text-black" />
+                        ) : (
+                          <ChevronDown className="h-5 w-5 text-black" />
+                        )} */}
+                        {activeIndex === `${i}-${index}` ? (
+                          <ChevronUp className="h-5 w-5 text-primary" />
                         ) : (
                           <ChevronDown className="h-5 w-5 text-black" />
                         )}
@@ -114,14 +125,18 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
 
                       <motion.div
                         initial={{ height: 0, opacity: 0 }}
+                        // animate={{
+                        //   height: activeIndex === index ? "auto" : 0,
+                        //   opacity: activeIndex === index ? 1 : 0,
+                        // }}
                         animate={{
-                          height: activeIndex === index ? "auto" : 0,
-                          opacity: activeIndex === index ? 1 : 0,
+                          height: activeIndex === `${i}-${index}` ? "auto" : 0,
+                          opacity: activeIndex === `${i}-${index}` ? 1 : 0,
                         }}
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                         className="overflow-hidden"
                       >
-                        <div className="sm:text-base text-sm px-4 pb-4 text-gray-600">
+                        <div className="sm:text-base text-sm px-4 pb-4 pt-2.5 text-gray-600">
                           {faq.answer}
                           {faq.answerList && faq.answerList.length > 0 && (
                             <ul className="list-disc list-inside mt-2 space-y-1">
@@ -135,10 +150,10 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
                         </div>
                       </motion.div>
                     </motion.div>
-                  )
+                  ),
                 )}
               </div>
-            )
+            ),
           )}
         </motion.div>
       </div>
