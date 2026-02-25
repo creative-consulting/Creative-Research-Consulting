@@ -3,7 +3,7 @@
 import { useState, useEffect, useRef, type FC } from "react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
-import { IoIosArrowDown } from "react-icons/io";
+import { IoIosArrowDown, IoIosMail, IoIosMailUnread } from "react-icons/io";
 import { FaLinkedinIn } from "react-icons/fa";
 import {
   // FaFacebook,
@@ -13,7 +13,7 @@ import {
   // FaYoutube,
   FaFacebookF,
 } from "react-icons/fa";
-import { MdMail, MdPhone } from "react-icons/md";
+import { MdPhone } from "react-icons/md";
 import { motion, AnimatePresence } from "framer-motion";
 import { List } from "../ui/list";
 import { ListItem } from "../ui/list-item";
@@ -29,7 +29,8 @@ const iconMap = {
   // FaLinkedin: <FaLinkedin />,
   // FaYoutube: <FaYoutube />,
   FaGlobe: <FaGlobe />,
-  MdMail: <MdMail />,
+  Mail: <IoIosMail />,
+  MdMail: <IoIosMailUnread />,
   MdPhone: <MdPhone />,
 };
 
@@ -50,7 +51,7 @@ const Header: FC<{ data: HeaderData; className?: string }> = ({
   const dropdownTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const [selectedLang, setSelectedLang] = useState(
-    pathname.split("/")[1] || "en"
+    pathname.split("/")[1] || "en",
   );
   const [hasScrolled, setHasScrolled] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
@@ -123,7 +124,7 @@ const Header: FC<{ data: HeaderData; className?: string }> = ({
         hasScrolled
           ? "shadow-lg bg-black/90 backdrop-blur-sm py-2"
           : "bg-black py-3",
-        className
+        className,
       )}
     >
       <div className="container mx-auto px-4 sm:px-6">
@@ -207,7 +208,7 @@ const Header: FC<{ data: HeaderData; className?: string }> = ({
                           className={cn(
                             "px-4 py-2 hover:bg-gray-100 cursor-pointer transition-colors duration-150",
                             selectedLang === lang.code &&
-                              "bg-gray-50 font-medium"
+                              "bg-gray-50 font-medium",
                           )}
                           onClick={() => changeLanguage(lang.code)}
                           role="menuitem"
