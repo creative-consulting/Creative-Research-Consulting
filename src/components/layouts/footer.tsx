@@ -246,6 +246,7 @@ import FooterPopup from "../ui/FooterPopup";
 import { useState } from "react";
 import Popupmodal from "../../data/lang/en/popupmodal.json";
 import FooterData from "../../data/lang/en/footer.json";
+import { LuMailPlus } from "react-icons/lu";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -255,6 +256,7 @@ export const Footer = () => {
 
   const iconMap = {
     FiPhone: <FiPhone className="text-gray-400" />,
+    MailPlus: <LuMailPlus className="text-gray-400" />,
     FiMail: <FiMail className="text-gray-400" />,
     FiMapPin: <FiMapPin className="text-gray-400" />,
     FaFacebook: <FaFacebook />,
@@ -297,6 +299,23 @@ export const Footer = () => {
                 >
                   +8801948373084
                   <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                </Link>
+              </motion.li>
+
+              <motion.li
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.1 }}
+                className="flex items-start gap-3 group"
+              >
+                <span className="mt-0.5">{iconMap.MailPlus}</span>
+                <Link
+                  href="mailto:abu.sayeed@ccslbd.com"
+                  className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base flex items-center gap-1"
+                >
+                  info@ccslbd.com
+                  <LuMailPlus className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </Link>
               </motion.li>
 

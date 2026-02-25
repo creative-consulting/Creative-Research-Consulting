@@ -18,6 +18,11 @@
   ],
   "right": [
     {
+      "icon": "Mail",
+      "title": "info@ccslbd.com",
+      "link": "mailto:info@ccslbd.com"
+    },
+    {
       "icon": "MdMail",
       "title": "abu.sayeed@ccslbd.com",
       "link": "mailto:abu.sayeed@ccslbd.com"
