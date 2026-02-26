@@ -23,12 +23,12 @@ const Card = React.forwardRef<HTMLDivElement, CardProps>(
         }}
         className={cn(
           "rounded-xl bg-card text-card-foreground shadow-sm transition-all hover:shadow-md",
-          className
+          className,
         )}
         {...props}
       />
     );
-  }
+  },
 );
 Card.displayName = "Card";
 
@@ -52,7 +52,7 @@ const CardTitle = React.forwardRef<
     ref={ref}
     className={cn(
       "text-2xl font-semibold leading-none tracking-tight",
-      className
+      className,
     )}
     {...props}
   />
