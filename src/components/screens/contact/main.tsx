@@ -33,7 +33,6 @@ import { ContactPageData, HeroButton } from "@/types/contact";
 import Link from "next/link";
 // eta import kora holo
 import type { Variants } from "framer-motion";
-
 // Constants
 const RESEARCH_SERVICES = [
   {
@@ -235,7 +234,7 @@ export default function ContactPage({
   // ];
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
@@ -266,7 +265,7 @@ export default function ContactPage({
       }
     } catch (error) {
       toast.error(
-        "There was an error submitting your request. Please try again."
+        "There was an error submitting your request. Please try again.",
       );
       console.error("Form submission error:", error);
     } finally {
@@ -415,7 +414,7 @@ export default function ContactPage({
                         {btn.name || "Schedule For Demo"}
                       </Button>
                     );
-                  }
+                  },
                 )}
                 {/* <Button
                   href="/contact"
@@ -566,7 +565,10 @@ export default function ContactPage({
                 className="space-y-6"
               >
                 <div>
-                  <SectionHeading title="Our Research Services" />
+                  <SectionHeading
+                    title="Our Research Services"
+                    className="sm:mb-2.5!"
+                  />
 
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                     {RESEARCH_SERVICES.map((service, index) => (
@@ -599,7 +601,7 @@ export default function ContactPage({
                                 sizes="(max-width: 768px) 50vw, 25vw"
                               />
                             </div>
-                            <div className="p-6">
+                            <div className="p-5">
                               <div className="flex items-start gap-4">
                                 <div className="mt-1">{service.icon}</div>
                                 <div>
@@ -620,7 +622,7 @@ export default function ContactPage({
                 </div>
 
                 <m.div variants={fadeInUp}>
-                  <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 sm:p-6 mt-8">
+                  <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-4 sm:p-5 mt--2">
                     <CardContent>
                       <div className="flex  gap-4">
                         <div className="bg-blue-50 sm:w-12 w-20 h-12 flex items-center justify-center rounded-full">
@@ -638,7 +640,7 @@ export default function ContactPage({
                           <Link
                             href={`tel:${contactData.contactMethods.phone.replace(
                               /\s+/g,
-                              ""
+                              "",
                             )}`}
                             className="mt-2 inline-block sm:text-lg text-base font-semibold text-black transition-colors"
                           >
@@ -646,8 +648,24 @@ export default function ContactPage({
                           </Link>
                         </div>
                       </div>
+                      {/* mail */}
+                      <div className="flex gap-4 mail-heading items-center sm:mt-[1rem] mt-2">
+                        <div className="bg-blue-50 w-12 h-12 flex items-center justify-center rounded-full">
+                          <Mail className="h-5 w-5 text-primary" />
+                        </div>
+
+                        <div>
+                          <Link
+                            href="mailto:info@ccslbd.com"
+                            className="sm:text-lg text-base font-semibold text-black transition-colors"
+                          >
+                            info@ccslbd.com
+                          </Link>
+                        </div>
+                      </div>
                     </CardContent>
-                    <div className="space-y-6 mt-6">
+
+                    <div className="space-y-6 mt-4">
                       {contactData.locations.offices.map((office) => (
                         <div key={office.id} className="flex items-start gap-4">
                           <div className="bg-blue-50 p-3 rounded-full mt-1">
@@ -671,7 +689,7 @@ export default function ContactPage({
                                   href={
                                     office.link ||
                                     `https://maps.google.com/?q=${encodeURIComponent(
-                                      office.address
+                                      office.address,
                                     )}`
                                   }
                                   target="_blank"

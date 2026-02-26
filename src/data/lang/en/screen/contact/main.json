@@ -24,6 +24,9 @@
     "heading": "Urgent Research Needs?",
     "pragraph": "Call our 24/7 research hotline for immediate assistance",
     "title": "Our Offices",
+    "mail": [
+      { "mailHeading": "info@ccslbd.com", "link": "mailto:info@ccslbd.com" }
+    ],
     "offices": [
       {
         "id": "1",
