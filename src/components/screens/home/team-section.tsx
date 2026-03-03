@@ -205,7 +205,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
               exit={{ opacity: 0, scale: 0.9 }}
             >
               <div
-                className="relative bg-white w-full sm:max-w-2xl max-w-full sm:rounded-xl sm:h-auto h-full rounded-0 shadow-2xl p-6"
+                className="relative bg-white w-full sm:max-w-2xl max-w-full sm:rounded-xl sm:h-auto h-full rounded-0 shadow-2xl sm:px-6 sm:py-6 px-2 py-[3rem] overflow-y-scroll sm:overflow-y-visible"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Close */}
