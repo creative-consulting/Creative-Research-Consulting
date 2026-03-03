@@ -2,37 +2,57 @@
   {
     "id": "team-1",
     "name": "Abu Sayeed",
-    "position": "Director – Operations | Market & Social Research Specialist",
-    "bio": "14+ Years of Industry Experience | Expertise in Quantitative & Qualitative Fieldwork",
+    "position": "Director Of Operations",
+    "bio": "14+ years of experience in market and social research, leading complex quantitative and qualitative studies across Bangladesh for both local and global clients. His career began in 2010 at a leading multinational research firm, where he built strong expertise in field operations, team leadership, and client management. He has extensive experience across FMCG, automotive, telecom, financial services, healthcare, e-commerce, agriculture, and social & political research, delivering insights through advanced offline and online methodologies including CAPI, CAWI, FGDs, IDIs, ethnography, and digital discussions. As Director – Operations, he leads nationwide field teams across all 8 divisions of Bangladesh, ensuring high-quality execution, methodological rigor, and reliable data delivery.",
     "expertise": [
       "Statistical Modeling",
       "Consumer Behavior",
       "Data Visualization"
     ],
-    "image": "/team/team-images/images/team2.jpg"
+    "socials": {
+      "facebook": "https://www.facebook.com/share/17zgf5FZ3V/",
+      "linkedin": "https://www.linkedin.com/in/abu-sayeed-market-research-company-in-bangladesh/",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/CEO.webp"
   },
   {
     "id": "team-2",
     "name": "KM Arifur Rahman",
-    "position": "Lead Consultant – Qualitative & Strategic Research",
-    "bio": "17+ years of hands-on experience in Market and Social Research across Bangladesh and the Asia-Pacific region.",
+    "position": "Director, Client Service",
+    "bio": "17+ years of experience in Market & Social Research across Bangladesh and the Asia-Pacific region, spanning commercial, development, and strategic studies. Specialized in consumer insight, brand strategy, communication evaluation, and behavioral research. Worked on multi-country projects across Bangladesh, India, Pakistan, Nepal, Singapore, Malaysia, Indonesia, and the Philippines, including remote and online research engagements. Collaborated with leading organizations such as Unilever, GIZ, CARE, TNS Global, Nielsen, and Quantum. Independently led 15+ strategic research projects for global and local clients. Conducted 500+ FGDs, IDIs, and ethnographic studies. Trained in strategic research across Bangladesh, Singapore, India, and Indonesia, with strong expertise in moderation, insight generation, and actionable reporting.",
     "expertise": ["Market Entry", "Competitive Analysis", "Strategic Planning"],
-    "image": "/team/team-images/images/team1.jpg"
+    "socials": {
+      "facebook": "https://www.facebook.com",
+      "linkedin": "https://www.linkedin.com",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Rahman.webp"
   },
   {
     "id": "team-3",
-    "name": "Rashed Sultan",
-    "position": "Director – Research Operations & Strategy",
-    "bio": "25+ Years of Market & Social Research Excellence Specialized in Field Operations, Project Management and Evaluation Studies",
+    "name": "Mozammel Hoque",
+    "position": "Director, Social Research",
+    "bio": "Has more than 15+ years of experience as a statistician and researcher. Has expertise in leading survey research, data analysis and train up data collectors in diverse sectors like education, health, governance and climate change. Working experience in Save the Children, UNDP, BBC Media Action and Transparency International",
     "expertise": ["Consumer Insights", "UX Research", "Brand Perception"],
-    "image": "/team/team-images/images/team3.jpg"
+    "socials": {
+      "facebook": "https://www.facebook.com",
+      "linkedin": "https://www.linkedin.com",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/mozammel.webp"
   },
   {
     "id": "team-4",
-    "name": "Abu Hayat",
-    "position": "Operations Manager – Domestic Fieldwork",
-    "bio": "9 years of experience in the market research industry",
+    "name": "Sazzad Hossain",
+    "position": "Director, Market Research",
+    "bio": "Has around 10+ years of experience in qualitative research. Field of experience include conducting monitoring, baseline and end line research, developing research tools, project management, report writing etc. He has considerable experience in executing strategic research like brand equity, segmentation, positioning and usage and attitude and conducting the consumer interations thereof. BBA and MBA from North South University.",
     "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
-    "image": "/team/team-images/images/team4.jpg"
+    "socials": {
+      "facebook": "https://www.facebook.com",
+      "linkedin": "https://www.linkedin.com",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/sazzad.webp"
   }
 ]
