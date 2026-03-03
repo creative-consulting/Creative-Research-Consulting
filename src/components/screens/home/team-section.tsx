@@ -1,12 +1,10 @@
 "use client";
-// import React from "react";
 import React, { useEffect, useState } from "react";
 import { X } from "lucide-react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { HomeTeamMember } from "@/types/lang";
 import Image from "next/image";
-// import Link from "next/link";
 import SectionHeading from "@/components/ui/section-heading";
 import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa6";
@@ -82,7 +80,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                         fill
                         // sizes="(max-width: 768px) 100vw, 33vw"
                         className="object-fill !w-full !h-auto"
-                        priority={index < 4} // Only load first 4 images eagerly
+                        priority={index < 4}
                       />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-1.5">
