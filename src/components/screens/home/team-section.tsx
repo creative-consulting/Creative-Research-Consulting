@@ -1,16 +1,23 @@
 "use client";
-// import React from "react";
 import React, { useEffect, useState } from "react";
 import { X } from "lucide-react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import { HomeTeamMember } from "@/types/lang";
 import Image from "next/image";
-// import Link from "next/link";
 import SectionHeading from "@/components/ui/section-heading";
+import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
 
 interface TeamSectionProps {
   data: HomeTeamMember[];
 }
+
+const socialIcons: Record<string, React.ReactNode> = {
+  facebook: <FaFacebookF className="text-primary text-sm" />,
+  linkedin: <FaLinkedinIn className="text-primary text-sm" />,
+  whatsapp: <FaWhatsapp className="text-primary text-xl" />,
+};
 
 const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
   // add korchi ei tuku
@@ -71,9 +78,9 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                         src={member.image}
                         alt={`Portrait of ${member.name}`}
                         fill
-                        sizes="(max-width: 768px) 100vw, 33vw"
-                        className="object-cover !w-full !h-full "
-                        priority={index < 4} // Only load first 4 images eagerly
+                        // sizes="(max-width: 768px) 100vw, 33vw"
+                        className="object-fill !w-full !h-auto"
+                        priority={index < 4}
                       />
                     </div>
                     <h3 className="text-xl font-bold text-gray-900 mb-1.5">
@@ -114,7 +121,7 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                         alt=""
                         fill
                         // sizes="(max-width: 768px) 100vw, 33vw"
-                        className="object-cover !w-full !h-full"
+                        className="object-cover !w-full !h-auto"
                       />
                     </div>
                     <h3 className="text-lg font-bold mb-1 text-center">
@@ -192,13 +199,13 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
 
             {/* Modal */}
             <motion.div
-              className="fixed inset-0 z-50 flex items-center justify-center p-4"
+              className="fixed inset-0 z-50 flex items-center justify-center sm:p-4 p-0"
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               exit={{ opacity: 0, scale: 0.9 }}
             >
               <div
-                className="relative bg-white w-full max-w-lg rounded-xl shadow-2xl p-6"
+                className="relative bg-white w-full sm:max-w-2xl max-w-full sm:rounded-xl sm:h-auto h-full rounded-0 shadow-2xl p-6"
                 onClick={(e) => e.stopPropagation()}
               >
                 {/* Close */}
@@ -210,12 +217,12 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                 </button>
 
                 <div className="text-center">
-                  <div className="w-28 h-28 mx-auto mb-4 rounded-full overflow-hidden relative">
+                  <div className="w-45 h-60 mx-auto mb-4 rounded-full relative">
                     <Image
                       src={activeMember.image}
                       alt={activeMember.name}
                       fill
-                      className="object-cover"
+                      className="object-cover rounded-[1rem]"
                     />
                   </div>
 
@@ -226,6 +233,28 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
 
                   <p className="text-sm text-gray-600">{activeMember.bio}</p>
                 </div>
+                {/* social icons */}
+                {activeMember.socials && (
+                  <div className="flex justify-center gap-4 mt-4">
+                    {Object.entries(activeMember.socials).map(
+                      ([key, value]) => {
+                        if (!value) return null;
+
+                        return (
+                          <Link
+                            key={key}
+                            href={value}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="w-9 h-9 flex items-center justify-center rounded-full bg-primary/10 hover:bg-primary/20 transition"
+                          >
+                            {socialIcons[key]}
+                          </Link>
+                        );
+                      },
+                    )}
+                  </div>
+                )}
               </div>
             </motion.div>
           </>

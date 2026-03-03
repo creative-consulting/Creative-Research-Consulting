@@ -322,6 +322,11 @@ export type HomeTeamMember = {
   bio: string;
   expertise: string[];
   image: string;
+  socials?: {
+    facebook?: string;
+    linkedin?: string;
+    whatsapp?: string;
+  };
 };
 
 export type HomeCaseStudy = {
@@ -334,7 +339,6 @@ export type HomeCaseStudy = {
 };
 
 // types/contact.ts
-
 
 // Example usage in your page component:
 // const contactData: ContactPageData = await getLangData(lang, "screen/contact");
@@ -362,8 +366,7 @@ export interface BaseFieldProps {
 }
 
 export interface InputProps
-  extends React.InputHTMLAttributes<HTMLInputElement>,
-  BaseFieldProps {
+  extends React.InputHTMLAttributes<HTMLInputElement>, BaseFieldProps {
   type?: InputFieldType;
   icon?: ReactNode;
   variant?: "default" | "error" | "disabled";
@@ -371,8 +374,7 @@ export interface InputProps
 }
 
 export interface TextareaProps
-  extends React.TextareaHTMLAttributes<HTMLTextAreaElement>,
-  BaseFieldProps {
+  extends React.TextareaHTMLAttributes<HTMLTextAreaElement>, BaseFieldProps {
   showCharCount?: boolean;
   variant?: "default" | "error" | "disabled";
   customSize?: "sm" | "md" | "lg";
@@ -385,8 +387,7 @@ export interface SelectOption {
 }
 
 export interface SelectProps
-  extends React.SelectHTMLAttributes<HTMLSelectElement>,
-  BaseFieldProps {
+  extends React.SelectHTMLAttributes<HTMLSelectElement>, BaseFieldProps {
   options: SelectOption[];
   placeholder?: string;
   icon?: ReactNode;
@@ -507,7 +508,7 @@ export interface ProcessSectionData {
       description: string;
       image: string;
       content: string[];
-    }
+    },
   ];
 }
 
