@@ -4,10 +4,26 @@ import { List } from "@/components/ui/list";
 import { ListItem } from "@/components/ui/list-item";
 import { HowWeAddValueData } from "@/types/lang";
 import React, { useRef } from "react";
-import { FaChartLine } from "react-icons/fa";
 import { motion, useAnimation, useInView } from "framer-motion";
 // eta import kora holo
 import type { Variants } from "framer-motion";
+import {
+  FaChartLine,
+  FaGlobe,
+  FaBullhorn,
+  FaHandshake,
+  FaShieldAlt,
+  FaBoxOpen,
+} from "react-icons/fa";
+
+const iconMap: Record<string, React.ReactNode> = {
+  chart: <FaChartLine className="w-6 h-6 text-primary" />,
+  globe: <FaGlobe className="w-6 h-6 text-primary" />,
+  branding: <FaBullhorn className="w-6 h-6 text-primary" />,
+  sales: <FaHandshake className="w-6 h-6 text-primary" />,
+  shield: <FaShieldAlt className="w-6 h-6 text-primary" />,
+  product: <FaBoxOpen className="w-6 h-6 text-primary" />,
+};
 
 type Props = {
   data: HowWeAddValueData;
@@ -107,8 +123,9 @@ const WeAddValue = ({ data }: Props) => {
               variants={cardVariants}
             >
               <ListItem className="bg-white p-5 sm:h-56 h-fit rounded-xl shadow-sm border border-gray-100">
-                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-50 mb-3">
-                  <FaChartLine className="w-6 h-6 text-primary" />
+                <div className="w-12 h-12 flex items-center justify-center rounded-lg bg-blue-50 mb-3 icon-div">
+                  {/* <FaChartLine className="w-6 h-6 text-primary" /> */}
+                  {iconMap[item.icon]}
                 </div>
                 <h3 className="sm:text-lg text-base font-semibold text-gray-900 mb-2 scroll-m-20 tracking-tight">
                   {item.title.split("—")[0]}
@@ -121,7 +138,7 @@ const WeAddValue = ({ data }: Props) => {
           ))}
         </List>
         <motion.p
-          className="sm:text-base text-sm text-gray-600 text-center capitalize"
+          className="sm:text-base text-sm text-gray-600 text-center capitalize font-bold"
           initial={{ y: 30, opacity: 0 }}
           animate={controls}
           variants={paragraphVariants}

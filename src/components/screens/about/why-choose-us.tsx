@@ -119,7 +119,7 @@ const WhyChooseUs = ({ data }: Props) => {
 
         <div className="text-center mt-5 capitalize">
           <motion.p
-            className="choose-footer sm:text-lg text-base text-gray-700 font-medium"
+            className="choose-footer sm:text-lg text-base text-gray-700 font-semibold"
             initial="hidden"
             animate={controls}
             variants={footerVariants}

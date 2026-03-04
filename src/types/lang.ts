@@ -158,6 +158,7 @@ export type OurStoryData = {
 export interface ValueItem {
   title: string;
   text: string;
+  icon: string;
 }
 
 export interface HowWeAddValueData {

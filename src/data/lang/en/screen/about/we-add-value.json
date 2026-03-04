@@ -4,29 +4,35 @@
   "tex2": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences.",
   "valueItems": [
     {
+      "icon": "chart",
       "title": "Increase business efficiency, agility, and profitability",
-      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+      "text": "We provide data-driven insights to streamline operations, improve agility, and maximize profitability."
     },
     {
+      "icon": "globe",
       "title": "Enter new markets with confidence",
-      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+      "text": "Our research helps you understand new markets, identify opportunities, and reduce entry risks."
     },
     {
+      "icon": "branding",
       "title": "Enhance brand positioning and image",
-      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+      "text": "We uncover consumer perceptions to strengthen your brand identity and market positioning."
     },
     {
+      "icon": "sales",
       "title": "Improve sales processes and customer loyalty",
-      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+      "text": "Actionable insights help optimize sales strategies and build long-term customer loyalty."
     },
     {
+      "icon": "shield",
       "title": "Reduce operational risks and costs",
-      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+      "text": "We identify inefficiencies and potential risks to help minimize costs and improve performance."
     },
 
     {
+      "icon": "product",
       "title": "Develop better products and services",
-      "text": "We don't just collect data — we uncover the stories behind the numbers to help brands connect more meaningfully with their audiences."
+      "text": "Customer-centric research supports smarter product innovation and service improvements."
     }
   ]
 }
