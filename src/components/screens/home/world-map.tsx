@@ -198,13 +198,13 @@ const InteractiveEarth = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isLoaded, setIsLoaded] = useState(false);
   const [activeFilter, setActiveFilter] = useState<"all" | "client" | "office">(
-    "all"
+    "all",
   );
   const [selectedRegion, setSelectedRegion] = useState<string | null>(null);
 
   // Get unique regions
   const regions = Array.from(
-    new Set(locations.map((loc) => loc.region))
+    new Set(locations.map((loc) => loc.region)),
   ).filter(Boolean) as string[];
 
   // Filter locations based on active filter and selected region
@@ -233,7 +233,7 @@ const InteractiveEarth = () => {
       45,
       window.innerWidth / window.innerHeight,
       0.1,
-      1000
+      1000,
     );
     camera.position.set(0, 0, 3);
     cameraRef.current = camera;
@@ -278,13 +278,13 @@ const InteractiveEarth = () => {
       // Load textures for realistic earth
       const textureLoader = new THREE.TextureLoader();
       const earthTexture = textureLoader.load(
-        "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_atmos_2048.jpg"
+        "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_atmos_2048.jpg",
       );
       const bumpMap = textureLoader.load(
-        "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_normal_2048.jpg"
+        "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_normal_2048.jpg",
       );
       const specularMap = textureLoader.load(
-        "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_specular_2048.jpg"
+        "https://raw.githubusercontent.com/mrdoob/three.js/dev/examples/textures/planets/earth_specular_2048.jpg",
       );
 
       const material = new THREE.MeshPhongMaterial({
@@ -404,7 +404,7 @@ const InteractiveEarth = () => {
 
       starsGeometry.setAttribute(
         "position",
-        new THREE.Float32BufferAttribute(starPositions, 3)
+        new THREE.Float32BufferAttribute(starPositions, 3),
       );
 
       const starsMaterial = new THREE.PointsMaterial({
@@ -434,7 +434,7 @@ const InteractiveEarth = () => {
       if (pointsRef.current) {
         const intersects = raycaster.intersectObjects(
           pointsRef.current.children,
-          true
+          true,
         );
 
         if (intersects.length > 0) {
@@ -557,7 +557,7 @@ const InteractiveEarth = () => {
                 new Set(
                   locations
                     .filter((l) => l.type === "client")
-                    .map((l) => l.name)
+                    .map((l) => l.name),
                 ).size
               }
             </span>{" "}
@@ -620,7 +620,7 @@ const InteractiveEarth = () => {
         </motion.div> */}
 
         {/* Stats */}
-        {/* <motion.div
+        <motion.div
           ref={statsRef}
           className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
           initial={{ opacity: 0, y: 50 }}
@@ -645,7 +645,7 @@ const InteractiveEarth = () => {
             </div>
             <div className="text-slate-300">Global Offices</div>
           </div>
-        </motion.div> */}
+        </motion.div>
       </div>
 
       {/* Location tooltip */}
