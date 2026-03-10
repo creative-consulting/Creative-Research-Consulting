@@ -315,7 +315,7 @@ export const Footer = () => {
                   className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base flex items-center gap-1"
                 >
                   info@ccslbd.com
-                  <LuMailPlus className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </Link>
               </motion.li>
 
