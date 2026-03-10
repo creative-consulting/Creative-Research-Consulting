@@ -114,7 +114,7 @@ const About = ({ data }: Props) => {
           >
             <div className="relative w-full aspect-[4/3] lg:aspect-[5/4] xl:aspect-[3/2] z-10">
               <Image
-                src="/about/hero.jpeg"
+                src="/about/hero.webp"
                 alt="Business consultant"
                 fill
                 priority
