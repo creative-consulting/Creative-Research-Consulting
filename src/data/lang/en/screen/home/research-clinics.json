@@ -35,7 +35,7 @@
           "Develop compelling marketing messages"
         ]
       },
-      "image": "/research-clinics/images/car.jpg"
+      "image": "/research-clinics/images/car.webp"
     },
     {
       "id": "bike-clinic",
@@ -70,7 +70,7 @@
           "Validate pricing against perceived value"
         ]
       },
-      "image": "/research-clinics/images/bike.jpg"
+      "image": "/research-clinics/images/bike.webp"
     }
   ]
 }
