@@ -320,7 +320,7 @@ export default function ContactPage({
           {/* Background image with elegant gradient overlay */}
           <div className="absolute inset-0 -z-10">
             <Image
-              src="/about/hero.jpeg"
+              src="/about/hero.webp"
               alt="Professional market data background"
               fill
               priority
