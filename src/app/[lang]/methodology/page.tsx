@@ -10,6 +10,16 @@ import {
   MethodologyProcessData,
   SupportedLang,
 } from "@/types/lang";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "methodology");
+}
 
 export default async function MethodologyPage({
   params,
@@ -20,19 +30,19 @@ export default async function MethodologyPage({
 
   const heroData: MethodologyPageHero = await getLangData(
     lang,
-    "screen/methodology/hero"
+    "screen/methodology/hero",
   );
   const processData: MethodologyProcessData = await getLangData(
     lang,
-    "screen/methodology/process"
+    "screen/methodology/process",
   );
   const approachData: MethodologyApproachData = await getLangData(
     lang,
-    "screen/methodology/approach"
+    "screen/methodology/approach",
   );
   const ctaData: MethodologyCTAData = await getLangData(
     lang,
-    "screen/methodology/cta"
+    "screen/methodology/cta",
   );
   return (
     <>

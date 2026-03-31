@@ -446,6 +446,16 @@ import IndustriesGrid from "@/components/screens/industries/industries-grid";
 import MethodologySection from "@/components/screens/industries/methodology";
 import getLangData from "@/lib/translator/getLangData";
 import { IndustryData, MethodologyData, SupportedLang } from "@/types/lang";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "industries");
+}
 
 const IndustriesPage = async ({
   params,
@@ -468,11 +478,11 @@ const IndustriesPage = async ({
 
   const industriesData: IndustriesGridProps = await getLangData(
     lang,
-    "screen/industries/industries"
+    "screen/industries/industries",
   );
   const methodologyData: MethodologySectionProps = await getLangData(
     lang,
-    "screen/industries/methodology"
+    "screen/industries/methodology",
   );
   // const ctaData = await getLangData(lang, "screen/industries/cta");
 

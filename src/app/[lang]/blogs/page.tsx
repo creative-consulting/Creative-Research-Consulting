@@ -1,4 +1,4 @@
-"use client";
+// "use client";
 import HeroBanner from "@/components/layouts/hero-banner";
 import { SupportedLang } from "@/types/lang";
 import getLangData from "@/lib/translator/getLangData";
@@ -7,6 +7,16 @@ import { BlogPageData } from "@/types/blog";
 import LatestPosts from "@/components/screens/blog/latest-posts";
 import BlogSidebar from "@/components/screens/blog/sidebar";
 // import Newsletter from "@/components/screens/blog/newsletter";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "blogs");
+}
 
 const BlogPage = async ({
   params,
