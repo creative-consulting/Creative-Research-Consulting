@@ -4,6 +4,16 @@ import getLangData from "@/lib/translator/getLangData";
 import { MarketResearchFAQData } from "@/types/faq";
 import CTA from "@/components/screens/faq/faq-cta";
 import FAQSection from "@/components/screens/faq/faq-section";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "faq");
+}
 
 const MarketResearchFAQPage = async ({
   params,

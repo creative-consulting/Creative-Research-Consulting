@@ -12,6 +12,16 @@ import SolutionsGrid from "@/components/screens/solutions/solutions-grid";
 // import { HeroSection } from "@/components/layouts/hero";
 import { HeroData } from "@/types/worldHero";
 import WorldMapHero from "@/components/layouts/worldHero";
+import { generatePageMetadata } from "@/lib/metadata";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: SupportedLang }>;
+}) {
+  const { lang } = await params;
+  return generatePageMetadata(lang, "solutions");
+}
 
 const SolutionsPage = async ({
   params,
@@ -24,11 +34,11 @@ const SolutionsPage = async ({
   const heroData: HeroData = await getLangData(lang, "worldHero");
   const solutionsData: SolutionsGridData = await getLangData(
     lang,
-    "screen/solutions/solutions"
+    "screen/solutions/solutions",
   );
   const processData: ProcessSectionData = await getLangData(
     lang,
-    "screen/solutions/process"
+    "screen/solutions/process",
   );
   // const ctaData = await getLangData(lang, "screen/solutions/cta");
 
