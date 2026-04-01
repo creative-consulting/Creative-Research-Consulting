@@ -56,17 +56,6 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
     setActiveDropdown(null);
   };
 
-  // const isActiveLink = (link: string) => {
-  //   // Handle language prefix in pathname
-  //   const cleanPathname = pathname.replace(/^\/(en|bn|hi)/, "") || "/";
-  //   const cleanLink = link.replace(/^\/(en|bn|hi)/, "") || "/";
-
-  //   return (
-  //     cleanPathname === cleanLink ||
-  //     (cleanLink !== "/" && cleanPathname.startsWith(cleanLink))
-  //   );
-  // };
-
   const isActiveLink = (link: string) => {
     const normalize = (path: string) => {
       let clean = path.replace(/^\/(en|bn|hi)/, "");
