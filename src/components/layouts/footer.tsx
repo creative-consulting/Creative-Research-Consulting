@@ -38,9 +38,9 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-gray-100 border-t border-gray-800">
-      <div className="container mx-auto px-4 pt-8 pb-4 sm:pt-10 sm:pb-6">
+      <div className="container mx-auto px-4 pt-8 pb-4 sm:pt-6 sm:pb-6">
         {/* Main Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-12 gap-6 lg:gap-8 sm:mb-10 mb-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-12 gap-6 lg:gap-8">
           {/* Contact Column */}
           <div className="space-y-8">
             <motion.h3
@@ -368,16 +368,16 @@ export const Footer = () => {
         </div>
 
         {/* Divider */}
-        <motion.div
+        {/* <motion.div
           className="border-t border-gray-800"
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-        />
+        /> */}
 
         {/* Bottom Bar */}
-        <div className="sm:pt-8 pt-3 py-3 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
+        {/* <div className="sm:pt-8 pt-3 py-3 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
           <motion.div
             className="flex sm:gap-10 gap-2 text-xs"
             initial={{ opacity: 0, y: 10 }}
@@ -405,9 +405,9 @@ export const Footer = () => {
               className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
             >
               Cookie Policy
-            </Link>
-            {/* popupmodal */}
-            {openPopup && (
+            </Link> */}
+        {/* popupmodal */}
+        {/* {openPopup && (
               <FooterPopup
                 isOpen={!!openPopup}
                 onClose={() => setOpenPopup(null)}
@@ -424,8 +424,69 @@ export const Footer = () => {
           >
             &copy; {currentYear} Creative Consulting. All rights reserved.
           </motion.p>
-        </div>
+        </div> */}
       </div>
+      <section>
+        {/* Divider */}
+        <motion.div
+          className="border-t border-gray-800"
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        />
+        {/* Bottom Bar */}
+        <div className="container mx-auto px-4 sm:pb-6">
+          <div className="sm:pt-8 pt-5 py-6 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
+            <motion.div
+              className="flex sm:gap-10 gap-2 text-xs"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <Link
+                href="#"
+                onClick={() => setOpenPopup("privacyPolicy")}
+                className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="#"
+                onClick={() => setOpenPopup("termsConditions")}
+                className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
+              >
+                Terms & Conditions
+              </Link>
+              <Link
+                href="#"
+                onClick={() => setOpenPopup("cookiePolicy")}
+                className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
+              >
+                Cookie Policy
+              </Link>
+              {/* popupmodal */}
+              {openPopup && (
+                <FooterPopup
+                  isOpen={!!openPopup}
+                  onClose={() => setOpenPopup(null)}
+                  content={Popupmodal[openPopup]}
+                />
+              )}
+            </motion.div>
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className=" text-gray-400 sm:text-[16px] text-sm"
+            >
+              &copy; {currentYear} Creative Consulting. All rights reserved.
+            </motion.p>
+          </div>
+        </div>
+      </section>
     </footer>
   );
 };
