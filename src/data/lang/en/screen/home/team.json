@@ -2,7 +2,7 @@
   {
     "id": "team-1",
     "name": "Abu Sayeed",
-    "position": "Director Of Operations",
+    "position": "Director of Global Operations",
     "bio": "14+ years of experience in market and social research, leading complex quantitative and qualitative studies across Bangladesh for both local and global clients. His career began in 2010 at a leading multinational research firm, where he built strong expertise in field operations, team leadership, and client management. He has extensive experience across FMCG, automotive, telecom, financial services, healthcare, e-commerce, agriculture, and social & political research, delivering insights through advanced offline and online methodologies including CAPI, CAWI, FGDs, IDIs, ethnography, and digital discussions. As Director – Operations, he leads nationwide field teams across all 8 divisions of Bangladesh, ensuring high-quality execution, methodological rigor, and reliable data delivery.",
     "expertise": [
       "Statistical Modeling",
@@ -18,13 +18,13 @@
   },
   {
     "id": "team-2",
-    "name": "KM Arifur Rahman",
+    "name": "A Rahman",
     "position": "Director, Client Service",
     "bio": "17+ years of experience in Market & Social Research across Bangladesh and the Asia-Pacific region, spanning commercial, development, and strategic studies. Specialized in consumer insight, brand strategy, communication evaluation, and behavioral research. Worked on multi-country projects across Bangladesh, India, Pakistan, Nepal, Singapore, Malaysia, Indonesia, and the Philippines, including remote and online research engagements. Collaborated with leading organizations such as Unilever, GIZ, CARE, TNS Global, Nielsen, and Quantum. Independently led 15+ strategic research projects for global and local clients. Conducted 500+ FGDs, IDIs, and ethnographic studies. Trained in strategic research across Bangladesh, Singapore, India, and Indonesia, with strong expertise in moderation, insight generation, and actionable reporting.",
     "expertise": ["Market Entry", "Competitive Analysis", "Strategic Planning"],
     "socials": {
-      "facebook": "https://www.facebook.com",
-      "linkedin": "https://www.linkedin.com",
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
       "whatsapp": "https://wa.me/8801948373084"
     },
     "image": "/team/team-images/images/Rahman.webp"
@@ -36,8 +36,8 @@
     "bio": "Has more than 15+ years of experience as a statistician and researcher. Has expertise in leading survey research, data analysis and train up data collectors in diverse sectors like education, health, governance and climate change. Working experience in Save the Children, UNDP, BBC Media Action and Transparency International",
     "expertise": ["Consumer Insights", "UX Research", "Brand Perception"],
     "socials": {
-      "facebook": "https://www.facebook.com",
-      "linkedin": "https://www.linkedin.com",
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
       "whatsapp": "https://wa.me/8801948373084"
     },
     "image": "/team/team-images/images/mozammel.webp"
@@ -49,10 +49,127 @@
     "bio": "Has around 10+ years of experience in qualitative research. Field of experience include conducting monitoring, baseline and end line research, developing research tools, project management, report writing etc. He has considerable experience in executing strategic research like brand equity, segmentation, positioning and usage and attitude and conducting the consumer interations thereof. BBA and MBA from North South University.",
     "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
     "socials": {
-      "facebook": "https://www.facebook.com",
-      "linkedin": "https://www.linkedin.com",
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
       "whatsapp": "https://wa.me/8801948373084"
     },
     "image": "/team/team-images/images/sazzad.webp"
+  },
+  {
+    "id": "team-5",
+    "name": "Shahariar Sajib",
+    "position": "Director – Quantitative Research",
+    "bio": "A seasoned quantitative research expert with 16+ years of experience across consumer, telecom, retail, financial, and development sectors, he has worked with global firms like Nielsen and Kantar Millward Brown, delivering data-driven insights that drive brand growth and deeper consumer understanding. He has also contributed to strategic decision-making and process improvement through his roles at Holcim and as an SMX Coach under a McKinsey-developed program, and pioneered Bangladesh’s first mobile-based research module. His expertise spans brand tracking, communication effectiveness, usage and attitude studies, segmentation, customer satisfaction (NPS), product testing, and advanced analytics using tools like SPSS and data visualization dashboards. He has worked with leading clients including Robi, bKash, Nestlé, Samsung, and BRAC, helping organizations accelerate growth, refine strategies, and measure impact effectively.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Shahariar_Sajib.webp"
+  },
+  {
+    "id": "team-6",
+    "name": "Ashiful Islam",
+    "position": "Senior Manager – Operations",
+    "bio": "Ashiful Islam has over dedicated 12+ years CATI and CAWI Project Manager at CCSL. With extensive experience in market research methodologies, he excels in managing and supervising data collection projects. His role involves overseeing interviewers, ensuring data accuracy, and maintaining project timelines. Ashiful Islam's expertise contributes significantly to the successful execution of CATI and CAWI studies, meeting client objectives effectively.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/ashif.webp"
+  },
+  {
+    "id": "team-7",
+    "name": "Sharifa Islam",
+    "position": "Assistant Manager – Client Service",
+    "bio": "Client Service with 7+ years of professional experience in managing client relationships, coordinating projects, and ensuring smooth service delivery. Skilled in client communication, problem-solving, and cross-team collaboration to meet deadlines and maintain high client satisfaction. Experienced in handling multiple accounts, preparing reports, and supporting business growth through effective service management.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/barsha.webp"
+  },
+  {
+    "id": "team-8",
+    "name": "Masud Rana",
+    "position": "Field Operation Manager",
+    "bio": "Masud Rana has over 8+ years of valuable experience in the market research industry, serving as an Operations Manager with a proven track record in managing complex operations. His expertise encompasses a deep understanding of market research methodologies and effective project management. Currently, he excels as a CATI & CAWI head at overseeing the successful implementation of Online & telephone interviewing projects with meticulous attention to detail.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Masud.webp"
+  },
+  {
+    "id": "team-9",
+    "name": "Salauddin Shaikat",
+    "position": "Regional Director, Business Development – North America",
+    "bio": "A results-driven Regional Director, Business Development – North America, bringing over 15 years of expertise in qualitative research and strategic insight generation. They leverage deep consumer understanding and cognitive psychology-based frameworks to identify growth opportunities, strengthen client relationships, and drive business expansion across diverse markets. With a strong background in leading high-impact projects for global organizations such as Unilever and Nielsen, they excel at translating complex consumer insights into compelling business strategies. Their experience spans UX research, brand positioning, and innovation consulting—enabling them to partner effectively with clients to unlock value and deliver measurable outcomes. Combining commercial acumen with methodological depth, they are skilled in solution selling, stakeholder management, and strategic account development. Their expertise in advanced qualitative methodologies—including ethnography, IDIs, and proprietary tools like DeltaQual—allows them to position insight-led offerings that resonate with client needs and fuel sustainable growth in the North American market.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/salauddin.webp"
+  },
+  {
+    "id": "team-10",
+    "name": "Tes Olazo",
+    "position": "Director of Field Operations, Philippines",
+    "bio": "Tes Olazo is a highly experienced field operations professional with more than 20 years of experience in the market research industry. Over the course of her career, she has built strong expertise in managing fieldwork operations, project execution, team coordination, and quality control across a wide range of quantitative and qualitative research studies. She previously worked with a global research company in operational leadership roles, where she gained extensive experience in handling complex research projects and maintaining high standards of data collection and field management. At present, Tes Olazo is working with our organization as Director of Field Operations – Philippines, where she plays a key role in strengthening our fieldwork capabilities in the Philippine market. With her deep industry knowledge, practical leadership approach, and strong understanding of local market dynamics, she supports the successful implementation of research projects with a focus on operational efficiency, data quality, and timely delivery. Tes is known for her ability to lead field teams effectively, oversee end-to-end field execution, and ensure smooth coordination between clients, project teams, and on-ground resources. Her long-standing experience in the industry, combined with her commitment to excellence, makes her a valuable part of our regional leadership team.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Tes-Olazo.webp"
+  },
+  {
+    "id": "team-11",
+    "name": "Pradesh Pradhan",
+    "position": "Field Manager (Operations), Nepal",
+    "bio": "Pradesh Pradhan is a highly experienced field operations professional with over 17 years of experience in the market research industry in Nepal. Throughout his career, he has developed strong expertise in managing fieldwork operations, supervising large teams, coordinating complex research projects, and ensuring high standards of quality control across both quantitative and qualitative studies. Before joining our organization, he worked with a global research company, where he gained extensive experience in operational planning, nationwide field execution, and project delivery across diverse sectors. Currently, Pradesh Pradhan is working with us as Field Manager (Operations) – Nepal, where he plays a key role in leading and strengthening our fieldwork capabilities in the Nepal market. With his in-depth local knowledge, strong operational discipline, and hands-on management approach, he supports the successful execution of research projects across urban, semi-urban, and rural areas of the country. Pradesh has strong capability in handling large-scale nationwide studies in Nepal, including multi-location surveys, household studies, central location projects, retail audits, and customized field assignments. His experience includes managing interviewer networks, coordinating supervisors, planning logistics in difficult terrains, and ensuring timely completion of projects while maintaining strict quality standards. His ability to execute studies across Nepal’s varied geography makes him a valuable asset for projects requiring broad market coverage and reliable field implementation. He is known for his expertise in team management, field coordination, respondent recruitment, project monitoring, and quality assurance, with a strong focus on delivering accurate, dependable, and timely data. His long-standing industry experience and practical leadership make him an important part of our regional field operations team.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Pradesh-Pradhan.webp"
+  },
+  {
+    "id": "team-12",
+    "name": "Yasar Hayat",
+    "position": "Manager, Field Operations, Pakistan​",
+    "bio": "Yasar Hayat is an experienced field operations and market research professional based in Lahore, Pakistan, with over 22 years of experience in quantitative, qualitative, and retail research. Across his career, he has worked on a wide range of studies covering sectors such as FMCG, oil industry, automobile, social research, and opinion polling. Publicly available profile information also indicates that he has built and managed a field expert team across all regions of Pakistan, reflecting strong nationwide execution capability and hands-on field management expertise. At our company, Yasar Hayat serves as Manager, Field Operations – Pakistan, where he supports project execution, field team coordination, and quality-driven data collection across the Pakistani market. His long-standing experience in fieldwork operations, respondent engagement, and multi-sector research delivery makes him a valuable part of our regional field network. This role description is an organizational framing; the underlying experience summary is supported by the public profile excerpts cited above.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Yasar-Hayat.webp"
+  },
+  {
+    "id": "team-13",
+    "name": "Monir Hossain",
+    "position": "Lead – Data Management & Processing​",
+    "bio": "Monir Hossain is a highly experienced data management professional with more than 15 years of hands-on expertise in data processing, database management, coding, data entry, data cleaning, analysis, and reporting. He has worked across a wide range of quantitative research projects, including both CAPI and PAPI studies, and has managed data for more than a thousand projects over the course of his career. He is skilled in data structure design, SPSS and MS Excel analysis, Kobo Toolbox-based survey programming for CAPI studies, and Microsoft FoxPro-based data entry system development for PAPI studies. He also has strong experience handling large datasets of over 150,000 samples, supervising in-house data entry teams, and supporting the training and capacity building of field interviewers. Over the years, Monir has contributed to major research and evaluation studies for leading organizations including Save the Children, BRAC, ADBI, SMC, and many other research agencies and development partners. His long professional journey includes full-time roles at The Nielsen Company Bangladesh and ACNielsen Bangladesh, where he held several data management positions of increasing responsibility. His strong technical knowledge, accuracy, and commitment to quality make him a valuable resource for large-scale research and data operations.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/creativeCSbd/",
+      "linkedin": "https://www.linkedin.com/company/creative-market-research-agency-bangladesh/posts/?feedView=all&viewAsMember=true",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/monir.webp"
   }
 ]
