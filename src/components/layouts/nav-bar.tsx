@@ -57,13 +57,19 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
   };
 
   const isActiveLink = (link: string) => {
-    // Handle language prefix in pathname
-    const cleanPathname = pathname.replace(/^\/(en|bn|hi)/, "") || "/";
-    const cleanLink = link.replace(/^\/(en|bn|hi)/, "") || "/";
+    const normalize = (path: string) => {
+      let clean = path.replace(/^\/(en|bn|hi)/, "");
+      if (clean === "" || clean === "/home") return "/";
+      return clean;
+    };
+
+    const cleanPathname = normalize(pathname);
+    const cleanLink = normalize(link);
 
     return (
       cleanPathname === cleanLink ||
-      (cleanLink !== "/" && cleanPathname.startsWith(cleanLink))
+      (cleanLink !== "/" && cleanPathname.startsWith(cleanLink + "/")) ||
+      (cleanLink !== "/" && cleanPathname === cleanLink)
     );
   };
 
@@ -96,7 +102,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
           key={i}
           className={cn(
             "min-w-[180px]",
-            i < columnCount - 1 ? "pr-6 border-r border-gray-200" : ""
+            i < columnCount - 1 ? "pr-6 border-r border-gray-200" : "",
           )}
         >
           <ul className="space-y-2">
@@ -105,7 +111,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                 key={subItem.link}
                 className={cn(
                   "menu-item group",
-                  isActiveLink(subItem.link) && "active"
+                  isActiveLink(subItem.link) && "active",
                 )}
               >
                 <Link
@@ -116,7 +122,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                     "hover:translate-x-2.5",
                     isActiveLink(subItem.link)
                       ? "text-primary"
-                      : "text-gray-700 hover:text-primary"
+                      : "text-gray-700 hover:text-primary",
                   )}
                 >
                   <div className="flex items-center justify-between">
@@ -130,7 +136,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
               </li>
             ))}
           </ul>
-        </div>
+        </div>,
       );
     }
 
@@ -169,7 +175,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                     activeDropdown === item.title || isActiveLink(item.link)
                       ? "text-primary"
                       : "text-gray-800 hover:text-primary",
-                    item.child ? "pr-2" : ""
+                    item.child ? "pr-2" : "",
                   )}
                 >
                   <span className="relative inline-block">
@@ -180,7 +186,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                     <IoIosArrowDown
                       className={cn(
                         "text-xs transition-transform duration-250",
-                        activeDropdown === item.title && "rotate-180"
+                        activeDropdown === item.title && "rotate-180",
                       )}
                     />
                   )}
@@ -262,7 +268,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                               "w-full text-lg font-semibold group",
                               isActiveLink(item.link)
                                 ? "text-primary"
-                                : "text-gray-800 hover:text-primary"
+                                : "text-gray-800 hover:text-primary",
                             )}
                             onClick={closeMobileMenu}
                           >
@@ -281,7 +287,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                                 "text-lg font-semibold group",
                                 isActiveLink(item.link)
                                   ? "text-primary"
-                                  : "text-gray-800 hover:text-primary"
+                                  : "text-gray-800 hover:text-primary",
                               )}
                             >
                               <div className="flex items-center">
@@ -295,7 +301,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                               <IoIosArrowDown
                                 className={cn(
                                   "text-base transition-transform duration-200",
-                                  activeDropdown === item.title && "rotate-180"
+                                  activeDropdown === item.title && "rotate-180",
                                 )}
                                 onClick={() => toggleMobileDropdown(item.title)}
                               />
@@ -320,7 +326,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
                                   "hover:translate-x-1 hover:text-primary",
                                   isActiveLink(subItem.link)
                                     ? "text-primary bg-primary/10"
-                                    : "text-gray-700 hover:text-primary hover:bg-gray-50"
+                                    : "text-gray-700 hover:text-primary hover:bg-gray-50",
                                 )}
                                 onClick={closeMobileMenu}
                               >
@@ -355,7 +361,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
       className={cn(
         "top-0 w-full z-50 bg-white transition-all duration-300",
         isScrolled ? "shadow-sm py-2" : "sm:py-3 py-2",
-        className
+        className,
       )}
     >
       <div className="container mx-auto px-4">

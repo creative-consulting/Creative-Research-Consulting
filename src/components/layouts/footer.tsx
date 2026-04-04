@@ -1,234 +1,3 @@
-// "use client";
-
-// import type { FC } from "react";
-// import Link from "next/link";
-// import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
-// import {
-//   FaFacebook,
-//   FaPinterest,
-//   FaTwitter,
-//   FaYoutube,
-//   FaLinkedin,
-//   FaWhatsapp,
-// } from "react-icons/fa";
-// import { cn } from "@/lib/utils/cn";
-
-// interface FooterProps {
-//   data: {
-//     one: {
-//       top: {
-//         heading: string;
-//         info: Array<{
-//           title: string;
-//           icon: string;
-//           link?: string;
-//         }>;
-//       };
-//       bottom: {
-//         heading: string;
-//         contacts: Array<{
-//           name: string;
-//           icon: string;
-//           link: string;
-//           color: string;
-//         }>;
-//       };
-//     };
-//     two: {
-//       heading: string;
-//       links: Array<{
-//         title: string;
-//         link: string;
-//       }>;
-//     };
-//     three: {
-//       heading: string;
-//       links: Array<{
-//         title: string;
-//         link: string;
-//       }>;
-//     };
-//     four: {
-//       heading: string;
-//       links: Array<{
-//         title: string;
-//         link: string;
-//       }>;
-//       logins: Array<{
-//         title: string;
-//         link: string;
-//       }>;
-//     };
-//   };
-//   className?: string;
-// }
-
-// const iconMap = {
-//   FiPhone: <FiPhone />,
-//   FiMail: <FiMail />,
-//   FiMapPin: <FiMapPin />,
-//   FaFacebook: <FaFacebook />,
-//   FaPinterest: <FaPinterest />,
-//   FaTwitter: <FaTwitter />,
-//   FaYoutube: <FaYoutube />,
-//   FaLinkedin: <FaLinkedin />,
-//   FaWhatsapp: <FaWhatsapp />,
-// };
-
-// export const Footer: FC<FooterProps> = ({ data, className = "" }) => {
-//   return (
-//     <footer className={cn("bg-black  text-white", className)}>
-//       <div className="container mx-auto px-4 py-12 sm:py-16 lg:py-20">
-//         {/* Main Footer Content */}
-//         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-12">
-//           {/* Contact Info */}
-//           <div className="space-y-6">
-//             <h3 className="text-xl font-bold tracking-tight">
-//               {data.one.top.heading}
-//             </h3>
-//             <ul className="space-y-4">
-//               {data.one.top.info.map((item, index) => (
-//                 <li key={index} className="flex items-start gap-3">
-//                   <span className="text-gray-400 mt-0.5">
-//                     {iconMap[item.icon as keyof typeof iconMap]}
-//                   </span>
-//                   {item.link ? (
-//                     <a
-//                       href={item.link}
-//                       className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-//                     >
-//                       {item.title}
-//                     </a>
-//                   ) : (
-//                     <p className="text-gray-300 text-sm sm:text-base">
-//                       {item.title}
-//                     </p>
-//                   )}
-//                 </li>
-//               ))}
-//             </ul>
-
-//             <div className="space-y-4 pt-4">
-//               <h3 className="text-xl font-bold tracking-tight">
-//                 {data.one.bottom.heading}
-//               </h3>
-//               <div className="flex gap-4">
-//                 {data.one.bottom.contacts.map((contact, idx) => (
-//                   <a
-//                     key={idx}
-//                     href={contact.link}
-//                     target="_blank"
-//                     rel="noopener noreferrer"
-//                     style={{ color: contact.color }}
-//                     className="text-2xl hover:scale-110 transition-transform"
-//                     aria-label={contact.name}
-//                   >
-//                     {iconMap[contact.icon as keyof typeof iconMap]}
-//                   </a>
-//                 ))}
-//               </div>
-//             </div>
-//           </div>
-
-//           {/* Solutions */}
-//           <div className="space-y-6">
-//             <h3 className="text-xl font-bold tracking-tight">
-//               {data.two.heading}
-//             </h3>
-//             <ul className="space-y-3">
-//               {data.two.links.map((link, index) => (
-//                 <li key={index}>
-//                   <Link
-//                     href={link.link}
-//                     className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-//                   >
-//                     {link.title}
-//                   </Link>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-
-//           {/* Industries */}
-//           <div className="space-y-6">
-//             <h3 className="text-xl font-bold tracking-tight">
-//               {data.three.heading}
-//             </h3>
-//             <ul className="space-y-3">
-//               {data.three.links.map((link, index) => (
-//                 <li key={index}>
-//                   <Link
-//                     href={link.link}
-//                     className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-//                   >
-//                     {link.title}
-//                   </Link>
-//                 </li>
-//               ))}
-//             </ul>
-//           </div>
-
-//           {/* Company */}
-//           <div className="space-y-6">
-//             <h3 className="text-xl font-bold tracking-tight">
-//               {data.four.heading}
-//             </h3>
-//             <ul className="space-y-3 mb-6">
-//               {data.four.links.map((link, index) => (
-//                 <li key={index}>
-//                   <Link
-//                     href={link.link}
-//                     className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-//                   >
-//                     {link.title}
-//                   </Link>
-//                 </li>
-//               ))}
-//             </ul>
-
-//             <div className="space-y-3">
-//               <h4 className="font-semibold text-gray-300">Login Portals</h4>
-//               <ul className="space-y-3">
-//                 {data.four.logins.map((login, index) => (
-//                   <li key={index}>
-//                     <Link
-//                       href={login.link}
-//                       className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base"
-//                     >
-//                       {login.title}
-//                     </Link>
-//                   </li>
-//                 ))}
-//               </ul>
-//             </div>
-//           </div>
-//         </div>
-
-//         {/* Copyright */}
-//         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-//           <p>
-//             &copy; {new Date().getFullYear()} Creative Console. All rights
-//             reserved.
-//           </p>
-//           <div className="mt-2 flex justify-center gap-4 text-xs">
-//             <Link href="/privacy-policy" className="hover:text-gray-300">
-//               Privacy Policy
-//             </Link>
-//             <Link href="/terms-of-service" className="hover:text-gray-300">
-//               Terms of Service
-//             </Link>
-//             <Link href="/cookie-policy" className="hover:text-gray-300">
-//               Cookie Policy
-//             </Link>
-//           </div>
-//         </div>
-//       </div>
-//     </footer>
-//   );
-// };
-
-// export default Footer;
-
 "use client";
 
 import Link from "next/link";
@@ -269,9 +38,9 @@ export const Footer = () => {
 
   return (
     <footer className="bg-gray-900 text-gray-100 border-t border-gray-800">
-      <div className="container mx-auto px-4 pt-8 pb-4 sm:pt-10 sm:pb-6">
+      <div className="container mx-auto px-4 pt-8 pb-4 sm:pt-6 sm:pb-6">
         {/* Main Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-12 gap-6 lg:gap-8 sm:mb-10 mb-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-12 gap-6 lg:gap-8">
           {/* Contact Column */}
           <div className="space-y-8">
             <motion.h3
@@ -453,16 +222,6 @@ export const Footer = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.05 }}
                 >
-                  {/* <Link
-                    href={`/${item
-                      .toLowerCase()
-                      .replace(/ & /g, "-")
-                      .replace(/ /g, "-")}`}
-                    className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base flex items-center gap-1 group"
-                  >
-                    {item}
-                    <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </Link> */}
                   <Link
                     href="/solutions/all"
                     className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
@@ -513,16 +272,6 @@ export const Footer = () => {
                   viewport={{ once: true }}
                   transition={{ duration: 0.5, delay: index * 0.03 }}
                 >
-                  {/* <Link
-                    href={`/${item
-                      .toLowerCase()
-                      .replace(/ & /g, "-")
-                      .replace(/ /g, "-")}`}
-                    className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base flex items-center gap-1 group"
-                  >
-                    {item}
-                    <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </Link> */}
                   <Link
                     href="/industries/all"
                     className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
@@ -536,7 +285,7 @@ export const Footer = () => {
           </div>
 
           {/* Company Column */}
-          <div className="space-y-6">
+          {/* <div className="space-y-6">
             <motion.h3
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -546,29 +295,6 @@ export const Footer = () => {
             >
               Company
             </motion.h3>
-
-            {/* <ul className="space-y-3 sm:mb-6 mb-2">
-              {["About Us", "Locations", "Contact Us", "Our Team"].map(
-                (item, index) => (
-                  <motion.li
-                    key={index}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
-                  >
-                    <Link
-                      href="#"
-                      className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
-                    >
-                      {item}
-                      <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </Link>
-                  </motion.li>
-                )
-              )}
-            </ul> */}
-
             <ul className="space-y-3 sm:mb-6 mb-2">
               {FooterData.four.links.map((item, index) => (
                 <motion.li
@@ -588,72 +314,70 @@ export const Footer = () => {
                 </motion.li>
               ))}
             </ul>
-
-            {/* <div className="space-y-3">
-              <motion.h4
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5 }}
-                className="font-semibold text-gray-300"
-              >
-                Login Portals
-              </motion.h4>
-              <ul className="space-y-3">
-                {["Client Login", "Employee Login"].map((item, index) => (
-                  <motion.li
-                    key={index}
-                    initial={{ opacity: 0, y: 10 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ duration: 0.5, delay: index * 0.1 }}
+          </div> */}
+          <div className="space-y-6">
+            <motion.h3
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className="sm:text-xl text-[16px] mb-4 font-semibold tracking-tight text-white"
+            >
+              Company
+            </motion.h3>
+            <ul className="space-y-3 sm:mb-6 mb-2">
+              {FooterData.four.links.map((item, index) => (
+                <motion.li
+                  key={index}
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: index * 0.1 }}
+                >
+                  <a
+                    href={item.link}
+                    onClick={(e) => {
+                      if (item.link.includes("#")) {
+                        const id = item.link.split("#")[1];
+                        const el = document.getElementById(id);
+                        if (el) {
+                          e.preventDefault();
+                          setTimeout(() => {
+                            const offset = 80;
+                            const top =
+                              el.getBoundingClientRect().top +
+                              window.pageYOffset -
+                              offset;
+                            window.scrollTo({
+                              top,
+                              behavior: "smooth",
+                            });
+                          }, 100);
+                        }
+                      }
+                    }}
+                    className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
                   >
-                    <Link
-                      href={`/${item.toLowerCase().replace(/ /g, "-")}`}
-                      className="text-gray-300 hover:text-white transition-colors text-sm sm:text-base flex items-center gap-1 group"
-                    >
-                      {item}
-                      <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                    </Link>
-                  </motion.li>
-                ))}
-              </ul>
-            </div> */}
+                    {item.title}
+                    <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
+                  </a>
+                </motion.li>
+              ))}
+            </ul>
           </div>
         </div>
 
         {/* Divider */}
-        <motion.div
+        {/* <motion.div
           className="border-t border-gray-800"
           initial={{ scaleX: 0 }}
           whileInView={{ scaleX: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
-        />
+        /> */}
 
         {/* Bottom Bar */}
-        <div className="sm:pt-8 pt-3 py-3 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
-          {/* <div className="flex items-center gap-6">
-            <Link href="/" className="inline-block">
-              <Image
-                src="/logo-white.png"
-                alt="Creative Console"
-                width={160}
-                height={60}
-                className="w-auto h-8 object-contain opacity-90 hover:opacity-100 transition-opacity"
-              />
-            </Link>
-            <motion.p
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="text-sm text-gray-400"
-            >
-              &copy; {currentYear} Creative Console. All rights reserved.
-            </motion.p>
-          </div> */}
-
+        {/* <div className="sm:pt-8 pt-3 py-3 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
           <motion.div
             className="flex sm:gap-10 gap-2 text-xs"
             initial={{ opacity: 0, y: 10 }}
@@ -681,9 +405,9 @@ export const Footer = () => {
               className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
             >
               Cookie Policy
-            </Link>
-            {/* popupmodal */}
-            {openPopup && (
+            </Link> */}
+        {/* popupmodal */}
+        {/* {openPopup && (
               <FooterPopup
                 isOpen={!!openPopup}
                 onClose={() => setOpenPopup(null)}
@@ -700,8 +424,69 @@ export const Footer = () => {
           >
             &copy; {currentYear} Creative Consulting. All rights reserved.
           </motion.p>
-        </div>
+        </div> */}
       </div>
+      <section>
+        {/* Divider */}
+        <motion.div
+          className="border-t border-gray-800"
+          initial={{ scaleX: 0 }}
+          whileInView={{ scaleX: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+        />
+        {/* Bottom Bar */}
+        <div className="container mx-auto px-4 sm:pb-6">
+          <div className="sm:pt-8 pt-5 py-6 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
+            <motion.div
+              className="flex sm:gap-10 gap-2 text-xs"
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+            >
+              <Link
+                href="#"
+                onClick={() => setOpenPopup("privacyPolicy")}
+                className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="#"
+                onClick={() => setOpenPopup("termsConditions")}
+                className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
+              >
+                Terms & Conditions
+              </Link>
+              <Link
+                href="#"
+                onClick={() => setOpenPopup("cookiePolicy")}
+                className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
+              >
+                Cookie Policy
+              </Link>
+              {/* popupmodal */}
+              {openPopup && (
+                <FooterPopup
+                  isOpen={!!openPopup}
+                  onClose={() => setOpenPopup(null)}
+                  content={Popupmodal[openPopup]}
+                />
+              )}
+            </motion.div>
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5 }}
+              className=" text-gray-400 sm:text-[16px] text-sm"
+            >
+              &copy; {currentYear} Creative Consulting. All rights reserved.
+            </motion.p>
+          </div>
+        </div>
+      </section>
     </footer>
   );
 };
