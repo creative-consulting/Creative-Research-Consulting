@@ -411,7 +411,7 @@ export default function ContactPage({
                         variant="primaryLink"
                         className="sm:px-10 px-7 cursor-pointer hover: !bg-black"
                       >
-                        {btn.name || "Schedule For Demo"}
+                        {btn.name || "Schedule For a Call"}
                       </Button>
                     );
                   },
