@@ -251,13 +251,22 @@ html.dark ::-webkit-scrollbar-thumb {
 .global-card {
   background-color: rgb(249, 250, 254);
 }
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-10px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 @media (max-width: 950px) {
   .cvtwmy {
     width: 140px !important;
     height: 63px !important;
   }
 }
-
 .container-fluid {
   @apply w-full px-60 mx-auto;
   max-width: 100%;

@@ -1,5 +1,4 @@
 "use client";
-
 import { cn } from "@/lib/utils/cn";
 import { NavData } from "@/types/lang";
 import { motion, AnimatePresence } from "framer-motion";
@@ -10,6 +9,7 @@ import { FC, useEffect, useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoIosArrowDown, IoIosClose, IoIosMenu } from "react-icons/io";
 import SpaceButton from "../3d/space-button";
+// import DownloadButton from "../ui/downloadBtn";
 
 interface NavItem {
   title: string;
@@ -146,7 +146,8 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
   const renderDesktopMenu = () => {
     return (
       <div className="hidden lg:flex items-center justify-between w-full">
-        <div className="flex items-center flex-1">
+        {/*  flex-1 eta remove kora hoiche */}
+        <div className="flex items-center">
           <div className="flex-shrink-0 mr-10">
             <Link href="/">
               <Image
@@ -214,7 +215,16 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
           </ul>
         </div>
 
+        {/* <div className="flex justify-end gap-[1rem] items-center flex-1">
+          <div className="z-1">
+            <DownloadButton />
+          </div>
+          <SpaceButton href="/contact">{data.btnText}</SpaceButton>
+        </div> */}
         <div className="flex justify-end flex-1">
+          {/* <div className="z-1">
+            <DownloadButton />
+          </div> */}
           <SpaceButton href="/contact">{data.btnText}</SpaceButton>
         </div>
       </div>
