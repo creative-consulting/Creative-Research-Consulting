@@ -521,52 +521,53 @@ const InteractiveEarth = () => {
   }, []);
 
   return (
-    <div
-      ref={containerRef}
-      className="relative min-h-screen w-full bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden"
-    >
-      {/* Canvas */}
-      <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
+    <>
+      <div
+        ref={containerRef}
+        className="relative min-h-screen w-full bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 overflow-hidden"
+      >
+        {/* Canvas */}
+        <canvas ref={canvasRef} className="absolute inset-0 w-full h-full" />
 
-      {/* Content overlay */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen sm:pt-0 pt-[16px] sm:pb-0 pb-6 px-6">
-        <motion.div
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 50 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className="text-center max-w-4xl mx-auto"
-        >
-          <motion.h1
-            className="sm:text-5xl text-2xl font-bold sm:mb-6 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
+        {/* Content overlay */}
+        <div className="relative z-10 flex flex-col items-center justify-center min-h-screen sm:pt-0 pt-[16px] sm:pb-0 pb-6 px-6">
+          <motion.div
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 50 }}
+            transition={{ duration: 1, delay: 0.5 }}
+            className="text-center max-w-4xl mx-auto"
           >
-            Global Presence
-          </motion.h1>
+            <motion.h1
+              className="sm:text-5xl text-2xl font-bold sm:mb-6 mb-3 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-400 to-cyan-400"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.8, delay: 0.7 }}
+            >
+              Global Presence
+            </motion.h1>
 
-          <motion.p
-            className="sm:text-xl text-[16px] text-slate-300 sm:mb-8 mb-4 leading-relaxed"
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, delay: 0.9 }}
-          >
-            Connecting with partners across{" "}
-            <span className="text-blue-400 font-semibold">
-              {
-                new Set(
-                  locations
-                    .filter((l) => l.type === "client")
-                    .map((l) => l.name),
-                ).size
-              }
-            </span>{" "}
-            countries worldwide
-          </motion.p>
-        </motion.div>
+            <motion.p
+              className="sm:text-xl text-[16px] text-slate-300 sm:mb-8 mb-4 leading-relaxed"
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.9 }}
+            >
+              Connecting with partners across{" "}
+              <span className="text-blue-400 font-semibold">
+                {
+                  new Set(
+                    locations
+                      .filter((l) => l.type === "client")
+                      .map((l) => l.name),
+                  ).size
+                }
+              </span>{" "}
+              countries worldwide
+            </motion.p>
+          </motion.div>
 
-        {/* Filter controls */}
-        {/* <motion.div
+          {/* Filter controls */}
+          {/* <motion.div
           className="flex flex-wrap justify-center gap-4 sm:mb-12 mb-7"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
@@ -619,79 +620,83 @@ const InteractiveEarth = () => {
           )}
         </motion.div> */}
 
-        {/* Stats */}
-        <motion.div
-          ref={statsRef}
-          className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
-          initial={{ opacity: 0, y: 50 }}
-          animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 50 }}
-          transition={{ duration: 0.8, delay: 1.3 }}
-        >
-          <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
-            <div className="text-4xl font-bold text-blue-400 mb-2">
-              {locations.filter((l) => l.type === "client").length}
-            </div>
-            <div className="text-slate-300">Client Locations</div>
-          </div>
-          <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
-            <div className="text-4xl font-bold text-purple-400 mb-2">
-              {regions.length}
-            </div>
-            <div className="text-slate-300">Regions Covered</div>
-          </div>
-          <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
-            <div className="text-4xl font-bold text-emerald-400 mb-2">
-              {locations.filter((l) => l.type === "office").length}
-            </div>
-            <div className="text-slate-300">Global Offices</div>
-          </div>
-        </motion.div>
-      </div>
-
-      {/* Location tooltip */}
-      {hoveredLocation && (
-        <motion.div
-          className="absolute z-50 pointer-events-none"
-          style={
-            {
-              // left: mousePosition.x + 20,
-              // top: mousePosition.y - 60,
-              left: `${mousePosition.x + 20}px`,
-              top: `${mousePosition.y - 60}px`,
-            } as any
-          }
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
-          exit={{ opacity: 0, scale: 0.8 }}
-          transition={{ duration: 0.2 }}
-        >
-          <div className="bg-black/80 backdrop-blur-sm text-white px-4 py-3 rounded-lg border border-white/20 shadow-xl">
-            <div className="flex items-center gap-2 mb-1">
-              <span className="text-lg">
-                {getFlagEmoji(hoveredLocation.name)}
-              </span>
-              <span className="font-semibold">{hoveredLocation.name}</span>
-            </div>
-            <div
-              className={`text-xs px-2 py-1 rounded-full inline-block ${
-                hoveredLocation.type === "client"
-                  ? "bg-blue-500/30 text-blue-300"
-                  : "bg-emerald-500/30 text-emerald-300"
-              }`}
-            >
-              {hoveredLocation.type === "client"
-                ? "Client Location"
-                : "Our Office"}
-            </div>
-            {hoveredLocation.region && (
-              <div className="text-xs text-slate-300 mt-1">
-                {hoveredLocation.region}
+          {/* Stats */}
+          <motion.div
+            ref={statsRef}
+            className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 50 }}
+            transition={{ duration: 0.8, delay: 1.3 }}
+          >
+            <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+              <div className="text-4xl font-bold text-blue-400 mb-2">
+                {locations.filter((l) => l.type === "client").length}
               </div>
-            )}
-          </div>
-        </motion.div>
-      )}
-    </div>
+              <div className="text-slate-300">Client Locations</div>
+            </div>
+            <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+              <div className="text-4xl font-bold text-purple-400 mb-2">
+                {regions.length}
+              </div>
+              <div className="text-slate-300">Regions Covered</div>
+            </div>
+            <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+              <div className="text-4xl font-bold text-emerald-400 mb-2">
+                {locations.filter((l) => l.type === "office").length}
+              </div>
+              <div className="text-slate-300">Global Offices</div>
+            </div>
+          </motion.div>
+        </div>
+
+        {/* Location tooltip */}
+        {hoveredLocation && (
+          <motion.div
+            className="absolute z-50 pointer-events-none"
+            style={
+              {
+                // left: mousePosition.x + 20,
+                // top: mousePosition.y - 60,
+                left: `${mousePosition.x + 20}px`,
+                top: `${mousePosition.y - 60}px`,
+              } as any
+            }
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.8 }}
+            transition={{ duration: 0.2 }}
+          >
+            <div className="bg-black/80 backdrop-blur-sm text-white px-4 py-3 rounded-lg border border-white/20 shadow-xl">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-lg">
+                  {getFlagEmoji(hoveredLocation.name)}
+                </span>
+                <span className="font-semibold">{hoveredLocation.name}</span>
+              </div>
+              <div
+                className={`text-xs px-2 py-1 rounded-full inline-block ${
+                  hoveredLocation.type === "client"
+                    ? "bg-blue-500/30 text-blue-300"
+                    : "bg-emerald-500/30 text-emerald-300"
+                }`}
+              >
+                {hoveredLocation.type === "client"
+                  ? "Client Location"
+                  : "Our Office"}
+              </div>
+              {hoveredLocation.region && (
+                <div className="text-xs text-slate-300 mt-1">
+                  {hoveredLocation.region}
+                </div>
+              )}
+            </div>
+          </motion.div>
+        )}
+        <div className="container mx-auto">
+          <div className="text-white">counter</div>
+        </div>
+      </div>
+    </>
   );
 };
 

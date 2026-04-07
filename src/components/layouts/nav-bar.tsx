@@ -9,7 +9,6 @@ import { FC, useEffect, useState } from "react";
 import { FiArrowUpRight } from "react-icons/fi";
 import { IoIosArrowDown, IoIosClose, IoIosMenu } from "react-icons/io";
 import SpaceButton from "../3d/space-button";
-// import DownloadButton from "../ui/downloadBtn";
 
 interface NavItem {
   title: string;
@@ -214,17 +213,7 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
             ))}
           </ul>
         </div>
-
-        {/* <div className="flex justify-end gap-[1rem] items-center flex-1">
-          <div className="z-1">
-            <DownloadButton />
-          </div>
-          <SpaceButton href="/contact">{data.btnText}</SpaceButton>
-        </div> */}
         <div className="flex justify-end flex-1">
-          {/* <div className="z-1">
-            <DownloadButton />
-          </div> */}
           <SpaceButton href="/contact">{data.btnText}</SpaceButton>
         </div>
       </div>
