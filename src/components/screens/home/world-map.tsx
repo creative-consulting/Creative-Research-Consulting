@@ -5,6 +5,9 @@ import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import { motion } from "framer-motion";
 import { gsap } from "gsap";
+import StatsCounter from "../../ui/statsCounter";
+import data from "@/data/lang/en/statscounter.json";
+const statsData = data.statsSection;
 
 interface Location {
   id: string;
@@ -531,7 +534,7 @@ const InteractiveEarth = () => {
 
         {/* Content overlay */}
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen sm:pt-0 pt-[16px] sm:pb-0 pb-6 px-6">
-          <motion.div
+          {/* <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 50 }}
             transition={{ duration: 1, delay: 0.5 }}
@@ -564,7 +567,7 @@ const InteractiveEarth = () => {
               </span>{" "}
               countries worldwide
             </motion.p>
-          </motion.div>
+          </motion.div> */}
 
           {/* Filter controls */}
           {/* <motion.div
@@ -623,12 +626,12 @@ const InteractiveEarth = () => {
           {/* Stats */}
           <motion.div
             ref={statsRef}
-            className="grid grid-cols-1 md:grid-cols-3 sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
+            className="grid  sm:gap-8 gap-5 max-w-4xl mx-auto w-full sm:w-fit"
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: isLoaded ? 1 : 0, y: isLoaded ? 0 : 50 }}
             transition={{ duration: 0.8, delay: 1.3 }}
           >
-            <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+            {/* <div className="text-center bg-white/5 backdrop-blur-sm p-6 rounded-xl border border-white/10">
               <div className="text-4xl font-bold text-blue-400 mb-2">
                 {locations.filter((l) => l.type === "client").length}
               </div>
@@ -645,7 +648,12 @@ const InteractiveEarth = () => {
                 {locations.filter((l) => l.type === "office").length}
               </div>
               <div className="text-slate-300">Global Offices</div>
-            </div>
+            </div> */}
+            <StatsCounter
+              heading={statsData.heading}
+              subheading={statsData.subheading}
+              stats={statsData.stats}
+            />
           </motion.div>
         </div>
 
@@ -692,9 +700,13 @@ const InteractiveEarth = () => {
             </div>
           </motion.div>
         )}
-        <div className="container mx-auto">
-          <div className="text-white">counter</div>
-        </div>
+        {/* <div className="container mx-auto">
+          <StatsCounter
+            heading={statsData.heading}
+            subheading={statsData.subheading}
+            stats={statsData.stats}
+          />
+        </div> */}
       </div>
     </>
   );

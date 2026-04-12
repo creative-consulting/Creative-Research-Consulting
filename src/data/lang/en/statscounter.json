@@ -1,0 +1,48 @@
+{
+  "statsSection": {
+    "heading": "Creative Consulting Services Limited at a Glance",
+    "subheading": "Delivering data-driven insights with global reach, local expertise, and proven impact.",
+    "stats": [
+      {
+        "value": 30,
+        "suffix": "+",
+        "label": "Countries"
+      },
+      {
+        "value": 47,
+        "suffix": "+",
+        "label": "Languages"
+      },
+      {
+        "value": 12,
+        "suffix": "+",
+        "label": "Years of Experience"
+      },
+      {
+        "value": 200,
+        "suffix": "+",
+        "label": "Clients Served"
+      },
+      {
+        "value": 2000,
+        "suffix": "+",
+        "label": "Projects Completed"
+      },
+      {
+        "value": 500000,
+        "suffix": "+",
+        "label": "Panel Reach (Bangladesh & Global)"
+      },
+      {
+        "value": 3,
+        "suffix": "M+",
+        "label": "Global Respondent Access"
+      },
+      {
+        "value": 100,
+        "suffix": "%",
+        "label": "End-to-End Research Support"
+      }
+    ]
+  }
+}
