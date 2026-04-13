@@ -19,7 +19,11 @@
       "link": "/methodology"
     },
     { "title": "Blogs", "link": "/blogs" },
-    { "title": "FAQ", "link": "/faq" }
+    { "title": "FAQ", "link": "/faq" },
+    {
+      "title": "Online Panel",
+      "link": "https://ccslbd.com/online-panel-bangladesh-global/"
+    }
   ],
   "btnText": "Contact Us"
 }

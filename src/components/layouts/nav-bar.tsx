@@ -1,5 +1,4 @@
 "use client";
-
 import { cn } from "@/lib/utils/cn";
 import { NavData } from "@/types/lang";
 import { motion, AnimatePresence } from "framer-motion";
@@ -146,7 +145,8 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
   const renderDesktopMenu = () => {
     return (
       <div className="hidden lg:flex items-center justify-between w-full">
-        <div className="flex items-center flex-1">
+        {/*  flex-1 eta remove kora hoiche */}
+        <div className="flex items-center">
           <div className="flex-shrink-0 mr-10">
             <Link href="/">
               <Image
@@ -213,7 +213,6 @@ const NavBar: FC<NavBarProps> = ({ data, className = "" }) => {
             ))}
           </ul>
         </div>
-
         <div className="flex justify-end flex-1">
           <SpaceButton href="/contact">{data.btnText}</SpaceButton>
         </div>
