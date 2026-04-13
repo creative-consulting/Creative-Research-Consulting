@@ -74,12 +74,14 @@ export default function StatsCounter({ heading, subheading, stats }: Props) {
   }, []);
 
   return (
-    <section ref={sectionRef} className="py-20 text-white">
+    <section ref={sectionRef} className="sm:py-20 py-4 text-white">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
-        <div className="text-center mb-12">
-          <h2 className="sm:text-3xl text-xl font-bold mb-4">{heading}</h2>
-          <p className="sm:max-w-[32rem] max-w-full mx-auto sm:text-lg text-xl opacity-80">
+        <div className="text-center sm:mb-12 mb-5">
+          <h2 className="sm:text-[2.1rem] text-lg font-bold sm:mb-3 mb-1 ">
+            {heading}
+          </h2>
+          <p className="sm:max-w-[32rem] max-w-full mx-auto sm:text-lg text-sm opacity-80">
             {subheading}
           </p>
         </div>
