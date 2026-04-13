@@ -15,11 +15,9 @@ export default async function LangLayout({
 }) {
   const { lang } = await params;
 
-  // const headerData: HeaderData = await getLangData(lang, "header");
-  // const navData: NavData = await getLangData(lang, "nav");
   const headerData: HeaderData = await getLangData(
     lang as SupportedLang,
-    "header"
+    "header",
   );
   const navData: NavData = await getLangData(lang as SupportedLang, "nav");
 

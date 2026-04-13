@@ -1,4 +1,3 @@
-// components/screens/data-collection/data-collection.tsx
 "use client";
 // import React from "react";
 import React, { useState } from "react";
@@ -42,23 +41,6 @@ const DataCollection: React.FC<{ data: DataCollectionSection }> = ({
             description={data.description}
             className="data-collection "
           />
-          {/* Methods List  */}
-          {/* <div className="sm:mt-0 mt-2">
-            <div className="inline-flex flex-wrap justify-center gap-2 max-w-3xl mx-auto">
-              {data.methods.map((method, index) => (
-                <motion.span
-                  key={index}
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                  viewport={{ once: true }}
-                  className="inline-block px-4 py-2 bg-white rounded-full shadow-sm text-sm font-medium text-gray-700 border border-gray-200"
-                >
-                  {method}
-                </motion.span>
-              ))}
-            </div>
-          </div> */}
         </div>
 
         {/* Cards Grid */}

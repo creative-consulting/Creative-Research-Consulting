@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { gsap } from "gsap";
 import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
 import L from "leaflet";
-import "leaflet/dist/leaflet.css";
+// import "leaflet/dist/leaflet.css";
 import { motion } from "framer-motion";
 
 const createCustomIcon = (color: string) => {
@@ -145,8 +145,8 @@ const MapFilter: React.FC<{
             ? type === "client"
               ? "bg-indigo-500 text-white"
               : type === "office"
-              ? "bg-emerald-500 text-white"
-              : "bg-blue-500 text-white"
+                ? "bg-emerald-500 text-white"
+                : "bg-blue-500 text-white"
             : "bg-gray-100 hover:bg-gray-200"
         }`}
       >
@@ -184,7 +184,7 @@ const WorldMap: React.FC = () => {
   });
 
   const regions = Array.from(new Set(locations.map((l) => l.region))).filter(
-    Boolean
+    Boolean,
   );
 
   return (
@@ -226,7 +226,7 @@ const WorldMap: React.FC = () => {
             />
             <FitBounds
               bounds={L.latLngBounds(
-                filteredLocations.map((loc) => loc.coords as L.LatLngTuple)
+                filteredLocations.map((loc) => loc.coords as L.LatLngTuple),
               )}
             />
             {filteredLocations.map((location) => (

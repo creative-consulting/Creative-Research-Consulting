@@ -84,10 +84,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
                   <h3 className="sm:text-xl text-lg font-bold text-gray-800 mb-3">
                     {step.title}
                   </h3>
-                  {/* pore lagle use hobe noyto delete */}
-                  {/* <p className="text-gray-600 mb-4 hidden">
-                    {step.description}
-                  </p> */}
+
                   {step.list && step.list.length > 0 && (
                     <ul className="!list-decimal text-black sm:text-base text-sm space-y-1 ml-4">
                       {step.list.map((item, i) => (
@@ -95,22 +92,6 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
                       ))}
                     </ul>
                   )}
-
-                  {/* <button className="text-primary/70 font-medium hover:text-primary transition-colors flex items-center gap-2">
-                    Learn more
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                    >
-                      <path
-                        fillRule="evenodd"
-                        d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
-                        clipRule="evenodd"
-                      />
-                    </svg>
-                  </button> */}
                 </motion.div>
               </div>
             </motion.div>

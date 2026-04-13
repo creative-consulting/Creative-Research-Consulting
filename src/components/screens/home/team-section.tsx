@@ -50,10 +50,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
             >
               {/* link remove */}
               <div
-                // href={`/team/${member.id}`}
-                // passHref
-                // className="block h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
-                // aria-label={`View ${member.name}'s profile`}
                 onClick={() => setActiveMember(member)}
                 className="block h-full cursor-pointer focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
                 aria-label={`View ${member.name}'s profile`}

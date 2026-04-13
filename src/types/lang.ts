@@ -199,14 +199,6 @@ export interface VideoHeroData {
   };
 }
 
-// export interface MarketResearchType {
-//     description: string;
-//     features: {
-//         heading: string;
-//         allFeatures: string[];
-//     };
-// };
-
 export interface SocialResearchData {
   description: string;
   features: {
@@ -338,11 +330,6 @@ export type HomeCaseStudy = {
   results: string[];
   image: string;
 };
-
-// types/contact.ts
-
-// Example usage in your page component:
-// const contactData: ContactPageData = await getLangData(lang, "screen/contact");
 
 import { ReactNode } from "react";
 
@@ -519,52 +506,11 @@ export interface CtaSectionData {
   ctaText: string;
 }
 
-// export interface Industry {
-//     id: number;
-//     name: string;
-//     icon: string;
-//     color: string;
-//     image: string;
-//     overview: string;
-//     keyFocusAreas: {
-//         title: string;
-//         items: string[];
-//     }[];
-// }
-
 export interface IndustriesHeroData {
   title: string;
   subtitle: string;
   ctaText: string;
 }
-
-// export interface IndustriesGridData {
-//     title: string;
-//     description: string;
-//     industries: Omit<Industry, 'overview' | 'keyFocusAreas'>[]; // Simplified for grid
-// }
-
-// export interface IndustryDetailsData {
-//     industries: Industry[]; // Full data for details
-// }
-
-// export interface MethodologyItem {
-//     icon: string;
-//     title: string;
-//     description: string;
-// }
-
-// export interface MethodologySectionData {
-//     title: string;
-//     description: string;
-//     items: MethodologyItem[];
-// }
-
-// export interface IndustriesCtaData {
-//     title: string;
-//     description: string;
-//     ctaText: string;
-// }
 
 // Add these to your existing types
 export interface IndustryData {

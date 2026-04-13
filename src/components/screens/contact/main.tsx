@@ -138,10 +138,6 @@ export default function ContactPage({
     amount: 0.1,
   });
   const statsInView = useInView(statsSectionRef, { once: true, amount: 0.1 });
-  // const methodologyInView = useInView(methodologyRef, {
-  //   once: true,
-  //   amount: 0.1,
-  // });
 
   const [formData, setFormData] = useState<Record<string, string>>({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -272,28 +268,7 @@ export default function ContactPage({
       setIsSubmitting(false);
     }
   };
-  // const fadeInUp: Variants = {
-  //   hidden: { opacity: 0, y: 20 },
-  //   visible: {
-  //     opacity: 1,
-  //     y: 0,
-  //     transition: {
-  //       duration: 0.5,
-  //       ease: easeInOut,
-  //     },
-  //   },
-  // };
-  // const fadeIn: Variants = {
-  //   hidden: { opacity: 0, y: 20 },
-  //   visible: {
-  //     opacity: 1,
-  //     y: 0,
-  //     transition: {
-  //       duration: 0.5,
-  //       ease: easeInOut,
-  //     },
-  //   },
-  // };
+
   return (
     <LazyMotion features={domAnimation}>
       <div className="bg-gradient-to-b from-gray-50 to-white overflow-hidden">
@@ -361,31 +336,6 @@ export default function ContactPage({
               variants={fadeInUp}
               className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row"
             >
-              {/* <GooeyButton> */}
-              {/* <span className="flex items-center">
-                  <Phone className="mr-2 h-4 w-4" />
-                  <span>Schedule Consultation</span>
-                </span> */}
-              {/* Schedule Consultation */}
-              {/* </GooeyButton> */}
-              {/* <ColorfulButton textOne="Schedule Consultation" /> */}
-
-              {/* <Button
-                variant="secondary"
-                size="lg"
-                className="shadow-lg hover:shadow-xl transition-shadow"
-              >
-                Schedule Consultation
-              </Button> */}
-              {/* <Button
-                variant="outline"
-                size="lg"
-                className="border-white text-[15px] sm:px-6 px-3 sm:py-3 py-2 text-white hover:bg-white/10 hover:border-white/80 shadow-lg transition cursor-pointer"
-              >
-                <Mail className="mr-2 h-4 w-4" />
-                Request Proposal
-              </Button> */}
-
               <div className="flex gap-3 justify-center items-center sm:flex-row flex-col mx-auto sm:pt-10 pt-7 sm:pb-3.5 pb-3">
                 {contactData.hero.buttons.map(
                   (btn: HeroButton, btnIndex: number) => {

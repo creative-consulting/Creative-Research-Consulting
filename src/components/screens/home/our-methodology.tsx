@@ -17,14 +17,6 @@ const OurMethodology: React.FC<OurMethodologyProps> = ({ data }) => {
   return (
     <section className="sm:py-6 py-0 px-4 bg-white">
       <div className="max-w-7xl mx-auto">
-        {/* <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-            Our Research Methodology
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Proven approaches that deliver actionable insights
-          </p>{" "}
-        </div> */}
         <SectionHeading
           title="Our Research Methodology"
           description="Proven approaches that deliver actionable insights"

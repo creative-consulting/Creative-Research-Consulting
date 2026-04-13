@@ -28,28 +28,21 @@ export default async function ServicesPage({
 }) {
   const { lang } = await params;
 
-  // const [heroData, servicesData, featuresData, ctaData] = await Promise.all([
-  //   getLangData(lang, "screen/services/hero"),
-  //   getLangData(lang, "screen/services/services"),
-  //   getLangData(lang, "screen/services/features"),
-  //   getLangData(lang, "screen/services/cta"),
-  // ]);
-
   const heroData: ServicesHeroData = await getLangData(
     lang,
-    "screen/services/hero"
+    "screen/services/hero",
   );
   const servicesData: ServicesGridData = await getLangData(
     lang,
-    "screen/services/services"
+    "screen/services/services",
   );
   const featuresData: ServicesFeaturesData = await getLangData(
     lang,
-    "screen/services/features"
+    "screen/services/features",
   );
   const ctaData: ServicesCtaData = await getLangData(
     lang,
-    "screen/services/cta"
+    "screen/services/cta",
   );
 
   return (

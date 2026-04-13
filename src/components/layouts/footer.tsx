@@ -285,36 +285,6 @@ export const Footer = () => {
           </div>
 
           {/* Company Column */}
-          {/* <div className="space-y-6">
-            <motion.h3
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.5 }}
-              className="sm:text-xl text-[16px] mb-4 font-semibold tracking-tight text-white"
-            >
-              Company
-            </motion.h3>
-            <ul className="space-y-3 sm:mb-6 mb-2">
-              {FooterData.four.links.map((item, index) => (
-                <motion.li
-                  key={index}
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: index * 0.1 }}
-                >
-                  <Link
-                    href={item.link}
-                    className="text-gray-300 hover:text-primary transition-colors text-sm sm:text-base inline-flex items-center gap-1 group"
-                  >
-                    {item.title}
-                    <FiArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </Link>
-                </motion.li>
-              ))}
-            </ul>
-          </div> */}
           <div className="space-y-6">
             <motion.h3
               initial={{ opacity: 0, y: 10 }}
@@ -366,65 +336,6 @@ export const Footer = () => {
             </ul>
           </div>
         </div>
-
-        {/* Divider */}
-        {/* <motion.div
-          className="border-t border-gray-800"
-          initial={{ scaleX: 0 }}
-          whileInView={{ scaleX: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5 }}
-        /> */}
-
-        {/* Bottom Bar */}
-        {/* <div className="sm:pt-8 pt-3 py-3 sm:py-0 flex sm:flex-row flex-col justify-between items-center sm:gap-0 gap-4">
-          <motion.div
-            className="flex sm:gap-10 gap-2 text-xs"
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <Link
-              href="#"
-              onClick={() => setOpenPopup("privacyPolicy")}
-              className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
-            >
-              Privacy Policy
-            </Link>
-            <Link
-              href="#"
-              onClick={() => setOpenPopup("termsConditions")}
-              className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
-            >
-              Terms & Conditions
-            </Link>
-            <Link
-              href="#"
-              onClick={() => setOpenPopup("cookiePolicy")}
-              className="text-gray-400 hover:text-white text-sm! sm:text-[16px] transition-colors underline"
-            >
-              Cookie Policy
-            </Link> */}
-        {/* popupmodal */}
-        {/* {openPopup && (
-              <FooterPopup
-                isOpen={!!openPopup}
-                onClose={() => setOpenPopup(null)}
-                content={Popupmodal[openPopup]}
-              />
-            )}
-          </motion.div>
-          <motion.p
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-            className=" text-gray-400 sm:text-[16px] text-sm"
-          >
-            &copy; {currentYear} Creative Consulting. All rights reserved.
-          </motion.p>
-        </div> */}
       </div>
       <section>
         {/* Divider */}

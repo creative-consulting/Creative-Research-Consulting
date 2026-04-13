@@ -78,18 +78,6 @@ const ResearchClinicCard: React.FC<{
             items={clinic.features}
             icon={<FaCheckCircle className="text-green-500" />}
           />
-
-          {/* <FeatureList
-            title={clinic.methodology.title}
-            items={clinic.methodology.items}
-            icon={<FaClipboardList className="text-blue-500" />}
-          />
-
-          <FeatureList
-            title={clinic.benefits.title}
-            items={clinic.benefits.items}
-            icon={<FaLightbulb className="text-yellow-500" />}
-          /> */}
         </div>
       </div>
     </motion.div>

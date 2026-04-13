@@ -57,9 +57,6 @@ export default function Main({
             variants={fadeIn}
             className=" rounded-xl sm:py-8 py-10 "
           >
-            {/* <h2 className="sm:text-3xl text-2xl font-bold text-gray-900 sm:mb-2 mb-1 sm:mt-0 mt-5">
-              {replaceCountryName(data.hero.heading)}
-            </h2> */}
             <h2
               className="sm:text-3xl text-2xl font-bold text-gray-900 sm:mb-2 mb-1 sm:mt-0 mt-5 "
               dangerouslySetInnerHTML={{
@@ -72,10 +69,7 @@ export default function Main({
                 __html: replaceCountryName(data.hero.paragraph),
               }}
             />
-            {/* <p
-              className="text-black sm:text-lg text-base relative after:w-3.5 after:h-full after:absolute after:-left-6.5 after:-top-2 after:rounded-xl after:content-'' after:block after:mt-2 after:text-base after:bg-primary"
-              dangerouslySetInnerHTML={{ __html: data.hero.focusText }}
-            /> */}
+
             <p
               className="bg-[#f8c7d0] pl-6 py-2 rounded-sm text-black sm:text-lg text-base relative after:w-3.5 after:h-full after:absolute after:left-0 after:top-0  after:rounded-sm after:content-[''] after:block  after:bg-[#d91c5c] after:transform  after:translate-x-[1px] after:translate-y-[-1px]"
               dangerouslySetInnerHTML={{ __html: data.hero.focusText }}
@@ -196,13 +190,7 @@ export default function Main({
           items={data.ResearchPlatformScripting.list}
           className="sm:mb-16 mb-6"
         />
-        {/* IndustryWeServe */}
-        {/* <SectionWithAnimation
-          title={data.IndustryWeServe.heading}
-          subTitle={data.IndustryWeServe.subHeading}
-          items={data.IndustryWeServe.list}
-          className="sm:mb-16 mb-6"
-        /> */}
+
         {/* Industry We Serve Section */}
         {data.IndustryWeServe.list && (
           <motion.section

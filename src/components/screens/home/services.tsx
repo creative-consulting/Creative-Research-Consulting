@@ -43,28 +43,6 @@ const Services = ({ data }: Props) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const isInView = useInView(containerRef, { once: true, amount: 0.1 });
 
-  // const containerVariants = {
-  //   hidden: { opacity: 0 },
-  //   visible: {
-  //     opacity: 1,
-  //     transition: {
-  //       when: "beforeChildren",
-  //       staggerChildren: 0.1,
-  //     },
-  //   },
-  // };
-
-  // const itemVariants = {
-  //   hidden: { opacity: 0, y: 30 },
-  //   visible: {
-  //     opacity: 1,
-  //     y: 0,
-  //     transition: {
-  //       duration: 0.8,
-  //       ease: [0.16, 0.77, 0.47, 0.97],
-  //     },
-  //   },
-  // };
   // ekhane : Variants add kora
   const serviceItemVariants: Variants = {
     hidden: { opacity: 0, y: 50 },
@@ -122,26 +100,6 @@ const Services = ({ data }: Props) => {
       </div>
 
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto relative">
-        {/* <motion.div
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          variants={containerVariants}
-          className="text-center max-w-4xl mx-auto mb-16"
-        >
-          <motion.div variants={itemVariants}>
-            <p className="text-[#5F5F5F] font-medium uppercase tracking-wider mb-3 leading-7 [&:not(:first-child)]:mt-6">
-              {data.subHeading}
-            </p>
-          </motion.div>
-          <motion.div variants={itemVariants}>
-            <h3
-              id="services-heading"
-              className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#1C1C1D] leading-tight mb-5 scroll-m-20 tracking-tight"
-            >
-              {data.heading}
-            </h3>
-          </motion.div>
-        </motion.div> */}
         <SectionHeading title={data.heading} description={data.subHeading} />
 
         <motion.ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -156,33 +114,6 @@ const Services = ({ data }: Props) => {
               whileHover="hover"
               whileTap="tap"
             >
-              {/* <motion.a
-                href={service.link}
-                className="block relative sm:h-48 z-10 p-5 md:p-6 rounded-xl transition-all duration-150  border border-gray-100 global-card"
-                variants={cardHoverVariants}
-              >
-                <div className="relative z-10 flex items-start gap-4">
-                  <motion.span
-                    className="flex-shrink-0 w-12 h-12 flex items-center justify-center rounded-full bg-primary/10 text-[#d91c5c] transition-all duration-200 group-hover:shadow-sm"
-                    variants={iconHoverVariants}
-                  >
-                    {iconsMap[service.icon]}
-                  </motion.span>
-                  <div className="flex flex-col">
-                    <motion.h4
-                      className="sm:text-lg text-[16px] font-semibold text-[#1c1c1d] mb-2 transition-colors duration-200"
-                      variants={titleHoverVariants}
-                    >
-                      {service.title}
-                    </motion.h4>
-                    <motion.div variants={descHoverVariants}>
-                      <p className="text-gray-600 leading-relaxed sm:text-[16px] text-sm md:text-base ">
-                        {service.text}
-                      </p>
-                    </motion.div>
-                  </div>
-                </div>
-              </motion.a> */}
               <motion.a
                 href="#"
                 className="block cursor-default relative sm:h-48 z-10 p-5 md:p-6 rounded-xl transition-all duration-150  border border-gray-100 global-card"

@@ -65,16 +65,4 @@ const GradientLinkButton: React.FC<GradientButtonProps> = ({
   );
 };
 
-// Global styles (add this to your global CSS file)
-/*
-.gradient-btn:hover {
-  transform: translateY(3px);
-  box-shadow: none;
-}
-
-.gradient-btn:active {
-  opacity: 0.5;
-}
-*/
-
 export default GradientLinkButton;
