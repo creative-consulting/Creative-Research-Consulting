@@ -53,15 +53,6 @@ const BlogSidebar = ({ categories, popularTags }: BlogSidebarProps) => {
                   {category.count}
                 </span>
               </Link>
-              {/* <a
-                href="#"
-                className="flex justify-between items-center py-2 hover:text-primary transition-colors"
-              >
-                <span>{category.name}</span>
-                <span className="bg-gray-200 px-2 py-1 rounded-full text-xs">
-                  {category.count}
-                </span>
-              </a> */}
             </li>
           ))}
         </ul>
@@ -85,13 +76,6 @@ const BlogSidebar = ({ categories, popularTags }: BlogSidebarProps) => {
             >
               {tag}
             </Link>
-            // <a
-            //   key={index}
-            //   href="#"
-            //   className="px-3 py-1 bg-white rounded-full text-sm hover:bg-primary hover:text-white transition-colors"
-            // >
-            //   {tag}
-            // </a>
           ))}
         </div>
       </motion.div>

@@ -32,31 +32,6 @@ const ReliableInsights = ({ data }: { data: ReliableInsightsData }) => {
     <section ref={ref} className="sm:py-6 py-3 bg-gray-50">
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto">
         <div className="flex flex-col lg:flex-row sm:gap-12 gap-6 items-center">
-          {/* <motion.div
-            className="lg:w-1/2"
-            initial="hidden"
-            animate={controls}
-            variants={variants}
-          >
-            <h2 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three mb-6">
-              {data.heading}
-            </h2>
-            <p className="text-gray-600 text-lg mb-8">{data.text}</p>
-
-            {data.services.map((service, index) => (
-              <div key={index} className="mb-6">
-                <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-                <List className="space-y-2">
-                  {service.items.map((item, i) => (
-                    <li key={i} className="flex items-start">
-                      <span className="text-primary mr-2">•</span>
-                      <span className="text-gray-600">{item}</span>
-                    </li>
-                  ))}
-                </List>
-              </div>
-            ))}
-          </motion.div> */}
           <motion.div
             className="sm:w-1/2 w-full"
             initial={{ opacity: 0, scale: 0.95 }}

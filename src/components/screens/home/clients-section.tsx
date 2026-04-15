@@ -44,35 +44,6 @@ const ClientsSection = ({ data }: { data: ClientsSectionProps }) => {
       </div>
 
       <div className="container px-4 sm:px-6 lg:px-8 mx-auto relative z-10">
-        {/* <motion.div
-          initial={{ opacity: 0, y: 80 }}
-          animate={isInView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 1.2, ease: "easeOut" }}
-          className="text-center mb-16 md:mb-20 lg:mb-24"
-        >
-          <motion.h2
-            id="clients-heading"
-            initial={{ opacity: 0, y: 30 }}
-            animate={isInView ? { opacity: 1, y: 0 } : {}}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            className="mb-6 scroll-m-20 text-3xl font-semibold tracking-tight"
-          >
-            {title}
-          </motion.h2>
-
-          {subtitle && (
-            <motion.p
-              id="clients-subtitle"
-              initial={{ opacity: 0, y: 20 }}
-              animate={isInView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed"
-            >
-              {subtitle}
-            </motion.p>
-          )}
-        </motion.div> */}
-
         <SectionHeading
           title={title}
           description={subtitle}
@@ -209,7 +180,7 @@ const ClientsSection = ({ data }: { data: ClientsSectionProps }) => {
                             {
                               year: "numeric",
                               month: "short",
-                            }
+                            },
                           )}
                         </span>
                       )}

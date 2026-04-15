@@ -54,7 +54,7 @@ const JoinUs = ({ data }: { data: JoinUsData }) => {
   const handleChange = (
     e: React.ChangeEvent<
       HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement
-    >
+    >,
   ) => {
     const target = e.target as
       | HTMLInputElement
@@ -110,23 +110,6 @@ const JoinUs = ({ data }: { data: JoinUsData }) => {
           "Content-Type": "multipart/form-data",
         },
       });
-      // Log the response for debugging
-      // toast.promise(
-      //   response,
-      //   {
-      //     loading: "Submitting your profile...",
-      //     success: "Profile submitted successfully!",
-      //     error: "Failed to submit profile.",
-      //   },
-      //   {
-      //     position: "top-right",
-      //     duration: 3000,
-      //     style: {
-      //       background: "#333",
-      //       color: "#fff",
-      //     },
-      //   }
-      // );
 
       console.log("Response:", response);
 
@@ -225,7 +208,7 @@ const JoinUs = ({ data }: { data: JoinUsData }) => {
                           value={option}
                           checked={
                             Array.isArray(
-                              formData[field.name as keyof FormData]
+                              formData[field.name as keyof FormData],
                             ) &&
                             (
                               formData[field.name as keyof FormData] as string[]

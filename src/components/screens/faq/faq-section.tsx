@@ -18,9 +18,6 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
   // const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const [activeIndex, setActiveIndex] = useState<string | null>(null);
 
-  // const toggleFAQ = (index: number) => {
-  //   setActiveIndex(activeIndex === index ? null : index);
-  // };
   const toggleFAQ = (sectionIdx: number, faqIdx: number) => {
     const id = `${sectionIdx}-${faqIdx}`;
     setActiveIndex(activeIndex === id ? null : id);
@@ -99,8 +96,6 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
                       className="bg-white rounded-xl shadow-sm overflow-hidden border border-gray-200 sm:mb-4 mb-3 last:mb-0"
                     >
                       <button
-                        // className="w-full cursor-pointer text-left p-4 flex justify-between items-center hover:bg-primary/10 transition-colors"
-                        // onClick={() => toggleFAQ(index)}
                         className={`w-full cursor-pointer text-left p-4 flex justify-between items-center transition-colors ${
                           activeIndex === `${i}-${index}`
                             ? "bg-primary/10 !text-primary"
@@ -111,11 +106,7 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
                         <h3 className="sm:text-base text-sm font-semibold">
                           {faq.question}
                         </h3>
-                        {/* {activeIndex === index ? (
-                          <ChevronUp className="h-5 w-5 text-black" />
-                        ) : (
-                          <ChevronDown className="h-5 w-5 text-black" />
-                        )} */}
+
                         {activeIndex === `${i}-${index}` ? (
                           <ChevronUp className="h-5 w-5 text-primary" />
                         ) : (
@@ -125,10 +116,6 @@ const FAQSection = ({ sections }: FAQSectionProps) => {
 
                       <motion.div
                         initial={{ height: 0, opacity: 0 }}
-                        // animate={{
-                        //   height: activeIndex === index ? "auto" : 0,
-                        //   opacity: activeIndex === index ? 1 : 0,
-                        // }}
                         animate={{
                           height: activeIndex === `${i}-${index}` ? "auto" : 0,
                           opacity: activeIndex === `${i}-${index}` ? 1 : 0,

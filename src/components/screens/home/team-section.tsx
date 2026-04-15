@@ -6,8 +6,8 @@ import { motion, AnimatePresence } from "framer-motion";
 import { HomeTeamMember } from "@/types/lang";
 import Image from "next/image";
 import SectionHeading from "@/components/ui/section-heading";
-import { FaLinkedinIn, FaFacebookF } from "react-icons/fa";
-import { FaWhatsapp } from "react-icons/fa6";
+import { FaLinkedinIn, FaFacebookF, FaGithub } from "react-icons/fa";
+import { FaWhatsapp, FaCode } from "react-icons/fa6";
 
 interface TeamSectionProps {
   data: HomeTeamMember[];
@@ -17,6 +17,8 @@ const socialIcons: Record<string, React.ReactNode> = {
   facebook: <FaFacebookF className="text-primary text-sm" />,
   linkedin: <FaLinkedinIn className="text-primary text-sm" />,
   whatsapp: <FaWhatsapp className="text-primary text-xl" />,
+  Github: <FaGithub className="text-primary text-xl" />,
+  Portfolio: <FaCode className="text-primary text-xl" />,
 };
 
 const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
@@ -50,10 +52,6 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
             >
               {/* link remove */}
               <div
-                // href={`/team/${member.id}`}
-                // passHref
-                // className="block h-full focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
-                // aria-label={`View ${member.name}'s profile`}
                 onClick={() => setActiveMember(member)}
                 className="block h-full cursor-pointer focus:outline-none focus-visible:ring-4 focus-visible:ring-primary/50 rounded-xl"
                 aria-label={`View ${member.name}'s profile`}

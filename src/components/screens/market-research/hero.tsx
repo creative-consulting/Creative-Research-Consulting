@@ -14,28 +14,25 @@ const HeroSection: FC<{ data: HeroData }> = ({ data }) => {
 
     let textIndex = 0;
     setTypedText(""); // reset
-    // setShowCursor(true);
-    // // setIsTypingComplete(false);
 
-    // const cursorInterval = setInterval(() => {
-    //   setShowCursor((prev) => !prev);
-    // }, 500);
+    const typingInterval = setInterval(
+      () => {
+        if (textIndex < data.slowgan.length) {
+          setTypedText(data.slowgan.substring(0, textIndex + 1));
+          textIndex++;
+          console.log(textIndex);
 
-    const typingInterval = setInterval(() => {
-      if (textIndex < data.slowgan.length) {
-        setTypedText(data.slowgan.substring(0, textIndex + 1));
-        textIndex++;
-        console.log(textIndex);
-
-        // Check if typing is complete
-        if (textIndex === data.slowgan.length) {
-          // setIsTypingComplete(true);
-          clearInterval(typingInterval);
-          textIndex = 0;
-          // Keep cursor blinking
+          // Check if typing is complete
+          if (textIndex === data.slowgan.length) {
+            // setIsTypingComplete(true);
+            clearInterval(typingInterval);
+            textIndex = 0;
+            // Keep cursor blinking
+          }
         }
-      }
-    }, 100 + Math.random() * 50);
+      },
+      100 + Math.random() * 50,
+    );
 
     return () => {
       clearInterval(typingInterval);
@@ -88,9 +85,6 @@ const HeroSection: FC<{ data: HeroData }> = ({ data }) => {
           <div className="min-h-[2.5rem] sm:min-h-[3rem] md:min-h-[3.5rem] flex justify-center">
             <p className="text-[clamp(1.125rem,2vw,1.5rem)] text-primary inline-flex">
               {typedText}
-              {/* {showCursor && (
-                <span className="ml-1 w-0.5 h-6 bg-primary animate-pulse inline-block align-middle" />
-              )} */}
             </p>
           </div>
 

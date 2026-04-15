@@ -1,4 +1,3 @@
-// components/ui/scroll-indicator.tsx
 "use client";
 
 import { motion, useScroll, useTransform } from "framer-motion";

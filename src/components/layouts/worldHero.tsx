@@ -27,17 +27,17 @@ const WorldMapHero = ({ heroData }: WorldMapHeroProps) => {
 
   // Extract sequences
   const titleSequences = heroData.titleSequences.filter(
-    (_, i) => i % 2 === 0
+    (_, i) => i % 2 === 0,
   ) as string[];
   const titleDurations = heroData.titleSequences.filter(
-    (_, i) => i % 2 !== 0
+    (_, i) => i % 2 !== 0,
   ) as number[];
 
   const descSequences = heroData.descriptionSequences.filter(
-    (_, i) => i % 2 === 0
+    (_, i) => i % 2 === 0,
   ) as string[];
   const descDurations = heroData.descriptionSequences.filter(
-    (_, i) => i % 2 !== 0
+    (_, i) => i % 2 !== 0,
   ) as number[];
 
   // Animation control for title
@@ -136,24 +136,6 @@ const WorldMapHero = ({ heroData }: WorldMapHeroProps) => {
               </motion.div>
             ))}
           </div>
-
-          {/* Buttons */}
-          {/* <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center px-4">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-6 py-2 md:px-8 md:py-3 bg-blue-500 hover:bg-blue-600 rounded-lg font-medium text-base md:text-lg shadow-lg"
-            >
-              {heroData.buttonTexts.primary}
-            </motion.button>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-6 py-2 md:px-8 md:py-3 bg-white/10 hover:bg-white/20 rounded-lg font-medium text-base md:text-lg backdrop-blur-md border border-white/10 mt-2 sm:mt-0"
-            >
-              {heroData.buttonTexts.secondary}
-            </motion.button>
-          </div> */}
         </div>
       </div>
 
@@ -262,7 +244,7 @@ const ConnectionLines = ({ isMobile }: { isMobile: boolean }) => {
     const geometry = new THREE.BufferGeometry();
     geometry.setAttribute(
       "position",
-      new THREE.Float32BufferAttribute(points, 3)
+      new THREE.Float32BufferAttribute(points, 3),
     );
 
     linesRef.current.geometry = geometry;

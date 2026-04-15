@@ -14,15 +14,6 @@ const InsightsSection: React.FC<InsightsSectionProps> = ({ posts }) => {
     <section className="sm:py-9 py-5 px-4 bg-gray-50">
       <div className="max-w-7xl mx-auto">
         <div className="text-center sm:mb-8 mb-5">
-          {/* <motion.h2
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-            className="sm:text-3xl text-2xl font-bold text-black sm:mb-4 mb-1"
-          >
-            Market Insights
-          </motion.h2> */}
           <h2
             className="sm:text-4xl text-2xl font-bold text-transparent bg-clip-text 
   bg-gradient-to-r from-gradiant-one via-gradiant-two to-gradaint-three sm:mb-2 mb-1.5
