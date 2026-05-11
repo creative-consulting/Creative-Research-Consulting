@@ -175,8 +175,8 @@
   {
     "id": "team-14",
     "name": "Toyaha Jannat Urme",
-    "position": "Front-end Developer & Quality Controller​",
-    "bio": "Front-End Developer with 3.8+ years of professional experience, skilled in building responsive, user-friendly web applications using HTML5, CSS3, and JavaScript (ES6+). Experienced with modern frameworks and libraries including React.js, Next.js, Vue.js, Nuxt.js, along with UI technologies like Material UI, Tailwind CSS, and Bootstrap. Proficient in WordPress website customization and maintenance using Elementor, as well as converting PSD/Figma designs into fully responsive, cross-browser compatible interfaces. Strong understanding of state management using Redux and Context API, with hands-on experience in bug fixing, performance optimization, and feature enhancement. In addition to development expertise, also brings 2+ years of experience in market research, including CATI, CAWI, and CAPI methodologies, conducting and supporting FGD sessions, and ensuring data quality through QC processes—providing a data-driven perspective that complements digital product development and enhances user experience.",
+    "position": "Executive – Project Management & Front-End Developer​",
+    "bio": "Working as an Executive – Project Management with 1.6+ years of experience in supporting and executing market research projects across both quantitative and qualitative methodologies. Experienced in coordinating CATI, CAWI, CAPI, and CLT studies, along with supporting FGDs and IDIs. Skilled in fieldwork coordination, respondent management, data entry, and maintaining data quality through rigorous QC processes. Collaborating with cross-functional teams, and ensuring smooth and timely project execution while maintaining high research standards. <br/> <br/> Front-End Developer with 3.8+ years of professional experience, skilled in building responsive, user-friendly web applications using HTML5, CSS3, and JavaScript (ES6+). Experienced with modern frameworks and libraries including React.js, Next.js, Vue.js, Nuxt.js, along with UI technologies like Material UI, Tailwind CSS, SCSS and Bootstrap 5. Proficient in WordPress website customization and maintenance using Elementor, as well as converting PSD/Figma designs into fully responsive, cross-browser compatible interfaces. Strong understanding of problem solving, with hands-on experience in bug fixing, performance optimization, and feature enhancement.",
     "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
     "socials": {
       "facebook": "https://www.facebook.com/toyahajannat07?mibextid=ZbWKwL",
@@ -185,6 +185,6 @@
       "Github": "https://github.com/urme-akter",
       "Portfolio": "https://portfolio-urme-akters-projects.vercel.app/"
     },
-    "image": "/team/team-images/images/urme.webp"
+    "image": "/team/team-images/images/urme.jpg"
   }
 ]

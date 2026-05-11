@@ -135,8 +135,9 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.2 }}
                       viewport={{ once: true }}
+                      dangerouslySetInnerHTML={{ __html: member.bio }}
                     >
-                      {member.bio}
+                      {/* {member.bio} */}
                     </motion.p>
 
                     <div className="flex-wrap justify-center gap-2 mb-4 hidden">
@@ -229,7 +230,12 @@ const TeamSection: React.FC<TeamSectionProps> = ({ data }) => {
                     {activeMember.position}
                   </p>
 
-                  <p className="text-sm text-gray-600">{activeMember.bio}</p>
+                  <p
+                    className="text-sm text-gray-600"
+                    dangerouslySetInnerHTML={{ __html: activeMember.bio }}
+                  >
+                    {/* {activeMember.bio} */}
+                  </p>
                 </div>
                 {/* social icons */}
                 {activeMember.socials && (
