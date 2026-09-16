@@ -186,5 +186,18 @@
       "Portfolio": "https://portfolio-urme-akters-projects.vercel.app/"
     },
     "image": "/team/team-images/images/urme.jpg"
+  },
+  {
+    "id": "team-14",
+    "name": "Shah Akhlasur",
+    "position": "Executive – Project Management​",
+    "bio": "An Executive Project Management Professional with over two and a half years of experience in market research, project execution, and operational strategy. Specializes in full-cycle research coordination—including qualitative content analysis, transcription team recruitment and moderation, and rigorous data proofreading. Combines analytical precision and data tools with hands-on logistics management to drive efficient project workflows and deliver actionable market insights.",
+    "expertise": ["Machine Learning", "Predictive Analytics", "Big Data"],
+    "socials": {
+      "facebook": "https://www.facebook.com/shahakhlasurfahmani/",
+      "linkedin": "https://www.linkedin.com/in/shah-akhlasur/",
+      "whatsapp": "https://wa.me/8801948373084"
+    },
+    "image": "/team/team-images/images/Ekhlasur.webp"
   }
 ]
