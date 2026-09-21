@@ -21,8 +21,8 @@ export const metadata = {
     images: [
       {
         url: "https://creativeresearch.com.bd/logo-white.png",
-        width: 1200,
-        height: 630,
+        width: 1600,
+        height: 400,
         alt: "Creative Consulting Preview Image",
       },
     ],
