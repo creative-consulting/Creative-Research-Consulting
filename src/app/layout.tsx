@@ -13,6 +13,22 @@ export const metadata = {
   title: "Creative Consulting",
   description: "Market Research and Consulting Company",
   keywords: ["market research", "social research", "consulting", "Bangladesh"],
+  openGraph: {
+    title: "Creative Consulting",
+    description: "Market Research and Consulting Company",
+    url: "https://creativeresearch.com.bd",
+    siteName: "Creative Consulting",
+    images: [
+      {
+        url: "https://creativeresearch.com.bd/logo-white.png",
+        width: 1200,
+        height: 630,
+        alt: "Creative Consulting Preview Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
 };
 {
   /* <meta name="google-site-verification" content="ChEEbZIfgYysgl5ToFnpwOI2lWEwHh47KzRSzc9Zs3s" /> */
