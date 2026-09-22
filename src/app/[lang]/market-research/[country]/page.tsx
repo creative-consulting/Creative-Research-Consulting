@@ -55,8 +55,8 @@ export async function generateMetadata({
       images: [
         {
           url: "https://pixels.com/photo/country-default-1200x630-market-research-123456",
-          width: 1200,
-          height: 630,
+          width: 850,
+          height: 550,
           alt: `Market Research in ${countryName}`,
         },
       ],
