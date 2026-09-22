@@ -188,8 +188,8 @@ export const generatePageMetadata = (
         {
           // url: `${baseUrl}/images/og-image-${page}.jpg`,
           url: `${baseUrl}/logo-white.png`,
-          width: 450,
-          height: 200,
+          width: 1200,
+          height: 630,
           alt: pageData.title,
         },
       ],
