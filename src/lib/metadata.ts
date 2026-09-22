@@ -187,7 +187,7 @@ export const generatePageMetadata = (
       images: customData?.images || [
         {
           // url: `${baseUrl}/images/og-image-${page}.jpg`,
-          url: `${baseUrl}/logo-white.png`,
+          url: `${baseUrl}/thamnailLogo.png`,
           width: 1200,
           height: 630,
           alt: pageData.title,
