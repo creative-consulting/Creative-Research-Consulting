@@ -5,12 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { CalendarDays, Clock, User } from "lucide-react";
 import { BlogPost } from "@/types/blog";
+import { SupportedLang } from "@/types/lang";
 
 interface FeaturedPostsProps {
   posts: BlogPost[];
+  lang: SupportedLang;
 }
 
-const FeaturedPosts = ({ posts }: FeaturedPostsProps) => {
+const FeaturedPosts = ({ posts, lang }: FeaturedPostsProps) => {
   return (
     <section className="sm:mb-16 mb-6">
       <motion.h2
@@ -33,7 +35,8 @@ const FeaturedPosts = ({ posts }: FeaturedPostsProps) => {
             transition={{ duration: 0.5, delay: index * 0.1 }}
             className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-shadow"
           >
-            <Link href={`/blog/${post.id}`}>
+            {/* {`/blogs/${post.id}`} */}
+            <Link href={`/${lang}/blogs/${post.slug}`}>
               <div className="relative h-48 w-full">
                 <Image
                   src={post.image}

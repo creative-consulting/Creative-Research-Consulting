@@ -34,7 +34,7 @@ const BlogPage = async ({
         <div className="flex flex-col lg:flex-row gap-12">
           <div className="lg:w-2/3">
             {/* Featured Posts */}
-            <FeaturedPosts posts={pageData.featuredPosts} />
+            <FeaturedPosts posts={pageData.featuredPosts} lang={lang} />
             {/* Latest Posts */}
             <LatestPosts posts={pageData.latestPosts} />
           </div>
